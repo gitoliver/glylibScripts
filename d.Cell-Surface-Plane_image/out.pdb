@@ -1,0 +1,8 @@
+Reading in input.pdb...
+There are 1 molecule(s)
+WARNING! SETTING BONDS BY DISTANCE.
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+ATOM      1  H   XXX     0      -2.406   5.391  -1.069  1.00  0.00
+ATOM      2  H   XXX     0       4.121  -0.644   4.313  1.00  0.00
+ATOM      3  H   XXX     0      -1.715  -4.747  -3.244  1.00  0.00

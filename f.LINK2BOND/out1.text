@@ -1,0 +1,7 @@
+bond LIG.1.O1 LIG.2.C1
+bond LIG.2.O2 LIG.3.C1
+bond LIG.3.O1 LIG.4.C1
+bond LIG.4.O3 LIG.5.C1
+bond LIG.5.O6 LIG.6.C2
+bond LIG.105.O5 LIG.222.C2
+bond LIG.34.OO LIG.4.C1

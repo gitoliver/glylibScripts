@@ -1,0 +1,42 @@
+TITLE      STRUCTURE GENERATED USING GLYCAM/WEB http://www.glycam.org
+REMARK
+REMARK     REFINEMENT
+REMARK     PROGRAM     : AMBER SOFTWARE WITH GLYCAM06f FORCEFIELD
+REMARK     AUTHORS     : GROUP OF R.J.WOODS
+REMARK
+REMARK     OTHER REFINEMENT REMARKS:
+REMARK     **** USERS PLEASE NOTE ****
+REMARK     OLIGOSACCHARIDES ARE HIGHLY FLEXIBLE IN SOLUTION.THIS SINGLE
+REMARK     STRUCTURE WILL RARELY BE ADEQUATE TO DESCRIBE SOLUTION BEHAVIOR
+REMARK
+REMARK     COMPLIES WITH FORMAT V.3.20, 01-DEC-08
+REMARK 250
+REMARK 250 EXPERIMENTAL DETAILS
+REMARK 250 EXPERIMENT TYPE :  THEORETICAL STRUCTURE
+REMARK 250 DATE OF DATA COLLECTION : 
+REMARK
+REMARK LINEAR SEQUENCE ROH 0SA
+LINK         O1  ROH     1                 C2  0SA     2
+ATOM      2  O1  ROH     1       2.308   1.883  -0.221  1.00  0.00              
+ATOM      3  C2  0SA     2       3.728   1.959  -0.190  1.00  0.00              
+ATOM      4  C1  0SA     2       4.427   0.886   0.831  1.00  0.00              
+ATOM      5  O1A 0SA     2       4.669  -0.257   0.357  1.00  0.00              
+ATOM      6  O1B 0SA     2       4.800   1.275   1.964  1.00  0.00              
+ATOM      7  C3  0SA     2       4.074   3.436   0.130  1.00  0.00              
+ATOM     10  C4  0SA     2       5.543   3.744  -0.213  1.00  0.00              
+ATOM     12  O4  0SA     2       5.751   5.173  -0.070  1.00  0.00              
+ATOM     14  C5  0SA     2       5.952   3.278  -1.645  1.00  0.00              
+ATOM     16  N5  0SA     2       7.412   3.425  -1.866  1.00  0.00              
+ATOM     18  C5N 0SA     2       7.950   3.749  -3.046  1.00  0.00              
+ATOM     19  O5N 0SA     2       7.265   3.937  -4.048  1.00  0.00              
+ATOM     20  CME 0SA     2       9.487   3.852  -3.090  1.00  0.00              
+ATOM     24  C6  0SA     2       5.516   1.808  -1.825  1.00  0.00              
+ATOM     25  O6  0SA     2       4.104   1.726  -1.552  1.00  0.00              
+ATOM     27  C7  0SA     2       5.827   1.093  -3.157  1.00  0.00              
+ATOM     29  O7  0SA     2       5.383   1.910  -4.283  1.00  0.00              
+ATOM     31  C8  0SA     2       5.214  -0.337  -3.210  1.00  0.00              
+ATOM     33  O8  0SA     2       5.714  -1.113  -2.079  1.00  0.00              
+ATOM     35  C9  0SA     2       5.600  -1.098  -4.506  1.00  0.00              
+ATOM     38  O9  0SA     2       4.966  -2.400  -4.573  1.00  0.00              
+TER   
+END

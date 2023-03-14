@@ -1,0 +1,6 @@
+bond L.1.O  L.2.C1
+bond L.2.O3 L.7.C1
+bond L.2.O4 L.3.C1
+bond L.3.O3 L.4.C1
+bond L.4.O3 L.6.C1
+bond L.4.O4 L.5.C1

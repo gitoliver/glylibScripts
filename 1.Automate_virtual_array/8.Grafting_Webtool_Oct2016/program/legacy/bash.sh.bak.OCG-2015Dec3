@@ -1,0 +1,27 @@
+#source ~/.bashrc
+#!/bin/bash
+
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+alias python=/usr/local/bin/python2.7
+
+GRAFTING_HOME=/programs/site_deps/Grafting/program
+export GRAFTING_HOME
+PATH=$GRAFTING_HOME:$PATH
+export GEMSHOME=/programs/temp/gems_grafting_2015Nov27
+PATH=$PATH:$GEMSHOME
+
+folderName=${PWD##*/}
+printf "folder=$folderName\n" > folderName
+cp -r z.originals 0.grafting
+cd 0.grafting
+/programs/site_deps/Grafting/program/00.preProcessUserInputs.sh
+/programs/site_deps/Grafting/program/0.make_motifs_2.3
+/programs/site_deps/Grafting/program/1.search_library.sh_2.2
+/programs/site_deps/Grafting/program/2.Parallel-grafting-WebDevToEliot-test.sh
+cd ../
+
+

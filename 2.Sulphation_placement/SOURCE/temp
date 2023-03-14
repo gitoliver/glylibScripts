@@ -1,0 +1,63 @@
+/*Rotate glycam by C1-OG1-CG2 angle*/
+	for (p = 0; p < 3; p++)
+	{
+		u1[p] = GLYC_r2d[atom4][p] - PROT_r2d[atom3][p];
+		u2[p] = PROT_r2d[atom2][p] - PROT_r2d[atom3][p];
+	}
+
+	d = sqrt(dot_prod_vf (u1, u1) );
+	for (p = 0; p < 3; p++)
+		u1[p] /= d;
+
+	d = sqrt(dot_prod_vf (u2, u2) );
+	for (p = 0; p < 3; p++)
+		u2[p] /= d;
+
+	theta = acos( dot_prod_vf (u1, u2) );
+
+	/*if u1 and u2 are parallel, pick another vector that is
+		not parallel to both.
+	*/
+	if ( (fabs(theta) < EPS) || (fabs(theta - Pi) < EPS) )
+	{
+		u1[0] = 1.0; u1[1] = 0.0; u1[2] = 0.0; 
+		theta2 = acos( dot_prod_vf (u1, u2) );
+		if ( (fabs(theta2) < EPS) || (fabs(theta2 - Pi) < EPS) )
+		{
+			u1[0] = 0.0; u1[1] = 1.0; u1[2] = 0.0; 
+		}
+	}
+
+	cross_prod_vf( u1, u2, n);
+
+	d = sqrt(dot_prod_vf (n, n) );
+	for (p = 0; p < 3; p++)
+		n[p] /= d;
+
+	Get_Rotation_Matrix (n, a_CG2_OG1_C1*Pi/180.0 - theta, Rot);
+
+	for (i = 0; i < GLYC_n_atoms; i++)
+	{
+		for (p = 0; p < 3; p++)
+			delta_r[p] = GLYC_r2d[i][p] - PROT_r2d[atom3][p];
+		for (p = 0; p < 3; p++)
+		{
+			new_delta_r[p] = 0;
+			for (q = 0; q < 3; q++)
+				new_delta_r[p] += Rot[p][q]*delta_r[q];
+		}
+		for (p = 0; p < 3; p++)
+			GLYC_r2d[i][p] = new_delta_r[p] + PROT_r2d[atom3][p];
+	}
+
+
+	if (DEBUG)
+	{
+		fprintf(fp_debug, "\n\nRotate glycam by C1-OG1-CG2 angle\n");
+		fprintf(fp_debug, "u1 = %f %f %f\n", u1[0], u1[1], u1[2]);
+		fprintf(fp_debug, "u2 = %f %f %f\n", u2[0], u2[1], u2[2]);
+		fprintf(fp_debug, "n  = %f %f %f\n", n[0],   n[1],  n[2]);
+		fprintf(fp_debug, "theta = %f, a_CG2_OG1_C1 = %f\n", theta*180.0/Pi, a_CG2_OG1_C1);
+	}
+
+

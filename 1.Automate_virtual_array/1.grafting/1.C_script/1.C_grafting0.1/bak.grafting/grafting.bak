@@ -1,0 +1,204 @@
+#include <glylib.h>
+
+int line_num(char *filename);
+
+int main (void){
+
+char filename[50];
+FILE * pFile;
+
+/*********************************READ TEMPLATE INFO**************************************/
+int i,j,k,l,m,n,TnumRes; // counters
+strcpy(filename, "LINK.txt");
+TnumRes = line_num(filename);
+char Ttable[TnumRes][7][5]; // LINK table for the template
+char Tstring[TnumRes][30];// string with relevant info for comparing to LG 
+pFile = fopen (filename,"r");
+printf("TnumRes=%d\n",TnumRes);
+
+for (i=1;i<=TnumRes;i++){ 
+	for (j=0;j<7;j++){
+		fscanf (pFile, "%s", Ttable[i][j]);
+		//printf("table[%d][%d] is %s ",i,j,Ttable[i][j]);
+	}
+	printf("Template residue names are %c%c%c\n",Ttable[i][5][0],Ttable[i][5][1],Ttable[i][5][2]);
+	strcpy(Tstring[i],Ttable[i][1]);
+	sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][2][1]); 
+	sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][2][2]);
+	strcat(Tstring[i],Ttable[i][4]);
+	sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][5][1]);
+        sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][5][2]);
+	printf("The Tstring[%d] is %s\n",i,Tstring[i]);
+}
+fclose (pFile);
+
+printf("mark1\n");
+
+assembly T; // Template assembly
+
+strcpy(filename, "complex.pdb");
+T=*load_pdb(filename);
+
+/*****************************END*READ TEMPLATE INFO*END**********************************/
+
+/********************List the contents of RESULTS_library_search**************************/
+DIR *mydir = opendir("./RESULTS_library_search");
+struct dirent *entry = NULL;
+int numfiles;
+i=0;
+char d_list[200][200];// dynamically set/expand this?
+while((entry = readdir(mydir))){ /* If we get EOF, the expression is 0 and the loop stops. */
+	printf("%s\n", entry->d_name);
+	strcpy(d_list[i], "./RESULTS_library_search/");
+	strcat(d_list[i], entry->d_name);
+	i++;
+	}
+closedir(mydir);
+numfiles=(i-2); // as . and .. are listed
+for (j=0;j<(numfiles);j++){
+	printf("d_list[%d]=%s\n",j,d_list[j]);
+	}
+/****************END*List the contents of RESULTS_library_search*END**********************/
+
+/*HERE WE GO!*/
+assembly LG; // Library Glycan Assembly
+char buffer[60];
+int LGcore_rn[TnumRes];
+for (i=0;i<(numfiles);i++){
+	LG=*load_pdb(d_list[i]);
+
+
+	// read LINK info
+	pFile = fopen (d_list[i],"r");
+	char LGtable[40][7][8]; // more than 40 resids in a glycan? 7 LINK entries, none more than 8
+	char LGstring[40][30];
+	int n0LGres;
+	j=1;// to match Tstring which starts on 1 as uses TnumRes as top of counter.
+	strcpy(buffer,"reset_string");
+	while (strcmp(buffer,"HETATM")!=0 && strcmp(buffer,"ATOM")!=0){
+		fscanf (pFile, "%s",buffer);
+		if (strcmp(buffer,"LINK")==0){
+			strcpy(LGtable[j][0],buffer);
+			for (k=1;k<7;k++){ // for the next 6 entries
+				fscanf (pFile, "%s", LGtable[j][k]);
+				printf("LGtable[%d][%d]=%s\n",j,k,LGtable[j][k]);
+			}
+			// get relevent info and create string to compare
+			strcpy(LGstring[j],LGtable[j][1]);
+	        	sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][2][1]);
+	        	sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][2][2]);
+		        strcat(LGstring[j],LGtable[j][4]);
+		        sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][5][1]);
+		        sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][5][2]);
+		        printf("The LGstring[%d] is %s\n",j,LGstring[j]);
+			j++; // j will be the number of residues in LG
+		}
+		
+	}
+	n0LGres=j;
+	// read LINK info END
+	
+
+	//FIND resids of residues in LGtable that match Ttable
+	int tmp, n0LGcores;
+	m=0;
+	for (k=2;k<j;k++){ // for each entry in LGtable, starts at 1 and 1 is ROH thus k=2
+		for (l=2;l<TnumRes;l++){ // for each entry in Ttable
+			if (strcmp(LGstring[k],Tstring[l])==0){ // if there is a match record the resids
+				tmp=(LGtable[k][3][0]-'0'); // convert that sucker to an int!
+				LGcore_rn[m]=tmp;
+				printf("LGcore_rn[%d]=%d\n",m,LGcore_rn[m]);
+				m++;
+				tmp=(LGtable[k][6][0]-'0'); // convert that sucker to an int!
+				LGcore_rn[m]=tmp;
+				printf("LGcore_rn[%d]=%d\n",m,LGcore_rn[m]);
+				m++;
+			}
+		}
+	}
+	n0LGcores=m;
+	// now we know LGcore_rn. Isn't that exciting!!!
+	//Find the number and resids of 0residues that aren't in the LGcore_rn list. This will be the number of branches.
+	int n0branches=0,write=1;
+	int branches[j];
+	for (k=2;k<j;k++){
+		if (LGtable[k][5][0]=='0'){
+			write=1;
+			for (l=0;l<TnumRes;l++){
+				if ((LGtable[k][6][0]-'0')==LGcore_rn[l]){
+					write=0; // resid is a budcore and we don't want to waste time starting there.
+				}
+			}
+			if (write==1){ // if resid wasn't a budcore residue
+				tmp=(LGtable[k][6][0]-'0');
+				branches[n0branches]=tmp;
+				printf("residue number %d is an 0resid\n",branches[n0branches]);
+				n0branches++;
+			}
+		}
+	}
+	// for each branch
+	assembly B;
+	m=0;
+	int proceed=1;
+	int branch_rn[n0LGres], n0branch_rn=0; // make it the maximum size a branch could be. ie. the whole glycan
+	int current_rn=0;
+	for (k=0;k<n0branches;k++){
+		// compare resid with LGcore resids and 1
+		current_rn=branches[k];
+		proceed=1;
+		while (proceed==1){
+			// add rn to list in branch_rn and find what it is connected to.
+			n0branch_rn++;
+			printf("current_rn=%d\n",current_rn);
+			branch_rn[m]=current_rn;
+			// update the LGcore to contain the branch info? That way we will have no repeats...
+			for (l=0;l<n0LGres;l++){
+				if ((LGtable[l][6][0]-'0')==current_rn){ 
+					current_rn=(LGtable[l][3][0]-'0'); // go down the branch
+					printf("current_rn will be %d\n",(LGtable[l][3][0]-'0'));
+				}
+			}
+			// check if we should proceed, if we hit an LGcore or rn=1 or something we have seen before we should stop, graft and go to the next branch
+			for (l=0;l<n0LGres;l++){ 
+				if(current_rn==LGcore_rn[l] || current_rn==1){
+					proceed=0;
+					printf("Stopping! current_rn=%d, LGcore_rn=%d\n",current_rn,LGcore_rn[l]);
+				}
+			}
+			for (l=0;l<n0branch_rn;l++){ // have we seen it before?
+                                if(current_rn==branch_rn[l]){
+                                        proceed=0;
+                                        printf("Stopping! branch_rn=%d\n",branch_rn[l]);
+                                }
+                        }
+			m++;
+		} // end while proceed
+	// copy resi that are in branch_rn from LG assembly into B assembly
+	// graft this branch
+	// 
+		for (l=0;l<n0branch_rn;l++){
+			printf("Branch_rn==%d\n",branch_rn[l]);
+		}
+	}		
+}
+
+return 0;
+}
+
+int line_num(char *filename){
+FILE *f;
+char c;
+int lines = 0;
+f = fopen(filename, "r");
+if(f == NULL)
+return 0;
+while((c = fgetc(f)) != EOF)
+if(c == '\n')
+lines++;
+fclose(f);
+//if(c != '\n')
+//lines++;
+return lines;
+}
+

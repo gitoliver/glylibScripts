@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#function: searches LINK records in pdbs in library folder for the MOTIF defined by the motif_$i.txt files
+
+#all structures with motif_1 are put into folder_1. structures in folder_1 with motif_2 are put into folder_2 and so on. Finally structures in last folder will contain all the motifs.
+
+#output
+#a folder containing all files in the library that match the MOTIF
+MAIN_LIBRARY=/home/oliver/MAIN_LIBRARY
+current=$MAIN_LIBRARY
+
+cp $current/../GLYCANS.txt .
+cp $current/../spacer_id.txt .
+
+source 9.MOTIFS/m1_name.txt
+find $current -exec grep -l "LINK\ .........................*$m1_name" {} \; > search_results.txt
+
+#rm -rf RESULTS_library_search/ 2>/dev/null
+#mkdir RESULTS_library_search/
+#for f in `more search_results.txt`;
+#	do
+#	cp $f ./RESULTS_library_search/
+#	done
+echo "finished"

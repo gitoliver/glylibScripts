@@ -1,0 +1,59 @@
+#source ~/.bashrc
+#!/bin/bash
+
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+alias python=/usr/local/bin/python2.7
+
+GRAFTING_HOME=/programs/site_deps/Grafting/program
+export GRAFTING_HOME
+PATH=$GRAFTING_HOME:$PATH
+export GEMSHOME=/programs/temp/gems_grafting_2015Nov27
+PATH=$PATH:$GEMSHOME
+
+folderName=${PWD##*/}
+printf "folder=$folderName\n" > folderName
+cp -r z.originals 0.grafting
+cd 0.grafting
+
+echo "stop=0" > stop.txt #Keep going unless changed by subscripts
+echo "Job ID: $folderName" > status.txt
+source /website/userdata/tools/grafting/$folderName/0.grafting/userInputs.txt
+echo "library: $lib" >> status.txt
+if [ -s email ] ;then
+    mail=`cat email`
+    echo "email provided: $mail" >> status.txt
+else
+    echo "No email provided" >> status.txt
+fi
+
+/programs/site_deps/Grafting/program/00.preProcessUserInputs.sh
+
+source /website/userdata/tools/grafting/$folderName/0.grafting/stop.txt
+if [ $stop -eq 0 ]; then
+    /programs/site_deps/Grafting/program/0.make_motifs_2.3
+    /programs/site_deps/Grafting/program/1.search_library.sh_2.4
+fi
+source /website/userdata/tools/grafting/$folderName/0.grafting/stop.txt
+if [ $stop -eq 0 ]; then
+    echo "Submitting job to queue" >> status.txt
+    /programs/site_deps/Grafting/program/2.Parallel-grafting-WebDevToEliot-test.sh
+fi
+source /website/userdata/tools/grafting/$folderName/0.grafting/stop.txt
+if [ $stop -eq 0 ]; then
+echo "bash.sh finished ok" >> status.txt
+else
+    if [ -s email ] ;then
+        mail=`cat email`
+        cat status.txt | mail -s "Error: Grafting terminated" $mail
+        cat status.txt | mail -s "Error: Grafting terminated" olivercgrant@gmail.com
+    else
+        echo "Job terminated" >> status.txt
+        cat status.txt | mail -s "Error: Grafting terminated" olivercgrant@gmail.com
+    fi
+fi
+cd ../
+

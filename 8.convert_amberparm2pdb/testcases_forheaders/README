@@ -1,0 +1,8 @@
+This directory has the test cases with which i tested the program for adding headers. 
+There are three test cases test,test1,test2. 
+The topology and coordinate files are used as input and the pdb files in the directory are the output files from the headers program. 
+The program usually outputs a noh.pdb for the pdb with no hydrogens but i renamed them in this directory appropriately according to the test case names.
+
+usage:
+
+makeGlycomePDBxx input.top input.rst outputname.pdb

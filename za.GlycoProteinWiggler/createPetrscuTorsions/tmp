@@ -1,0 +1,37 @@
+Reading in m5-omega-tg_omega-tg.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+WARNING! SETTING BONDS BY DISTANCE.
+PDB Information Successfully Read.
+Program must now print a,b,c or there is something wrong with your input pdb file
+c
+b
+a
+Petrescu1: t Conformer. 49.7 percent pop
+HETATM    1  CG  NLN     1       1.319   1.049  -1.185  1.00  0.00
+HETATM    1  CB  NLN     1      -0.186   1.161  -1.006  1.00  0.00
+HETATM    1  CA  NLN     1      -1.040   0.306  -1.928  1.00  0.00
+HETATM    1  N   NLN     1      -2.529   0.612  -1.944  1.00  0.00
+HETATM    1  OD1 NLN     1       1.801   0.052  -2.226  1.00  0.00
+HETATM    1  ND2 NLN     1       2.171   1.946  -0.302  1.00  0.00
+Petrescu2: Ga- Conformer. 23.5 percent pop
+HETATM    1  CG  NLN     1       1.319   0.941  -1.060  1.00  0.00
+HETATM    1  CB  NLN     1      -0.178   0.995  -0.800  1.00  0.00
+HETATM    1  CA  NLN     1      -1.075   0.510  -1.927  1.00  0.00
+HETATM    1  N   NLN     1      -1.127   1.382  -3.170  1.00  0.00
+HETATM    1  OD1 NLN     1       1.793  -0.112  -2.048  1.00  0.00
+HETATM    1  ND2 NLN     1       2.171   1.946  -0.302  1.00  0.00
+Petrescu3: G+ Conformer. 17.8 percent pop
+HETATM    1  CG  NLN     1       1.322   1.179  -1.302  1.00  0.00
+HETATM    1  CB  NLN     1      -0.184   1.308  -1.147  1.00  0.00
+HETATM    1  CA  NLN     1      -1.031   0.349  -1.967  1.00  0.00
+HETATM    1  N   NLN     1      -0.878  -1.129  -1.645  1.00  0.00
+HETATM    1  OD1 NLN     1       1.809   0.296  -2.441  1.00  0.00
+HETATM    1  ND2 NLN     1       2.171   1.946  -0.302  1.00  0.00
+Petrescu4: Gb- Conformer. 9 percent pop
+HETATM    1  CG  NLN     1       1.319   0.949  -1.069  1.00  0.00
+HETATM    1  CB  NLN     1      -0.186   1.078  -0.901  1.00  0.00
+HETATM    1  CA  NLN     1      -0.858   0.037  -0.020  1.00  0.00
+HETATM    1  N   NLN     1      -0.672  -1.414  -0.430  1.00  0.00
+HETATM    1  OD1 NLN     1       1.800  -0.164  -1.986  1.00  0.00
+HETATM    1  ND2 NLN     1       2.171   1.946  -0.302  1.00  0.00

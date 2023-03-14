@@ -1,0 +1,15 @@
+Functions altered or generated for wiggling
+
+find_linkage_torsions.c    
+generate_torsion_window_permutations.c
+set_nmb_for_atoms_in_assembly.c
+set_nbonds_for_atoms_in_assembly.c
+find_branch_to_rotate.c
+find_linkage_atom_coord.c
+change_torsion_by.c
+find_vdw_clashes_return_clashiest_resid.c
+find_vdw_clashes_return_total.c
+find_vdw_clashes_return_resid_total.c
+find_path_to_core.c
+find_next_resid.c
+keep_best_structure.c

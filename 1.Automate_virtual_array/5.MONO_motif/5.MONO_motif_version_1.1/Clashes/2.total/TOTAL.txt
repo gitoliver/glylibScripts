@@ -1,0 +1,2 @@
+349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb_budcore_1_branch_0_Clash_results_total.txt:Total_Overlap=374.2 Angstrom^2
+349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb_budcore_2_branch_0_Clash_results_total.txt:Total_Overlap=374.2 Angstrom^2

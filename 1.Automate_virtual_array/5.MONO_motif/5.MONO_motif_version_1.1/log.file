@@ -1,0 +1,177 @@
+
+starting ./RESULTS_library_search/349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb
+Budcore=1
+######################################################### STARTING A BRANCH ###########################################################################
+Entered 2nd condition, therefore started and ended on a core. current_ri=7. THIS BRANCH HAS BEEN REMOVED
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+./RESULTS_library_search/349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb_budcore_1_branch_0
+DEALING WITH ROH ENDING BRANCHES
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=7
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 Yawing assembly approx. 171 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Yawing assembly approx. 163 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb_budcore_1_branch_0
+Reading in ligand.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Entered the FUNction
+Budcore=2
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+Entered 2nd condition, therefore started and ended on a core. current_ri=11. THIS BRANCH HAS BEEN REMOVED
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+./RESULTS_library_search/349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb_budcore_2_branch_0
+DEALING WITH ROH ENDING BRANCHES
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=11
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 Yawing assembly approx. 228 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Yawing assembly approx. 163 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/349.DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-3[DGalpb1-3[LFucpa1-4]DGlcpNAcb1-2DManpa1-6]DManpb1-4DGlcpNAcb1-4DGlcpNAcb1-OH_gg.pdb_budcore_2_branch_0
+Reading in ligand.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Entered the FUNction
+
+starting ./RESULTS_library_search/102.DGalpa1-3DGalpb1-4[LFucpa1-3]DGlcpNAcb1-OH.pdb
+Budcore=1
+######################################################### STARTING A BRANCH ###########################################################################
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+./RESULTS_library_search/102.DGalpa1-3DGalpb1-4[LFucpa1-3]DGlcpNAcb1-OH.pdb_budcore_1_branch_2
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 Yawing assembly approx. 100 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Yawing assembly approx. 179 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/102.DGalpa1-3DGalpb1-4[LFucpa1-3]DGlcpNAcb1-OH.pdb_budcore_1_branch_2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+./RESULTS_library_search/102.DGalpa1-3DGalpb1-4[LFucpa1-3]DGlcpNAcb1-OH.pdb_budcore_1_branch_0
+DEALING WITH ROH ENDING BRANCHES
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 Yawing assembly approx. 110 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Yawing assembly approx. 163 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/102.DGalpa1-3DGalpb1-4[LFucpa1-3]DGlcpNAcb1-OH.pdb_budcore_1_branch_0
+Reading in ligand.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Entered the FUNction
+finished

@@ -1,0 +1,62 @@
+#!/bin/bash
+# edited from xBM by oliver grant olivercgrant@gmail.com 10Feb2012 to make BOMB parallel 
+
+# this is an artifact from when I ran them seperately but may be useful for debugging.
+if [ $# != 5 ]; then
+echo ""
+        echo "###################################################################################"
+        echo "Usage shawparBOMB <foldernameprefix> <njobs> <ncpus> <BombInputsfile> <identifier>"
+        echo "###################################################################################"
+else
+
+declare -i ran=1
+declare -i running=0
+bombinputs=$4
+declare -i ncpus=$3
+declare -i njobs=$2
+folder=$1
+identifier=$5
+
+
+while [ $ran -le $njobs ];
+        do
+        cd $folder.$ran
+	cp $BOMBdir/scorfnc.in .
+	cp $BOMBdir/oplsaa.par tmppar
+	cp $BOMBdir/Rlist tmprls
+	cp $BOMBdir/mods.z tmpmod
+        $BOMBdir/BOMB < $bombinputs > logfile.$ran.txt &
+	echo "Starting job $ran of $njobs with $running currently running."
+	ran=$(($ran+1))
+        cd ../
+        running=$(($running+1))
+        while [ $running -ge $ncpus ]
+                do
+		echo "Waiting 5 seconds..."
+		sleep 5s  
+		#count number of BOMB jobs user is running
+		#running=`pgrep -u $(whoami) BOMB -c` #pgrep on shaw is old
+		#running=`pgrep -u $(whoami) BOMB | grep -c -v " "`
+		running=`ps ax | grep Jorgensen/bomb/BOMB | grep -v "grep" -c`
+                done
+        done
+while [ $running -gt 0 ]
+	do
+                echo "Waiting for ALL jobs to finish..."
+                sleep 5s 
+		running=`ps ax | grep Jorgensen/bomb/BOMB | grep -v "grep" -c`
+	done
+declare -i i=1
+cat $folder.$i/$identifier.CSV > $identifier.CSV
+cat $folder.$i/outQP.NE03 > outQP.NE03
+
+mkdir JOBS
+mv $folder.$i JOBS/
+for ((i=2 ; i <= $njobs ; i++))
+	do
+		tail -1 $folder.$i/$identifier.CSV >> $identifier.CSV # leave header info
+		cat $folder.$i/outQP.$identifier >> outQP.$identifier
+		mv $folder.$i JOBS/
+	done
+echo "Finished, output is in the .CSV and outQP files."
+fi

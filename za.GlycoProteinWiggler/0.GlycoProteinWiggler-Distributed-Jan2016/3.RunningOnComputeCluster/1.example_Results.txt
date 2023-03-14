@@ -1,0 +1,71 @@
+1.m3.model/
+Sites not glycosylated: 1
+1.m3.model/logfile1.txt:Could not find solution for 97
+**********************************************************
+2.m3.model/
+Sites not glycosylated: 0
+**********************************************************
+3.m3.model/
+Sites not glycosylated: 1
+3.m3.model/logfile3.txt:Could not find solution for 113
+**********************************************************
+4.m3.model/
+Sites not glycosylated: 0
+**********************************************************
+5.m3.model/
+Sites not glycosylated: 2
+5.m3.model/logfile3.txt:Could not find solution for 258
+5.m3.model/logfile3.txt:Could not find solution for 113
+**********************************************************
+6.m9.model/
+Sites not glycosylated: 1
+6.m9.model/logfile1.txt:Could not find solution for 97
+**********************************************************
+7.m9.model/
+Sites not glycosylated: 2
+7.m9.model/logfile3.txt:Could not find solution for 113
+7.m9.model/logfile4.txt:Could not find solution for 347
+**********************************************************
+8.m9.model/
+Sites not glycosylated: 2
+8.m9.model/logfile3.txt:Could not find solution for 113
+8.m9.model/logfile5.txt:Could not find solution for 414
+**********************************************************
+9.m9.model/
+Sites not glycosylated: 3
+9.m9.model/logfile3.txt:Could not find solution for 113
+9.m9.model/logfile4.txt:Could not find solution for 295
+9.m9.model/logfile4.txt:Could not find solution for 347
+**********************************************************
+10.m9.model/
+Sites not glycosylated: 3
+10.m9.model/logfile2.txt:Could not find solution for 145
+10.m9.model/logfile3.txt:Could not find solution for 113
+10.m9.model/logfile4.txt:Could not find solution for 347
+**********************************************************
+11.GAL.model/
+Sites not glycosylated: 1
+11.GAL.model/logfile1.txt:Could not find solution for 97
+**********************************************************
+12.GAL.model/
+Sites not glycosylated: 3
+12.GAL.model/logfile2.txt:Could not find solution for 145
+12.GAL.model/logfile3.txt:Could not find solution for 113
+12.GAL.model/logfile4.txt:Could not find solution for 347
+**********************************************************
+13.GAL.model/
+Sites not glycosylated: 3
+13.GAL.model/logfile2.txt:Could not find solution for 145
+13.GAL.model/logfile3.txt:Could not find solution for 113
+13.GAL.model/logfile5.txt:Could not find solution for 414
+**********************************************************
+14.GAL.model/
+Sites not glycosylated: 2
+14.GAL.model/logfile2.txt:Could not find solution for 219
+14.GAL.model/logfile3.txt:Could not find solution for 113
+**********************************************************
+15.GAL.model/
+Sites not glycosylated: 2
+15.GAL.model/logfile3.txt:Could not find solution for 113
+15.GAL.model/logfile4.txt:Could not find solution for 347
+**********************************************************

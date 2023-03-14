@@ -1,0 +1,34 @@
+#Background
+tleap will automatically bond the tail atom of one residue to the head atom of the next residue. 
+This causes problems with branched molecules such as N-linked glycans. 
+To prevent this automatic bonding you can insert a TER card between the residues and then use a "bond" command in your leap input file to bond the correct atoms. 
+I find the best way to automate this task is to insert TER cards between each carbohydrate residue and then use bond commands in leap. 
+I generate these bond commands from the LINK cards present in the original glycan pdb file. 
+Glycans generated on www.glycam.org/cb will contain LINK cards. 
+
+**********************************************************************************************************************************************************
+Instructions
+
+1) Insert TER cards
+
+Install pcregrep (e.g. sudo apt install pcregrep)
+Open glycosylated.pdb, scroll to the bottom and note the first and last residue numbers of the glycan portion.
+run insertTER.sh providing the first and last glycan residue numbers as well as the input pdb file 
+e.g.
+
+./insertTER.sh 445 643 glycosylated.pdb
+__________________________________________________________________________________________________________________________________________________________
+2) Create bond commands for tleap
+
+You can grep (or copy paste) the LINK cards into a separate files with:
+grep "LINK.*" glycan.pdb > glycan.LINK
+
+Use LINK2BOND.sh to convert the LINK cards to tleap bond commands:
+e.g.
+
+./multi-LINK2bond.sh resList glycan.LINK 445
+
+Where 445 is the last protein residue number
+
+Copy x.bond into your tleap input file.
+__________________________________________________________________________________________________________________________________________________________

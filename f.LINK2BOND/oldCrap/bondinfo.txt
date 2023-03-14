@@ -1,0 +1,3 @@
+bond L.1.O1 L. .1 
+bond L.2.O3 L. .1 
+bond L.3.O6 L. .2 

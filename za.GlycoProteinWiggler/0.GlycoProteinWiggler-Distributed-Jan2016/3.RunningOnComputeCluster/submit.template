@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+# Submit a glycoproteinBuilder Job
+
+####################################################################### 
+
+#PBS -q qm
+#PBS -l nodes=1:ppn=1
+#PBS -N GPB-Name
+#PBS -j oe 
+
+####################################################################### 
+
+cd $PBS_O_WORKDIR 

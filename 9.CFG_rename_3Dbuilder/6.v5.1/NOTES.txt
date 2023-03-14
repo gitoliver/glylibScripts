@@ -1,0 +1,1 @@
+Manually removed spaces in 531, 532 and 558, and at the end of glycan 294. Coping from spreadsheet in linux placed a funky character here. Rather than a space.

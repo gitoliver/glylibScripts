@@ -1,0 +1,38 @@
+#!/bin/bash
+rm -rf planes
+mkdir planes
+rm -rf files
+mkdir files
+dir=../6.grafting_Neu5Aca2-3X/Structures
+i=0
+echo "colourdef C 0.4 0.7 0.8 0.2" > input.cmd
+echo "colourdef B 0.0 0.0 1.0 0.4" >> input.cmd
+echo "open receptor.pdb" >> input.cmd
+echo "open binding_sites.pdb" >> input.cmd
+i=$(($i+2));
+for f in `cut -f1 interesting_structures.txt`; 
+do 
+    echo $f; 
+    cp $dir/$f* files/; 
+    cp 2-3GalStructures/$f* files/
+    sed -i 's/TER//g' files/$f* ;
+    for g in `ls files/`;
+    do
+        echo "open files/$g" >> input.cmd;
+        i=$(($i+1));
+        grep "ATOM.....................1" files/$g > plane.in
+        grep "ATOM.....................2" files/$g >> plane.in
+        createPlane.exe plane.in C2 C1 O1 > planes/plane_$g
+        echo "open $i planes/plane_$g" >> input.cmd;
+        echo " define plane raiseTool false color C #$i :XXX" >> input.cmd
+        i=$(($i+1));
+    done
+done
+echo "~colour" >> input.cmd
+echo "represent sphere ::ROH" >> input.cmd
+echo "colour red ::ROH" >> input.cmd
+echo "colour grey #0 " >> input.cmd
+echo "colour B #1 " >> input.cmd
+echo "represent sphere #1" >> input.cmd
+echo "vdwdefine +3 #1" >> input.cmd
+echo "~show :XXX" >> input.cmd

@@ -1,0 +1,35 @@
+If all I needed to do was to get four atoms in more-or-less the same space, with the rest of the molecule turned around too, and I wanted to use only functions already present in glylib, I would probably do something like the following.  This is essentially what Anita did to align her anitbody parts.  If you need a least-squares fit -- e.g., need the best possible alignment -- then you probably need a more complex procedure.
+
+For me, the connection tree makes it easy to track chirality, particularly for higher hybridizations, and to find rings.  I designed it with those two things in mind.  It can, of course, also be used to build up molecules from internal coordinates, or to align them.  But... other programs do that: I've mostly written functions I couldn't (easily) get done some other way.  I haven't needed alignment yet... so... no alignment yet.  :-)  Tom says we can't steal from ptraj, tho, and I intend to do that.  You're welcome to, tho, if you're in a hurry.
+
+Rough alignment of four atoms using existing functions without needing to implement translation/rotation matrices:
+
+1] Pick the two atoms of the four whose relative positions are the most reliable or most important somehow.  Those might be atoms constrained to a ring, or maybe two heavy atoms.  Call them MxA1 and MxA2.
+
+2] Get the vectors described by the bonds they make:  M1V12=subtract_vec(M1A2,M1A1) and M2V12=subtract_vec(M2A2,M2A1).  Also get normalized variants of those. 
+
+3] Do some sanity checking.  For example, check the magnitudes of those vectors -- make sure they aren't very different, with "very different" depending on whatever you think is important.  For example, you might first check to see that the bond lengths are something you expect for those atoms; then, check to make sure they are within a tenth of an angstrom or whatever of each other.
+
+4] Repeats steps 2-3 for atoms MxA3 and MxA4.
+
+5] Perform another sanity check:  Make sure the four atoms aren't collinear (or nearly so).  get_dotprod(nMxV12,nMxV34) -- this should not be a number close to +1 or -1. for either pair.  Also, check to be sure that the bond-bond dot products for the two different molecules are similar.  The more similar they are, the better this routine is. 
+
+6] Use rotate_vector_to_Z ("M" might be better, depending on the source of your data, but "list" will work, too) to rotate each molecule so that MxV12 points along Z.
+
+7] Use your favorite translate function to move the molecule so that each MxA1 (or MxA2 if you prefer) is at the origin.  The bond between MxA1 and MxA2 should now coincide with the z-axis.
+
+8] This requires a little geometry.  I made Anita derive it herself.  It's not awful, but if it's been a while since you did any geometry, it will be a challenge.  And... if it's been a while, it's probably good for you to reacquaint yourself.  :-)  You need to (1) find the angle to which each bond MxA3-MxA4 is rotated around Z and then (2) use the yaw function to rotate it to zero degrees.
+
+8.1] Hint:  the vector MxV34 has three components:  x,y,z.  The x,y parts tell you where in the x-y plane it is.  From there, you can find the angle to the x-axis.
+
+8.2] I don't recall if it wants radians or degrees.
+
+9] Definitely inspect your final image coordinates in VMD.  It is very easy to drop a negative and have everything go horribly wrong.  And.. there might be lurking bugs.  Anita found one while she was working on her project.
+
+10] You could get closer to a least-squares sort of situation if you, say, align the bond-bond vector to Z in each case, and rotate twice -- once to put one bond along x, then another time to average the angle of the other bond to x (make sense?). But, this still won't guarantee a perfect fit.
+
+I haven't done much coding yet.  I needed sleep first.  I have to take a few days for that at least once a year.  :-)
+
+Let me know if I can help more or if bits of this don't make sense, etc.
+
+

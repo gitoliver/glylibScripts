@@ -1,0 +1,7 @@
+LINK        O1   ROH     1                C1   2LB     2                      
+LINK        O2   2LB     2                C1   0MB     3 
+LINK         O1  ROH     3                 C1  3GB     4
+LINK         O3  3GB     4                 C1  6LB     5
+LINK         O6  6LB     5                 C2  0SA     6
+LINK       O5    XXX   105              C2     ODA   222
+LINK        OO   xXXX  34                 C1   LL     4

@@ -1,0 +1,63 @@
+#!/bin/bash
+
+#function: searches LINK records in pdbs in MAIN_LIBRARY folder for the MOTIF defined by the motif_$i.txt files, which comes from the LINK.txt
+#all structures in MAIN_LIBRARY with motif_1 are put into folder_1. motif_1 is a disacc
+#structures in folder_1 with motif_2 are put into folder_2 and so on. motif_2 is the next dissacc in LINK
+#Finally structures in last folder will contain all the motifs. 
+#Connectivity between motifs may not be correct. it may just have all the correct disaccs. checked in next step
+
+#output
+#a folder containing all files in the library that contain all the disacc MOTIFS
+source installerInputs.txt
+source userInputs.txt
+library="$lib[@]"
+current=${!library}
+cp $current/../GLYCANS.txt .
+cp $current/../spacer_id.txt .
+
+if [ -z $current ]; then
+    echo "stop=1" > stop.txt
+    echo "library not set correctly, problem with "$lib" option." >> status.txt
+fi
+
+source 9.MOTIFS/Snmotif.txt #allows $num variable to be used
+
+if [[ $num -eq 0 ]]; then
+    echo "Monosaccharide Core"
+    source 9.MOTIFS/m1_name.txt
+    find $current -exec grep -l "LINK\ .........................*$m1_name" {} \; > search_results.txt
+
+else
+    echo "Oligosaccharide Core"
+    for ((i=1;i<=$num;i++))
+    do
+ 	source 9.MOTIFS/Smotif1_$i.txt
+	source 9.MOTIFS/Smotif2_$i.txt
+	find $current -exec grep -l "LINK.*$motif1.*$motif2" {} \; > search_results.txt
+	rm -rf search_results_$i 2>/dev/null
+	mkdir search_results_$i
+	current=search_results_$i #directory to store results
+	for f in `cat search_results.txt`
+	do
+		cp $f ./search_results_$i/
+        done
+    done
+    rm -rf RESULTS_library_search/ 2>/dev/null
+    mkdir RESULTS_library_search/
+    mv search_results_$num/* RESULTS_library_search/
+    rm -rf search_results*
+    for f in `ls RESULTS_library_search/`
+    do
+ 	echo "${!library}/$f" >> search_results.txt
+    done
+fi
+#Now check if it found glycans to graft
+if [ -s search_results.txt ]; then
+    num=`grep -c "." search_results.txt`
+    echo "finished library search, found $num glycans to graft"
+    echo "Found $num library glycans (including rotamers) to graft" >> status.txt
+else
+    echo "stop=1" > stop.txt
+    echo "No library glycans contained the provided carbohydrate in their structure" >> status.txt
+    echo "If you think this unlikely, please forward this status file to glycam@uga.edu" >> status.txt
+fi

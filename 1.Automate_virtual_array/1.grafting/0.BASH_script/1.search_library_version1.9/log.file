@@ -1,0 +1,1864 @@
+
+starting ./RESULTS_library_search/290_noH.pdb
+Budcore=1
+
+ NO CORE2ROH IN THIS STRUCTURE
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   31  O4  WYB     2       5.419  -0.853   8.392  1.00  0.00
+HETATM   27  CME WYB     2       8.773  -4.818  13.156  1.00  0.00
+HETATM   26  O2N WYB     2       6.716  -3.604  13.505  1.00  0.00
+HETATM   25  C2N WYB     2       7.789  -3.660  12.901  1.00  0.00
+HETATM   23  N2  WYB     2       8.182  -2.760  11.979  1.00  0.00
+HETATM   21  C2  WYB     2       7.391  -1.599  11.557  1.00  0.00
+HETATM   20  O3  WYB     2       5.830  -2.992  10.228  1.00  0.00
+HETATM   18  C3  WYB     2       6.768  -1.850  10.170  1.00  0.00
+HETATM   16  C4  WYB     2       5.978  -0.608   9.734  1.00  0.00
+HETATM   14  O6  WYB     2       7.054   3.008   9.251  1.00  0.00
+HETATM   11  C6  WYB     2       6.116   1.927   9.338  1.00  0.00
+HETATM    9  C5  WYB     2       6.873   0.640   9.688  1.00  0.00
+HETATM    8  O5  WYB     2       7.473   0.803  11.032  1.00  0.00
+HETATM    6  C1  WYB     2       8.271  -0.332  11.550  1.00  0.00
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+HETATM   31  O4  WYB     2       5.419  -0.853   8.392  1.00  0.00
+HETATM   27  CME WYB     2       8.773  -4.818  13.156  1.00  0.00
+HETATM   26  O2N WYB     2       6.716  -3.604  13.505  1.00  0.00
+HETATM   25  C2N WYB     2       7.789  -3.660  12.901  1.00  0.00
+HETATM   23  N2  WYB     2       8.182  -2.760  11.979  1.00  0.00
+HETATM   21  C2  WYB     2       7.391  -1.599  11.557  1.00  0.00
+HETATM   20  O3  WYB     2       5.830  -2.992  10.228  1.00  0.00
+HETATM   18  C3  WYB     2       6.768  -1.850  10.170  1.00  0.00
+HETATM   16  C4  WYB     2       5.978  -0.608   9.734  1.00  0.00
+HETATM   14  O6  WYB     2       7.054   3.008   9.251  1.00  0.00
+HETATM   11  C6  WYB     2       6.116   1.927   9.338  1.00  0.00
+HETATM    9  C5  WYB     2       6.873   0.640   9.688  1.00  0.00
+HETATM    8  O5  WYB     2       7.473   0.803  11.032  1.00  0.00
+HETATM    6  C1  WYB     2       8.271  -0.332  11.550  1.00  0.00
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_1
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=2
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -10 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -11 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 232 (which should be the same as: 232)
+	called getResInfo. (*curMol).r[0].N is ASP ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 232 and na is 8
+	setting residue pointer -- k=1 ; ka=2; j=0
+	setting residue pointer -- k=2 ; ka=3; j=0
+	setting residue pointer -- k=3 ; ka=4; j=0
+	setting residue pointer -- k=4 ; ka=5; j=0
+	setting residue pointer -- k=5 ; ka=6; j=0
+	setting residue pointer -- k=6 ; ka=7; j=0
+	setting residue pointer -- k=7 ; ka=8; j=0
+	setting residue pointer -- k=8 ; ka=9; j=0
+	setting residue pointer -- k=9 ; ka=10; j=0
+	setting residue pointer -- k=10 ; ka=11; j=0
+	setting residue pointer -- k=11 ; ka=12; j=0
+	setting residue pointer -- k=12 ; ka=13; j=0
+	setting residue pointer -- k=13 ; ka=14; j=0
+	setting residue pointer -- k=14 ; ka=15; j=0
+	setting residue pointer -- k=15 ; ka=16; j=0
+	setting residue pointer -- k=16 ; ka=17; j=0
+	setting residue pointer -- k=17 ; ka=18; j=0
+	setting residue pointer -- k=18 ; ka=19; j=0
+	setting residue pointer -- k=19 ; ka=20; j=0
+	setting residue pointer -- k=20 ; ka=21; j=0
+	setting residue pointer -- k=21 ; ka=22; j=0
+	setting residue pointer -- k=22 ; ka=23; j=0
+	setting residue pointer -- k=23 ; ka=24; j=0
+	setting residue pointer -- k=24 ; ka=25; j=0
+	setting residue pointer -- k=25 ; ka=26; j=0
+	setting residue pointer -- k=26 ; ka=27; j=0
+	setting residue pointer -- k=27 ; ka=28; j=0
+	setting residue pointer -- k=28 ; ka=29; j=0
+	setting residue pointer -- k=29 ; ka=30; j=0
+	setting residue pointer -- k=30 ; ka=31; j=0
+	setting residue pointer -- k=31 ; ka=32; j=0
+	setting residue pointer -- k=32 ; ka=33; j=0
+	setting residue pointer -- k=33 ; ka=34; j=0
+	setting residue pointer -- k=34 ; ka=35; j=0
+	setting residue pointer -- k=35 ; ka=36; j=0
+	setting residue pointer -- k=36 ; ka=37; j=0
+	setting residue pointer -- k=37 ; ka=38; j=0
+	setting residue pointer -- k=38 ; ka=39; j=0
+	setting residue pointer -- k=39 ; ka=40; j=0
+	setting residue pointer -- k=40 ; ka=41; j=0
+	setting residue pointer -- k=41 ; ka=42; j=0
+	setting residue pointer -- k=42 ; ka=43; j=0
+	setting residue pointer -- k=43 ; ka=44; j=0
+	setting residue pointer -- k=44 ; ka=45; j=0
+	setting residue pointer -- k=45 ; ka=46; j=0
+	setting residue pointer -- k=46 ; ka=47; j=0
+	setting residue pointer -- k=47 ; ka=48; j=0
+	setting residue pointer -- k=48 ; ka=49; j=0
+	setting residue pointer -- k=49 ; ka=50; j=0
+	setting residue pointer -- k=50 ; ka=51; j=0
+	setting residue pointer -- k=51 ; ka=52; j=0
+	setting residue pointer -- k=52 ; ka=53; j=0
+	setting residue pointer -- k=53 ; ka=54; j=0
+	setting residue pointer -- k=54 ; ka=55; j=0
+	setting residue pointer -- k=55 ; ka=56; j=0
+	setting residue pointer -- k=56 ; ka=57; j=0
+	setting residue pointer -- k=57 ; ka=58; j=0
+	setting residue pointer -- k=58 ; ka=59; j=0
+	setting residue pointer -- k=59 ; ka=60; j=0
+	setting residue pointer -- k=60 ; ka=61; j=0
+	setting residue pointer -- k=61 ; ka=62; j=0
+	setting residue pointer -- k=62 ; ka=63; j=0
+	setting residue pointer -- k=63 ; ka=64; j=0
+	setting residue pointer -- k=64 ; ka=65; j=0
+	setting residue pointer -- k=65 ; ka=66; j=0
+	setting residue pointer -- k=66 ; ka=67; j=0
+	setting residue pointer -- k=67 ; ka=68; j=0
+	setting residue pointer -- k=68 ; ka=69; j=0
+	setting residue pointer -- k=69 ; ka=70; j=0
+	setting residue pointer -- k=70 ; ka=71; j=0
+	setting residue pointer -- k=71 ; ka=72; j=0
+	setting residue pointer -- k=72 ; ka=73; j=0
+	setting residue pointer -- k=73 ; ka=74; j=0
+	setting residue pointer -- k=74 ; ka=75; j=0
+	setting residue pointer -- k=75 ; ka=76; j=0
+	setting residue pointer -- k=76 ; ka=77; j=0
+	setting residue pointer -- k=77 ; ka=78; j=0
+	setting residue pointer -- k=78 ; ka=79; j=0
+	setting residue pointer -- k=79 ; ka=80; j=0
+	setting residue pointer -- k=80 ; ka=81; j=0
+	setting residue pointer -- k=81 ; ka=82; j=0
+	setting residue pointer -- k=82 ; ka=83; j=0
+	setting residue pointer -- k=83 ; ka=84; j=0
+	setting residue pointer -- k=84 ; ka=85; j=0
+	setting residue pointer -- k=85 ; ka=86; j=0
+	setting residue pointer -- k=86 ; ka=87; j=0
+	setting residue pointer -- k=87 ; ka=88; j=0
+	setting residue pointer -- k=88 ; ka=89; j=0
+	setting residue pointer -- k=89 ; ka=90; j=0
+	setting residue pointer -- k=90 ; ka=91; j=0
+	setting residue pointer -- k=91 ; ka=92; j=0
+	setting residue pointer -- k=92 ; ka=93; j=0
+	setting residue pointer -- k=93 ; ka=94; j=0
+	setting residue pointer -- k=94 ; ka=95; j=0
+	setting residue pointer -- k=95 ; ka=96; j=0
+	setting residue pointer -- k=96 ; ka=97; j=0
+	setting residue pointer -- k=97 ; ka=98; j=0
+	setting residue pointer -- k=98 ; ka=99; j=0
+	setting residue pointer -- k=99 ; ka=100; j=0
+	setting residue pointer -- k=100 ; ka=101; j=0
+	setting residue pointer -- k=101 ; ka=102; j=0
+	setting residue pointer -- k=102 ; ka=103; j=0
+	setting residue pointer -- k=103 ; ka=104; j=0
+	setting residue pointer -- k=104 ; ka=105; j=0
+	setting residue pointer -- k=105 ; ka=106; j=0
+	setting residue pointer -- k=106 ; ka=107; j=0
+	setting residue pointer -- k=107 ; ka=108; j=0
+	setting residue pointer -- k=108 ; ka=109; j=0
+	setting residue pointer -- k=109 ; ka=110; j=0
+	setting residue pointer -- k=110 ; ka=111; j=0
+	setting residue pointer -- k=111 ; ka=112; j=0
+	setting residue pointer -- k=112 ; ka=113; j=0
+	setting residue pointer -- k=113 ; ka=114; j=0
+	setting residue pointer -- k=114 ; ka=115; j=0
+	setting residue pointer -- k=115 ; ka=116; j=0
+	setting residue pointer -- k=116 ; ka=117; j=0
+	setting residue pointer -- k=117 ; ka=118; j=0
+	setting residue pointer -- k=118 ; ka=119; j=0
+	setting residue pointer -- k=119 ; ka=120; j=0
+	setting residue pointer -- k=120 ; ka=121; j=0
+	setting residue pointer -- k=121 ; ka=122; j=0
+	setting residue pointer -- k=122 ; ka=123; j=0
+	setting residue pointer -- k=123 ; ka=124; j=0
+	setting residue pointer -- k=124 ; ka=125; j=0
+	setting residue pointer -- k=125 ; ka=126; j=0
+	setting residue pointer -- k=126 ; ka=127; j=0
+	setting residue pointer -- k=127 ; ka=128; j=0
+	setting residue pointer -- k=128 ; ka=129; j=0
+	setting residue pointer -- k=129 ; ka=130; j=0
+	setting residue pointer -- k=130 ; ka=131; j=0
+	setting residue pointer -- k=131 ; ka=132; j=0
+	setting residue pointer -- k=132 ; ka=133; j=0
+	setting residue pointer -- k=133 ; ka=134; j=0
+	setting residue pointer -- k=134 ; ka=135; j=0
+	setting residue pointer -- k=135 ; ka=136; j=0
+	setting residue pointer -- k=136 ; ka=137; j=0
+	setting residue pointer -- k=137 ; ka=138; j=0
+	setting residue pointer -- k=138 ; ka=139; j=0
+	setting residue pointer -- k=139 ; ka=140; j=0
+	setting residue pointer -- k=140 ; ka=141; j=0
+	setting residue pointer -- k=141 ; ka=142; j=0
+	setting residue pointer -- k=142 ; ka=143; j=0
+	setting residue pointer -- k=143 ; ka=144; j=0
+	setting residue pointer -- k=144 ; ka=145; j=0
+	setting residue pointer -- k=145 ; ka=146; j=0
+	setting residue pointer -- k=146 ; ka=147; j=0
+	setting residue pointer -- k=147 ; ka=148; j=0
+	setting residue pointer -- k=148 ; ka=149; j=0
+	setting residue pointer -- k=149 ; ka=150; j=0
+	setting residue pointer -- k=150 ; ka=151; j=0
+	setting residue pointer -- k=151 ; ka=152; j=0
+	setting residue pointer -- k=152 ; ka=153; j=0
+	setting residue pointer -- k=153 ; ka=154; j=0
+	setting residue pointer -- k=154 ; ka=155; j=0
+	setting residue pointer -- k=155 ; ka=156; j=0
+	setting residue pointer -- k=156 ; ka=157; j=0
+	setting residue pointer -- k=157 ; ka=158; j=0
+	setting residue pointer -- k=158 ; ka=159; j=0
+	setting residue pointer -- k=159 ; ka=160; j=0
+	setting residue pointer -- k=160 ; ka=161; j=0
+	setting residue pointer -- k=161 ; ka=162; j=0
+	setting residue pointer -- k=162 ; ka=163; j=0
+	setting residue pointer -- k=163 ; ka=164; j=0
+	setting residue pointer -- k=164 ; ka=165; j=0
+	setting residue pointer -- k=165 ; ka=166; j=0
+	setting residue pointer -- k=166 ; ka=167; j=0
+	setting residue pointer -- k=167 ; ka=168; j=0
+	setting residue pointer -- k=168 ; ka=169; j=0
+	setting residue pointer -- k=169 ; ka=170; j=0
+	setting residue pointer -- k=170 ; ka=171; j=0
+	setting residue pointer -- k=171 ; ka=172; j=0
+	setting residue pointer -- k=172 ; ka=173; j=0
+	setting residue pointer -- k=173 ; ka=174; j=0
+	setting residue pointer -- k=174 ; ka=175; j=0
+	setting residue pointer -- k=175 ; ka=176; j=0
+	setting residue pointer -- k=176 ; ka=177; j=0
+	setting residue pointer -- k=177 ; ka=178; j=0
+	setting residue pointer -- k=178 ; ka=179; j=0
+	setting residue pointer -- k=179 ; ka=180; j=0
+	setting residue pointer -- k=180 ; ka=181; j=0
+	setting residue pointer -- k=181 ; ka=182; j=0
+	setting residue pointer -- k=182 ; ka=183; j=0
+	setting residue pointer -- k=183 ; ka=184; j=0
+	setting residue pointer -- k=184 ; ka=185; j=0
+	setting residue pointer -- k=185 ; ka=186; j=0
+	setting residue pointer -- k=186 ; ka=187; j=0
+	setting residue pointer -- k=187 ; ka=188; j=0
+	setting residue pointer -- k=188 ; ka=189; j=0
+	setting residue pointer -- k=189 ; ka=190; j=0
+	setting residue pointer -- k=190 ; ka=191; j=0
+	setting residue pointer -- k=191 ; ka=192; j=0
+	setting residue pointer -- k=192 ; ka=193; j=0
+	setting residue pointer -- k=193 ; ka=194; j=0
+	setting residue pointer -- k=194 ; ka=195; j=0
+	setting residue pointer -- k=195 ; ka=196; j=0
+	setting residue pointer -- k=196 ; ka=197; j=0
+	setting residue pointer -- k=197 ; ka=198; j=0
+	setting residue pointer -- k=198 ; ka=199; j=0
+	setting residue pointer -- k=199 ; ka=200; j=0
+	setting residue pointer -- k=200 ; ka=201; j=0
+	setting residue pointer -- k=201 ; ka=202; j=0
+	setting residue pointer -- k=202 ; ka=203; j=0
+	setting residue pointer -- k=203 ; ka=204; j=0
+	setting residue pointer -- k=204 ; ka=205; j=0
+	setting residue pointer -- k=205 ; ka=206; j=0
+	setting residue pointer -- k=206 ; ka=207; j=0
+	setting residue pointer -- k=207 ; ka=208; j=0
+	setting residue pointer -- k=208 ; ka=209; j=0
+	setting residue pointer -- k=209 ; ka=210; j=0
+	setting residue pointer -- k=210 ; ka=211; j=0
+	setting residue pointer -- k=211 ; ka=212; j=0
+	setting residue pointer -- k=212 ; ka=213; j=0
+	setting residue pointer -- k=213 ; ka=214; j=0
+	setting residue pointer -- k=214 ; ka=215; j=0
+	setting residue pointer -- k=215 ; ka=216; j=0
+	setting residue pointer -- k=216 ; ka=217; j=0
+	setting residue pointer -- k=217 ; ka=218; j=0
+	setting residue pointer -- k=218 ; ka=219; j=0
+	setting residue pointer -- k=219 ; ka=220; j=0
+	setting residue pointer -- k=220 ; ka=221; j=0
+	setting residue pointer -- k=221 ; ka=222; j=0
+	setting residue pointer -- k=222 ; ka=223; j=0
+	setting residue pointer -- k=223 ; ka=224; j=0
+	setting residue pointer -- k=224 ; ka=225; j=0
+	setting residue pointer -- k=225 ; ka=226; j=0
+	setting residue pointer -- k=226 ; ka=227; j=0
+	setting residue pointer -- k=227 ; ka=228; j=0
+	setting residue pointer -- k=228 ; ka=229; j=0
+	setting residue pointer -- k=229 ; ka=230; j=0
+	setting residue pointer -- k=230 ; ka=231; j=0
+	setting residue pointer -- k=231 ; ka=232; j=0
+PDB Information Successfully Read.
+Entered the FUNction
+Reading in in.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Writting file: outTER.pdb...
+[%] Generating input file for leap (leap.in):
+ok
+Finished.
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_2
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 184 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 197 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 2 (which should be the same as: 2)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 2 and na is 10
+	setting residue pointer -- k=1 ; ka=2; j=0
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 232 (which should be the same as: 232)
+	called getResInfo. (*curMol).r[0].N is ASP ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 232 and na is 8
+	setting residue pointer -- k=1 ; ka=2; j=0
+	setting residue pointer -- k=2 ; ka=3; j=0
+	setting residue pointer -- k=3 ; ka=4; j=0
+	setting residue pointer -- k=4 ; ka=5; j=0
+	setting residue pointer -- k=5 ; ka=6; j=0
+	setting residue pointer -- k=6 ; ka=7; j=0
+	setting residue pointer -- k=7 ; ka=8; j=0
+	setting residue pointer -- k=8 ; ka=9; j=0
+	setting residue pointer -- k=9 ; ka=10; j=0
+	setting residue pointer -- k=10 ; ka=11; j=0
+	setting residue pointer -- k=11 ; ka=12; j=0
+	setting residue pointer -- k=12 ; ka=13; j=0
+	setting residue pointer -- k=13 ; ka=14; j=0
+	setting residue pointer -- k=14 ; ka=15; j=0
+	setting residue pointer -- k=15 ; ka=16; j=0
+	setting residue pointer -- k=16 ; ka=17; j=0
+	setting residue pointer -- k=17 ; ka=18; j=0
+	setting residue pointer -- k=18 ; ka=19; j=0
+	setting residue pointer -- k=19 ; ka=20; j=0
+	setting residue pointer -- k=20 ; ka=21; j=0
+	setting residue pointer -- k=21 ; ka=22; j=0
+	setting residue pointer -- k=22 ; ka=23; j=0
+	setting residue pointer -- k=23 ; ka=24; j=0
+	setting residue pointer -- k=24 ; ka=25; j=0
+	setting residue pointer -- k=25 ; ka=26; j=0
+	setting residue pointer -- k=26 ; ka=27; j=0
+	setting residue pointer -- k=27 ; ka=28; j=0
+	setting residue pointer -- k=28 ; ka=29; j=0
+	setting residue pointer -- k=29 ; ka=30; j=0
+	setting residue pointer -- k=30 ; ka=31; j=0
+	setting residue pointer -- k=31 ; ka=32; j=0
+	setting residue pointer -- k=32 ; ka=33; j=0
+	setting residue pointer -- k=33 ; ka=34; j=0
+	setting residue pointer -- k=34 ; ka=35; j=0
+	setting residue pointer -- k=35 ; ka=36; j=0
+	setting residue pointer -- k=36 ; ka=37; j=0
+	setting residue pointer -- k=37 ; ka=38; j=0
+	setting residue pointer -- k=38 ; ka=39; j=0
+	setting residue pointer -- k=39 ; ka=40; j=0
+	setting residue pointer -- k=40 ; ka=41; j=0
+	setting residue pointer -- k=41 ; ka=42; j=0
+	setting residue pointer -- k=42 ; ka=43; j=0
+	setting residue pointer -- k=43 ; ka=44; j=0
+	setting residue pointer -- k=44 ; ka=45; j=0
+	setting residue pointer -- k=45 ; ka=46; j=0
+	setting residue pointer -- k=46 ; ka=47; j=0
+	setting residue pointer -- k=47 ; ka=48; j=0
+	setting residue pointer -- k=48 ; ka=49; j=0
+	setting residue pointer -- k=49 ; ka=50; j=0
+	setting residue pointer -- k=50 ; ka=51; j=0
+	setting residue pointer -- k=51 ; ka=52; j=0
+	setting residue pointer -- k=52 ; ka=53; j=0
+	setting residue pointer -- k=53 ; ka=54; j=0
+	setting residue pointer -- k=54 ; ka=55; j=0
+	setting residue pointer -- k=55 ; ka=56; j=0
+	setting residue pointer -- k=56 ; ka=57; j=0
+	setting residue pointer -- k=57 ; ka=58; j=0
+	setting residue pointer -- k=58 ; ka=59; j=0
+	setting residue pointer -- k=59 ; ka=60; j=0
+	setting residue pointer -- k=60 ; ka=61; j=0
+	setting residue pointer -- k=61 ; ka=62; j=0
+	setting residue pointer -- k=62 ; ka=63; j=0
+	setting residue pointer -- k=63 ; ka=64; j=0
+	setting residue pointer -- k=64 ; ka=65; j=0
+	setting residue pointer -- k=65 ; ka=66; j=0
+	setting residue pointer -- k=66 ; ka=67; j=0
+	setting residue pointer -- k=67 ; ka=68; j=0
+	setting residue pointer -- k=68 ; ka=69; j=0
+	setting residue pointer -- k=69 ; ka=70; j=0
+	setting residue pointer -- k=70 ; ka=71; j=0
+	setting residue pointer -- k=71 ; ka=72; j=0
+	setting residue pointer -- k=72 ; ka=73; j=0
+	setting residue pointer -- k=73 ; ka=74; j=0
+	setting residue pointer -- k=74 ; ka=75; j=0
+	setting residue pointer -- k=75 ; ka=76; j=0
+	setting residue pointer -- k=76 ; ka=77; j=0
+	setting residue pointer -- k=77 ; ka=78; j=0
+	setting residue pointer -- k=78 ; ka=79; j=0
+	setting residue pointer -- k=79 ; ka=80; j=0
+	setting residue pointer -- k=80 ; ka=81; j=0
+	setting residue pointer -- k=81 ; ka=82; j=0
+	setting residue pointer -- k=82 ; ka=83; j=0
+	setting residue pointer -- k=83 ; ka=84; j=0
+	setting residue pointer -- k=84 ; ka=85; j=0
+	setting residue pointer -- k=85 ; ka=86; j=0
+	setting residue pointer -- k=86 ; ka=87; j=0
+	setting residue pointer -- k=87 ; ka=88; j=0
+	setting residue pointer -- k=88 ; ka=89; j=0
+	setting residue pointer -- k=89 ; ka=90; j=0
+	setting residue pointer -- k=90 ; ka=91; j=0
+	setting residue pointer -- k=91 ; ka=92; j=0
+	setting residue pointer -- k=92 ; ka=93; j=0
+	setting residue pointer -- k=93 ; ka=94; j=0
+	setting residue pointer -- k=94 ; ka=95; j=0
+	setting residue pointer -- k=95 ; ka=96; j=0
+	setting residue pointer -- k=96 ; ka=97; j=0
+	setting residue pointer -- k=97 ; ka=98; j=0
+	setting residue pointer -- k=98 ; ka=99; j=0
+	setting residue pointer -- k=99 ; ka=100; j=0
+	setting residue pointer -- k=100 ; ka=101; j=0
+	setting residue pointer -- k=101 ; ka=102; j=0
+	setting residue pointer -- k=102 ; ka=103; j=0
+	setting residue pointer -- k=103 ; ka=104; j=0
+	setting residue pointer -- k=104 ; ka=105; j=0
+	setting residue pointer -- k=105 ; ka=106; j=0
+	setting residue pointer -- k=106 ; ka=107; j=0
+	setting residue pointer -- k=107 ; ka=108; j=0
+	setting residue pointer -- k=108 ; ka=109; j=0
+	setting residue pointer -- k=109 ; ka=110; j=0
+	setting residue pointer -- k=110 ; ka=111; j=0
+	setting residue pointer -- k=111 ; ka=112; j=0
+	setting residue pointer -- k=112 ; ka=113; j=0
+	setting residue pointer -- k=113 ; ka=114; j=0
+	setting residue pointer -- k=114 ; ka=115; j=0
+	setting residue pointer -- k=115 ; ka=116; j=0
+	setting residue pointer -- k=116 ; ka=117; j=0
+	setting residue pointer -- k=117 ; ka=118; j=0
+	setting residue pointer -- k=118 ; ka=119; j=0
+	setting residue pointer -- k=119 ; ka=120; j=0
+	setting residue pointer -- k=120 ; ka=121; j=0
+	setting residue pointer -- k=121 ; ka=122; j=0
+	setting residue pointer -- k=122 ; ka=123; j=0
+	setting residue pointer -- k=123 ; ka=124; j=0
+	setting residue pointer -- k=124 ; ka=125; j=0
+	setting residue pointer -- k=125 ; ka=126; j=0
+	setting residue pointer -- k=126 ; ka=127; j=0
+	setting residue pointer -- k=127 ; ka=128; j=0
+	setting residue pointer -- k=128 ; ka=129; j=0
+	setting residue pointer -- k=129 ; ka=130; j=0
+	setting residue pointer -- k=130 ; ka=131; j=0
+	setting residue pointer -- k=131 ; ka=132; j=0
+	setting residue pointer -- k=132 ; ka=133; j=0
+	setting residue pointer -- k=133 ; ka=134; j=0
+	setting residue pointer -- k=134 ; ka=135; j=0
+	setting residue pointer -- k=135 ; ka=136; j=0
+	setting residue pointer -- k=136 ; ka=137; j=0
+	setting residue pointer -- k=137 ; ka=138; j=0
+	setting residue pointer -- k=138 ; ka=139; j=0
+	setting residue pointer -- k=139 ; ka=140; j=0
+	setting residue pointer -- k=140 ; ka=141; j=0
+	setting residue pointer -- k=141 ; ka=142; j=0
+	setting residue pointer -- k=142 ; ka=143; j=0
+	setting residue pointer -- k=143 ; ka=144; j=0
+	setting residue pointer -- k=144 ; ka=145; j=0
+	setting residue pointer -- k=145 ; ka=146; j=0
+	setting residue pointer -- k=146 ; ka=147; j=0
+	setting residue pointer -- k=147 ; ka=148; j=0
+	setting residue pointer -- k=148 ; ka=149; j=0
+	setting residue pointer -- k=149 ; ka=150; j=0
+	setting residue pointer -- k=150 ; ka=151; j=0
+	setting residue pointer -- k=151 ; ka=152; j=0
+	setting residue pointer -- k=152 ; ka=153; j=0
+	setting residue pointer -- k=153 ; ka=154; j=0
+	setting residue pointer -- k=154 ; ka=155; j=0
+	setting residue pointer -- k=155 ; ka=156; j=0
+	setting residue pointer -- k=156 ; ka=157; j=0
+	setting residue pointer -- k=157 ; ka=158; j=0
+	setting residue pointer -- k=158 ; ka=159; j=0
+	setting residue pointer -- k=159 ; ka=160; j=0
+	setting residue pointer -- k=160 ; ka=161; j=0
+	setting residue pointer -- k=161 ; ka=162; j=0
+	setting residue pointer -- k=162 ; ka=163; j=0
+	setting residue pointer -- k=163 ; ka=164; j=0
+	setting residue pointer -- k=164 ; ka=165; j=0
+	setting residue pointer -- k=165 ; ka=166; j=0
+	setting residue pointer -- k=166 ; ka=167; j=0
+	setting residue pointer -- k=167 ; ka=168; j=0
+	setting residue pointer -- k=168 ; ka=169; j=0
+	setting residue pointer -- k=169 ; ka=170; j=0
+	setting residue pointer -- k=170 ; ka=171; j=0
+	setting residue pointer -- k=171 ; ka=172; j=0
+	setting residue pointer -- k=172 ; ka=173; j=0
+	setting residue pointer -- k=173 ; ka=174; j=0
+	setting residue pointer -- k=174 ; ka=175; j=0
+	setting residue pointer -- k=175 ; ka=176; j=0
+	setting residue pointer -- k=176 ; ka=177; j=0
+	setting residue pointer -- k=177 ; ka=178; j=0
+	setting residue pointer -- k=178 ; ka=179; j=0
+	setting residue pointer -- k=179 ; ka=180; j=0
+	setting residue pointer -- k=180 ; ka=181; j=0
+	setting residue pointer -- k=181 ; ka=182; j=0
+	setting residue pointer -- k=182 ; ka=183; j=0
+	setting residue pointer -- k=183 ; ka=184; j=0
+	setting residue pointer -- k=184 ; ka=185; j=0
+	setting residue pointer -- k=185 ; ka=186; j=0
+	setting residue pointer -- k=186 ; ka=187; j=0
+	setting residue pointer -- k=187 ; ka=188; j=0
+	setting residue pointer -- k=188 ; ka=189; j=0
+	setting residue pointer -- k=189 ; ka=190; j=0
+	setting residue pointer -- k=190 ; ka=191; j=0
+	setting residue pointer -- k=191 ; ka=192; j=0
+	setting residue pointer -- k=192 ; ka=193; j=0
+	setting residue pointer -- k=193 ; ka=194; j=0
+	setting residue pointer -- k=194 ; ka=195; j=0
+	setting residue pointer -- k=195 ; ka=196; j=0
+	setting residue pointer -- k=196 ; ka=197; j=0
+	setting residue pointer -- k=197 ; ka=198; j=0
+	setting residue pointer -- k=198 ; ka=199; j=0
+	setting residue pointer -- k=199 ; ka=200; j=0
+	setting residue pointer -- k=200 ; ka=201; j=0
+	setting residue pointer -- k=201 ; ka=202; j=0
+	setting residue pointer -- k=202 ; ka=203; j=0
+	setting residue pointer -- k=203 ; ka=204; j=0
+	setting residue pointer -- k=204 ; ka=205; j=0
+	setting residue pointer -- k=205 ; ka=206; j=0
+	setting residue pointer -- k=206 ; ka=207; j=0
+	setting residue pointer -- k=207 ; ka=208; j=0
+	setting residue pointer -- k=208 ; ka=209; j=0
+	setting residue pointer -- k=209 ; ka=210; j=0
+	setting residue pointer -- k=210 ; ka=211; j=0
+	setting residue pointer -- k=211 ; ka=212; j=0
+	setting residue pointer -- k=212 ; ka=213; j=0
+	setting residue pointer -- k=213 ; ka=214; j=0
+	setting residue pointer -- k=214 ; ka=215; j=0
+	setting residue pointer -- k=215 ; ka=216; j=0
+	setting residue pointer -- k=216 ; ka=217; j=0
+	setting residue pointer -- k=217 ; ka=218; j=0
+	setting residue pointer -- k=218 ; ka=219; j=0
+	setting residue pointer -- k=219 ; ka=220; j=0
+	setting residue pointer -- k=220 ; ka=221; j=0
+	setting residue pointer -- k=221 ; ka=222; j=0
+	setting residue pointer -- k=222 ; ka=223; j=0
+	setting residue pointer -- k=223 ; ka=224; j=0
+	setting residue pointer -- k=224 ; ka=225; j=0
+	setting residue pointer -- k=225 ; ka=226; j=0
+	setting residue pointer -- k=226 ; ka=227; j=0
+	setting residue pointer -- k=227 ; ka=228; j=0
+	setting residue pointer -- k=228 ; ka=229; j=0
+	setting residue pointer -- k=229 ; ka=230; j=0
+	setting residue pointer -- k=230 ; ka=231; j=0
+	setting residue pointer -- k=231 ; ka=232; j=0
+PDB Information Successfully Read.
+Entered the FUNction
+Reading in in.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Writting file: outTER.pdb...
+[%] Generating input file for leap (leap.in):
+ok
+Finished.
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_3
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 184 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 197 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_3
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 2 (which should be the same as: 2)
+	called getResInfo. (*curMol).r[0].N is 0LB ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 2 and na is 11
+	setting residue pointer -- k=1 ; ka=2; j=0
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 232 (which should be the same as: 232)
+	called getResInfo. (*curMol).r[0].N is ASP ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 232 and na is 8
+	setting residue pointer -- k=1 ; ka=2; j=0
+	setting residue pointer -- k=2 ; ka=3; j=0
+	setting residue pointer -- k=3 ; ka=4; j=0
+	setting residue pointer -- k=4 ; ka=5; j=0
+	setting residue pointer -- k=5 ; ka=6; j=0
+	setting residue pointer -- k=6 ; ka=7; j=0
+	setting residue pointer -- k=7 ; ka=8; j=0
+	setting residue pointer -- k=8 ; ka=9; j=0
+	setting residue pointer -- k=9 ; ka=10; j=0
+	setting residue pointer -- k=10 ; ka=11; j=0
+	setting residue pointer -- k=11 ; ka=12; j=0
+	setting residue pointer -- k=12 ; ka=13; j=0
+	setting residue pointer -- k=13 ; ka=14; j=0
+	setting residue pointer -- k=14 ; ka=15; j=0
+	setting residue pointer -- k=15 ; ka=16; j=0
+	setting residue pointer -- k=16 ; ka=17; j=0
+	setting residue pointer -- k=17 ; ka=18; j=0
+	setting residue pointer -- k=18 ; ka=19; j=0
+	setting residue pointer -- k=19 ; ka=20; j=0
+	setting residue pointer -- k=20 ; ka=21; j=0
+	setting residue pointer -- k=21 ; ka=22; j=0
+	setting residue pointer -- k=22 ; ka=23; j=0
+	setting residue pointer -- k=23 ; ka=24; j=0
+	setting residue pointer -- k=24 ; ka=25; j=0
+	setting residue pointer -- k=25 ; ka=26; j=0
+	setting residue pointer -- k=26 ; ka=27; j=0
+	setting residue pointer -- k=27 ; ka=28; j=0
+	setting residue pointer -- k=28 ; ka=29; j=0
+	setting residue pointer -- k=29 ; ka=30; j=0
+	setting residue pointer -- k=30 ; ka=31; j=0
+	setting residue pointer -- k=31 ; ka=32; j=0
+	setting residue pointer -- k=32 ; ka=33; j=0
+	setting residue pointer -- k=33 ; ka=34; j=0
+	setting residue pointer -- k=34 ; ka=35; j=0
+	setting residue pointer -- k=35 ; ka=36; j=0
+	setting residue pointer -- k=36 ; ka=37; j=0
+	setting residue pointer -- k=37 ; ka=38; j=0
+	setting residue pointer -- k=38 ; ka=39; j=0
+	setting residue pointer -- k=39 ; ka=40; j=0
+	setting residue pointer -- k=40 ; ka=41; j=0
+	setting residue pointer -- k=41 ; ka=42; j=0
+	setting residue pointer -- k=42 ; ka=43; j=0
+	setting residue pointer -- k=43 ; ka=44; j=0
+	setting residue pointer -- k=44 ; ka=45; j=0
+	setting residue pointer -- k=45 ; ka=46; j=0
+	setting residue pointer -- k=46 ; ka=47; j=0
+	setting residue pointer -- k=47 ; ka=48; j=0
+	setting residue pointer -- k=48 ; ka=49; j=0
+	setting residue pointer -- k=49 ; ka=50; j=0
+	setting residue pointer -- k=50 ; ka=51; j=0
+	setting residue pointer -- k=51 ; ka=52; j=0
+	setting residue pointer -- k=52 ; ka=53; j=0
+	setting residue pointer -- k=53 ; ka=54; j=0
+	setting residue pointer -- k=54 ; ka=55; j=0
+	setting residue pointer -- k=55 ; ka=56; j=0
+	setting residue pointer -- k=56 ; ka=57; j=0
+	setting residue pointer -- k=57 ; ka=58; j=0
+	setting residue pointer -- k=58 ; ka=59; j=0
+	setting residue pointer -- k=59 ; ka=60; j=0
+	setting residue pointer -- k=60 ; ka=61; j=0
+	setting residue pointer -- k=61 ; ka=62; j=0
+	setting residue pointer -- k=62 ; ka=63; j=0
+	setting residue pointer -- k=63 ; ka=64; j=0
+	setting residue pointer -- k=64 ; ka=65; j=0
+	setting residue pointer -- k=65 ; ka=66; j=0
+	setting residue pointer -- k=66 ; ka=67; j=0
+	setting residue pointer -- k=67 ; ka=68; j=0
+	setting residue pointer -- k=68 ; ka=69; j=0
+	setting residue pointer -- k=69 ; ka=70; j=0
+	setting residue pointer -- k=70 ; ka=71; j=0
+	setting residue pointer -- k=71 ; ka=72; j=0
+	setting residue pointer -- k=72 ; ka=73; j=0
+	setting residue pointer -- k=73 ; ka=74; j=0
+	setting residue pointer -- k=74 ; ka=75; j=0
+	setting residue pointer -- k=75 ; ka=76; j=0
+	setting residue pointer -- k=76 ; ka=77; j=0
+	setting residue pointer -- k=77 ; ka=78; j=0
+	setting residue pointer -- k=78 ; ka=79; j=0
+	setting residue pointer -- k=79 ; ka=80; j=0
+	setting residue pointer -- k=80 ; ka=81; j=0
+	setting residue pointer -- k=81 ; ka=82; j=0
+	setting residue pointer -- k=82 ; ka=83; j=0
+	setting residue pointer -- k=83 ; ka=84; j=0
+	setting residue pointer -- k=84 ; ka=85; j=0
+	setting residue pointer -- k=85 ; ka=86; j=0
+	setting residue pointer -- k=86 ; ka=87; j=0
+	setting residue pointer -- k=87 ; ka=88; j=0
+	setting residue pointer -- k=88 ; ka=89; j=0
+	setting residue pointer -- k=89 ; ka=90; j=0
+	setting residue pointer -- k=90 ; ka=91; j=0
+	setting residue pointer -- k=91 ; ka=92; j=0
+	setting residue pointer -- k=92 ; ka=93; j=0
+	setting residue pointer -- k=93 ; ka=94; j=0
+	setting residue pointer -- k=94 ; ka=95; j=0
+	setting residue pointer -- k=95 ; ka=96; j=0
+	setting residue pointer -- k=96 ; ka=97; j=0
+	setting residue pointer -- k=97 ; ka=98; j=0
+	setting residue pointer -- k=98 ; ka=99; j=0
+	setting residue pointer -- k=99 ; ka=100; j=0
+	setting residue pointer -- k=100 ; ka=101; j=0
+	setting residue pointer -- k=101 ; ka=102; j=0
+	setting residue pointer -- k=102 ; ka=103; j=0
+	setting residue pointer -- k=103 ; ka=104; j=0
+	setting residue pointer -- k=104 ; ka=105; j=0
+	setting residue pointer -- k=105 ; ka=106; j=0
+	setting residue pointer -- k=106 ; ka=107; j=0
+	setting residue pointer -- k=107 ; ka=108; j=0
+	setting residue pointer -- k=108 ; ka=109; j=0
+	setting residue pointer -- k=109 ; ka=110; j=0
+	setting residue pointer -- k=110 ; ka=111; j=0
+	setting residue pointer -- k=111 ; ka=112; j=0
+	setting residue pointer -- k=112 ; ka=113; j=0
+	setting residue pointer -- k=113 ; ka=114; j=0
+	setting residue pointer -- k=114 ; ka=115; j=0
+	setting residue pointer -- k=115 ; ka=116; j=0
+	setting residue pointer -- k=116 ; ka=117; j=0
+	setting residue pointer -- k=117 ; ka=118; j=0
+	setting residue pointer -- k=118 ; ka=119; j=0
+	setting residue pointer -- k=119 ; ka=120; j=0
+	setting residue pointer -- k=120 ; ka=121; j=0
+	setting residue pointer -- k=121 ; ka=122; j=0
+	setting residue pointer -- k=122 ; ka=123; j=0
+	setting residue pointer -- k=123 ; ka=124; j=0
+	setting residue pointer -- k=124 ; ka=125; j=0
+	setting residue pointer -- k=125 ; ka=126; j=0
+	setting residue pointer -- k=126 ; ka=127; j=0
+	setting residue pointer -- k=127 ; ka=128; j=0
+	setting residue pointer -- k=128 ; ka=129; j=0
+	setting residue pointer -- k=129 ; ka=130; j=0
+	setting residue pointer -- k=130 ; ka=131; j=0
+	setting residue pointer -- k=131 ; ka=132; j=0
+	setting residue pointer -- k=132 ; ka=133; j=0
+	setting residue pointer -- k=133 ; ka=134; j=0
+	setting residue pointer -- k=134 ; ka=135; j=0
+	setting residue pointer -- k=135 ; ka=136; j=0
+	setting residue pointer -- k=136 ; ka=137; j=0
+	setting residue pointer -- k=137 ; ka=138; j=0
+	setting residue pointer -- k=138 ; ka=139; j=0
+	setting residue pointer -- k=139 ; ka=140; j=0
+	setting residue pointer -- k=140 ; ka=141; j=0
+	setting residue pointer -- k=141 ; ka=142; j=0
+	setting residue pointer -- k=142 ; ka=143; j=0
+	setting residue pointer -- k=143 ; ka=144; j=0
+	setting residue pointer -- k=144 ; ka=145; j=0
+	setting residue pointer -- k=145 ; ka=146; j=0
+	setting residue pointer -- k=146 ; ka=147; j=0
+	setting residue pointer -- k=147 ; ka=148; j=0
+	setting residue pointer -- k=148 ; ka=149; j=0
+	setting residue pointer -- k=149 ; ka=150; j=0
+	setting residue pointer -- k=150 ; ka=151; j=0
+	setting residue pointer -- k=151 ; ka=152; j=0
+	setting residue pointer -- k=152 ; ka=153; j=0
+	setting residue pointer -- k=153 ; ka=154; j=0
+	setting residue pointer -- k=154 ; ka=155; j=0
+	setting residue pointer -- k=155 ; ka=156; j=0
+	setting residue pointer -- k=156 ; ka=157; j=0
+	setting residue pointer -- k=157 ; ka=158; j=0
+	setting residue pointer -- k=158 ; ka=159; j=0
+	setting residue pointer -- k=159 ; ka=160; j=0
+	setting residue pointer -- k=160 ; ka=161; j=0
+	setting residue pointer -- k=161 ; ka=162; j=0
+	setting residue pointer -- k=162 ; ka=163; j=0
+	setting residue pointer -- k=163 ; ka=164; j=0
+	setting residue pointer -- k=164 ; ka=165; j=0
+	setting residue pointer -- k=165 ; ka=166; j=0
+	setting residue pointer -- k=166 ; ka=167; j=0
+	setting residue pointer -- k=167 ; ka=168; j=0
+	setting residue pointer -- k=168 ; ka=169; j=0
+	setting residue pointer -- k=169 ; ka=170; j=0
+	setting residue pointer -- k=170 ; ka=171; j=0
+	setting residue pointer -- k=171 ; ka=172; j=0
+	setting residue pointer -- k=172 ; ka=173; j=0
+	setting residue pointer -- k=173 ; ka=174; j=0
+	setting residue pointer -- k=174 ; ka=175; j=0
+	setting residue pointer -- k=175 ; ka=176; j=0
+	setting residue pointer -- k=176 ; ka=177; j=0
+	setting residue pointer -- k=177 ; ka=178; j=0
+	setting residue pointer -- k=178 ; ka=179; j=0
+	setting residue pointer -- k=179 ; ka=180; j=0
+	setting residue pointer -- k=180 ; ka=181; j=0
+	setting residue pointer -- k=181 ; ka=182; j=0
+	setting residue pointer -- k=182 ; ka=183; j=0
+	setting residue pointer -- k=183 ; ka=184; j=0
+	setting residue pointer -- k=184 ; ka=185; j=0
+	setting residue pointer -- k=185 ; ka=186; j=0
+	setting residue pointer -- k=186 ; ka=187; j=0
+	setting residue pointer -- k=187 ; ka=188; j=0
+	setting residue pointer -- k=188 ; ka=189; j=0
+	setting residue pointer -- k=189 ; ka=190; j=0
+	setting residue pointer -- k=190 ; ka=191; j=0
+	setting residue pointer -- k=191 ; ka=192; j=0
+	setting residue pointer -- k=192 ; ka=193; j=0
+	setting residue pointer -- k=193 ; ka=194; j=0
+	setting residue pointer -- k=194 ; ka=195; j=0
+	setting residue pointer -- k=195 ; ka=196; j=0
+	setting residue pointer -- k=196 ; ka=197; j=0
+	setting residue pointer -- k=197 ; ka=198; j=0
+	setting residue pointer -- k=198 ; ka=199; j=0
+	setting residue pointer -- k=199 ; ka=200; j=0
+	setting residue pointer -- k=200 ; ka=201; j=0
+	setting residue pointer -- k=201 ; ka=202; j=0
+	setting residue pointer -- k=202 ; ka=203; j=0
+	setting residue pointer -- k=203 ; ka=204; j=0
+	setting residue pointer -- k=204 ; ka=205; j=0
+	setting residue pointer -- k=205 ; ka=206; j=0
+	setting residue pointer -- k=206 ; ka=207; j=0
+	setting residue pointer -- k=207 ; ka=208; j=0
+	setting residue pointer -- k=208 ; ka=209; j=0
+	setting residue pointer -- k=209 ; ka=210; j=0
+	setting residue pointer -- k=210 ; ka=211; j=0
+	setting residue pointer -- k=211 ; ka=212; j=0
+	setting residue pointer -- k=212 ; ka=213; j=0
+	setting residue pointer -- k=213 ; ka=214; j=0
+	setting residue pointer -- k=214 ; ka=215; j=0
+	setting residue pointer -- k=215 ; ka=216; j=0
+	setting residue pointer -- k=216 ; ka=217; j=0
+	setting residue pointer -- k=217 ; ka=218; j=0
+	setting residue pointer -- k=218 ; ka=219; j=0
+	setting residue pointer -- k=219 ; ka=220; j=0
+	setting residue pointer -- k=220 ; ka=221; j=0
+	setting residue pointer -- k=221 ; ka=222; j=0
+	setting residue pointer -- k=222 ; ka=223; j=0
+	setting residue pointer -- k=223 ; ka=224; j=0
+	setting residue pointer -- k=224 ; ka=225; j=0
+	setting residue pointer -- k=225 ; ka=226; j=0
+	setting residue pointer -- k=226 ; ka=227; j=0
+	setting residue pointer -- k=227 ; ka=228; j=0
+	setting residue pointer -- k=228 ; ka=229; j=0
+	setting residue pointer -- k=229 ; ka=230; j=0
+	setting residue pointer -- k=230 ; ka=231; j=0
+	setting residue pointer -- k=231 ; ka=232; j=0
+PDB Information Successfully Read.
+Entered the FUNction
+Reading in in.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Writting file: outTER.pdb...
+[%] Generating input file for leap (leap.in):
+ok
+Finished.
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+Budcore=2
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_2
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=4
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 246 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -11 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 232 (which should be the same as: 232)
+	called getResInfo. (*curMol).r[0].N is ASP ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 232 and na is 8
+	setting residue pointer -- k=1 ; ka=2; j=0
+	setting residue pointer -- k=2 ; ka=3; j=0
+	setting residue pointer -- k=3 ; ka=4; j=0
+	setting residue pointer -- k=4 ; ka=5; j=0
+	setting residue pointer -- k=5 ; ka=6; j=0
+	setting residue pointer -- k=6 ; ka=7; j=0
+	setting residue pointer -- k=7 ; ka=8; j=0
+	setting residue pointer -- k=8 ; ka=9; j=0
+	setting residue pointer -- k=9 ; ka=10; j=0
+	setting residue pointer -- k=10 ; ka=11; j=0
+	setting residue pointer -- k=11 ; ka=12; j=0
+	setting residue pointer -- k=12 ; ka=13; j=0
+	setting residue pointer -- k=13 ; ka=14; j=0
+	setting residue pointer -- k=14 ; ka=15; j=0
+	setting residue pointer -- k=15 ; ka=16; j=0
+	setting residue pointer -- k=16 ; ka=17; j=0
+	setting residue pointer -- k=17 ; ka=18; j=0
+	setting residue pointer -- k=18 ; ka=19; j=0
+	setting residue pointer -- k=19 ; ka=20; j=0
+	setting residue pointer -- k=20 ; ka=21; j=0
+	setting residue pointer -- k=21 ; ka=22; j=0
+	setting residue pointer -- k=22 ; ka=23; j=0
+	setting residue pointer -- k=23 ; ka=24; j=0
+	setting residue pointer -- k=24 ; ka=25; j=0
+	setting residue pointer -- k=25 ; ka=26; j=0
+	setting residue pointer -- k=26 ; ka=27; j=0
+	setting residue pointer -- k=27 ; ka=28; j=0
+	setting residue pointer -- k=28 ; ka=29; j=0
+	setting residue pointer -- k=29 ; ka=30; j=0
+	setting residue pointer -- k=30 ; ka=31; j=0
+	setting residue pointer -- k=31 ; ka=32; j=0
+	setting residue pointer -- k=32 ; ka=33; j=0
+	setting residue pointer -- k=33 ; ka=34; j=0
+	setting residue pointer -- k=34 ; ka=35; j=0
+	setting residue pointer -- k=35 ; ka=36; j=0
+	setting residue pointer -- k=36 ; ka=37; j=0
+	setting residue pointer -- k=37 ; ka=38; j=0
+	setting residue pointer -- k=38 ; ka=39; j=0
+	setting residue pointer -- k=39 ; ka=40; j=0
+	setting residue pointer -- k=40 ; ka=41; j=0
+	setting residue pointer -- k=41 ; ka=42; j=0
+	setting residue pointer -- k=42 ; ka=43; j=0
+	setting residue pointer -- k=43 ; ka=44; j=0
+	setting residue pointer -- k=44 ; ka=45; j=0
+	setting residue pointer -- k=45 ; ka=46; j=0
+	setting residue pointer -- k=46 ; ka=47; j=0
+	setting residue pointer -- k=47 ; ka=48; j=0
+	setting residue pointer -- k=48 ; ka=49; j=0
+	setting residue pointer -- k=49 ; ka=50; j=0
+	setting residue pointer -- k=50 ; ka=51; j=0
+	setting residue pointer -- k=51 ; ka=52; j=0
+	setting residue pointer -- k=52 ; ka=53; j=0
+	setting residue pointer -- k=53 ; ka=54; j=0
+	setting residue pointer -- k=54 ; ka=55; j=0
+	setting residue pointer -- k=55 ; ka=56; j=0
+	setting residue pointer -- k=56 ; ka=57; j=0
+	setting residue pointer -- k=57 ; ka=58; j=0
+	setting residue pointer -- k=58 ; ka=59; j=0
+	setting residue pointer -- k=59 ; ka=60; j=0
+	setting residue pointer -- k=60 ; ka=61; j=0
+	setting residue pointer -- k=61 ; ka=62; j=0
+	setting residue pointer -- k=62 ; ka=63; j=0
+	setting residue pointer -- k=63 ; ka=64; j=0
+	setting residue pointer -- k=64 ; ka=65; j=0
+	setting residue pointer -- k=65 ; ka=66; j=0
+	setting residue pointer -- k=66 ; ka=67; j=0
+	setting residue pointer -- k=67 ; ka=68; j=0
+	setting residue pointer -- k=68 ; ka=69; j=0
+	setting residue pointer -- k=69 ; ka=70; j=0
+	setting residue pointer -- k=70 ; ka=71; j=0
+	setting residue pointer -- k=71 ; ka=72; j=0
+	setting residue pointer -- k=72 ; ka=73; j=0
+	setting residue pointer -- k=73 ; ka=74; j=0
+	setting residue pointer -- k=74 ; ka=75; j=0
+	setting residue pointer -- k=75 ; ka=76; j=0
+	setting residue pointer -- k=76 ; ka=77; j=0
+	setting residue pointer -- k=77 ; ka=78; j=0
+	setting residue pointer -- k=78 ; ka=79; j=0
+	setting residue pointer -- k=79 ; ka=80; j=0
+	setting residue pointer -- k=80 ; ka=81; j=0
+	setting residue pointer -- k=81 ; ka=82; j=0
+	setting residue pointer -- k=82 ; ka=83; j=0
+	setting residue pointer -- k=83 ; ka=84; j=0
+	setting residue pointer -- k=84 ; ka=85; j=0
+	setting residue pointer -- k=85 ; ka=86; j=0
+	setting residue pointer -- k=86 ; ka=87; j=0
+	setting residue pointer -- k=87 ; ka=88; j=0
+	setting residue pointer -- k=88 ; ka=89; j=0
+	setting residue pointer -- k=89 ; ka=90; j=0
+	setting residue pointer -- k=90 ; ka=91; j=0
+	setting residue pointer -- k=91 ; ka=92; j=0
+	setting residue pointer -- k=92 ; ka=93; j=0
+	setting residue pointer -- k=93 ; ka=94; j=0
+	setting residue pointer -- k=94 ; ka=95; j=0
+	setting residue pointer -- k=95 ; ka=96; j=0
+	setting residue pointer -- k=96 ; ka=97; j=0
+	setting residue pointer -- k=97 ; ka=98; j=0
+	setting residue pointer -- k=98 ; ka=99; j=0
+	setting residue pointer -- k=99 ; ka=100; j=0
+	setting residue pointer -- k=100 ; ka=101; j=0
+	setting residue pointer -- k=101 ; ka=102; j=0
+	setting residue pointer -- k=102 ; ka=103; j=0
+	setting residue pointer -- k=103 ; ka=104; j=0
+	setting residue pointer -- k=104 ; ka=105; j=0
+	setting residue pointer -- k=105 ; ka=106; j=0
+	setting residue pointer -- k=106 ; ka=107; j=0
+	setting residue pointer -- k=107 ; ka=108; j=0
+	setting residue pointer -- k=108 ; ka=109; j=0
+	setting residue pointer -- k=109 ; ka=110; j=0
+	setting residue pointer -- k=110 ; ka=111; j=0
+	setting residue pointer -- k=111 ; ka=112; j=0
+	setting residue pointer -- k=112 ; ka=113; j=0
+	setting residue pointer -- k=113 ; ka=114; j=0
+	setting residue pointer -- k=114 ; ka=115; j=0
+	setting residue pointer -- k=115 ; ka=116; j=0
+	setting residue pointer -- k=116 ; ka=117; j=0
+	setting residue pointer -- k=117 ; ka=118; j=0
+	setting residue pointer -- k=118 ; ka=119; j=0
+	setting residue pointer -- k=119 ; ka=120; j=0
+	setting residue pointer -- k=120 ; ka=121; j=0
+	setting residue pointer -- k=121 ; ka=122; j=0
+	setting residue pointer -- k=122 ; ka=123; j=0
+	setting residue pointer -- k=123 ; ka=124; j=0
+	setting residue pointer -- k=124 ; ka=125; j=0
+	setting residue pointer -- k=125 ; ka=126; j=0
+	setting residue pointer -- k=126 ; ka=127; j=0
+	setting residue pointer -- k=127 ; ka=128; j=0
+	setting residue pointer -- k=128 ; ka=129; j=0
+	setting residue pointer -- k=129 ; ka=130; j=0
+	setting residue pointer -- k=130 ; ka=131; j=0
+	setting residue pointer -- k=131 ; ka=132; j=0
+	setting residue pointer -- k=132 ; ka=133; j=0
+	setting residue pointer -- k=133 ; ka=134; j=0
+	setting residue pointer -- k=134 ; ka=135; j=0
+	setting residue pointer -- k=135 ; ka=136; j=0
+	setting residue pointer -- k=136 ; ka=137; j=0
+	setting residue pointer -- k=137 ; ka=138; j=0
+	setting residue pointer -- k=138 ; ka=139; j=0
+	setting residue pointer -- k=139 ; ka=140; j=0
+	setting residue pointer -- k=140 ; ka=141; j=0
+	setting residue pointer -- k=141 ; ka=142; j=0
+	setting residue pointer -- k=142 ; ka=143; j=0
+	setting residue pointer -- k=143 ; ka=144; j=0
+	setting residue pointer -- k=144 ; ka=145; j=0
+	setting residue pointer -- k=145 ; ka=146; j=0
+	setting residue pointer -- k=146 ; ka=147; j=0
+	setting residue pointer -- k=147 ; ka=148; j=0
+	setting residue pointer -- k=148 ; ka=149; j=0
+	setting residue pointer -- k=149 ; ka=150; j=0
+	setting residue pointer -- k=150 ; ka=151; j=0
+	setting residue pointer -- k=151 ; ka=152; j=0
+	setting residue pointer -- k=152 ; ka=153; j=0
+	setting residue pointer -- k=153 ; ka=154; j=0
+	setting residue pointer -- k=154 ; ka=155; j=0
+	setting residue pointer -- k=155 ; ka=156; j=0
+	setting residue pointer -- k=156 ; ka=157; j=0
+	setting residue pointer -- k=157 ; ka=158; j=0
+	setting residue pointer -- k=158 ; ka=159; j=0
+	setting residue pointer -- k=159 ; ka=160; j=0
+	setting residue pointer -- k=160 ; ka=161; j=0
+	setting residue pointer -- k=161 ; ka=162; j=0
+	setting residue pointer -- k=162 ; ka=163; j=0
+	setting residue pointer -- k=163 ; ka=164; j=0
+	setting residue pointer -- k=164 ; ka=165; j=0
+	setting residue pointer -- k=165 ; ka=166; j=0
+	setting residue pointer -- k=166 ; ka=167; j=0
+	setting residue pointer -- k=167 ; ka=168; j=0
+	setting residue pointer -- k=168 ; ka=169; j=0
+	setting residue pointer -- k=169 ; ka=170; j=0
+	setting residue pointer -- k=170 ; ka=171; j=0
+	setting residue pointer -- k=171 ; ka=172; j=0
+	setting residue pointer -- k=172 ; ka=173; j=0
+	setting residue pointer -- k=173 ; ka=174; j=0
+	setting residue pointer -- k=174 ; ka=175; j=0
+	setting residue pointer -- k=175 ; ka=176; j=0
+	setting residue pointer -- k=176 ; ka=177; j=0
+	setting residue pointer -- k=177 ; ka=178; j=0
+	setting residue pointer -- k=178 ; ka=179; j=0
+	setting residue pointer -- k=179 ; ka=180; j=0
+	setting residue pointer -- k=180 ; ka=181; j=0
+	setting residue pointer -- k=181 ; ka=182; j=0
+	setting residue pointer -- k=182 ; ka=183; j=0
+	setting residue pointer -- k=183 ; ka=184; j=0
+	setting residue pointer -- k=184 ; ka=185; j=0
+	setting residue pointer -- k=185 ; ka=186; j=0
+	setting residue pointer -- k=186 ; ka=187; j=0
+	setting residue pointer -- k=187 ; ka=188; j=0
+	setting residue pointer -- k=188 ; ka=189; j=0
+	setting residue pointer -- k=189 ; ka=190; j=0
+	setting residue pointer -- k=190 ; ka=191; j=0
+	setting residue pointer -- k=191 ; ka=192; j=0
+	setting residue pointer -- k=192 ; ka=193; j=0
+	setting residue pointer -- k=193 ; ka=194; j=0
+	setting residue pointer -- k=194 ; ka=195; j=0
+	setting residue pointer -- k=195 ; ka=196; j=0
+	setting residue pointer -- k=196 ; ka=197; j=0
+	setting residue pointer -- k=197 ; ka=198; j=0
+	setting residue pointer -- k=198 ; ka=199; j=0
+	setting residue pointer -- k=199 ; ka=200; j=0
+	setting residue pointer -- k=200 ; ka=201; j=0
+	setting residue pointer -- k=201 ; ka=202; j=0
+	setting residue pointer -- k=202 ; ka=203; j=0
+	setting residue pointer -- k=203 ; ka=204; j=0
+	setting residue pointer -- k=204 ; ka=205; j=0
+	setting residue pointer -- k=205 ; ka=206; j=0
+	setting residue pointer -- k=206 ; ka=207; j=0
+	setting residue pointer -- k=207 ; ka=208; j=0
+	setting residue pointer -- k=208 ; ka=209; j=0
+	setting residue pointer -- k=209 ; ka=210; j=0
+	setting residue pointer -- k=210 ; ka=211; j=0
+	setting residue pointer -- k=211 ; ka=212; j=0
+	setting residue pointer -- k=212 ; ka=213; j=0
+	setting residue pointer -- k=213 ; ka=214; j=0
+	setting residue pointer -- k=214 ; ka=215; j=0
+	setting residue pointer -- k=215 ; ka=216; j=0
+	setting residue pointer -- k=216 ; ka=217; j=0
+	setting residue pointer -- k=217 ; ka=218; j=0
+	setting residue pointer -- k=218 ; ka=219; j=0
+	setting residue pointer -- k=219 ; ka=220; j=0
+	setting residue pointer -- k=220 ; ka=221; j=0
+	setting residue pointer -- k=221 ; ka=222; j=0
+	setting residue pointer -- k=222 ; ka=223; j=0
+	setting residue pointer -- k=223 ; ka=224; j=0
+	setting residue pointer -- k=224 ; ka=225; j=0
+	setting residue pointer -- k=225 ; ka=226; j=0
+	setting residue pointer -- k=226 ; ka=227; j=0
+	setting residue pointer -- k=227 ; ka=228; j=0
+	setting residue pointer -- k=228 ; ka=229; j=0
+	setting residue pointer -- k=229 ; ka=230; j=0
+	setting residue pointer -- k=230 ; ka=231; j=0
+	setting residue pointer -- k=231 ; ka=232; j=0
+PDB Information Successfully Read.
+Entered the FUNction
+Reading in in.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Writting file: outTER.pdb...
+[%] Generating input file for leap (leap.in):
+ok
+Finished.
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+Entered 2nd condition, therefore started and ended on a core. current_ri=5. THIS BRANCH HAS BEEN REMOVED
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_0
+DEALING WITH ROH ENDING BRANCHES
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+core residue number=4
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Yawing assembly approx. -60 degrees...
+Writting file: superimposed.pdb...
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+2 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+3 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Yawing assembly approx. 57 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_0
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 4 (which should be the same as: 4)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 4 and na is 10
+	setting residue pointer -- k=1 ; ka=2; j=0
+	setting residue pointer -- k=2 ; ka=3; j=0
+	setting residue pointer -- k=3 ; ka=4; j=0
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 232 (which should be the same as: 232)
+	called getResInfo. (*curMol).r[0].N is ASP ; i is 0 ; k is 0
+	setting residue pointer -- k=0 ; ka=1; j=0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 232 and na is 8
+	setting residue pointer -- k=1 ; ka=2; j=0
+	setting residue pointer -- k=2 ; ka=3; j=0
+	setting residue pointer -- k=3 ; ka=4; j=0
+	setting residue pointer -- k=4 ; ka=5; j=0
+	setting residue pointer -- k=5 ; ka=6; j=0
+	setting residue pointer -- k=6 ; ka=7; j=0
+	setting residue pointer -- k=7 ; ka=8; j=0
+	setting residue pointer -- k=8 ; ka=9; j=0
+	setting residue pointer -- k=9 ; ka=10; j=0
+	setting residue pointer -- k=10 ; ka=11; j=0
+	setting residue pointer -- k=11 ; ka=12; j=0
+	setting residue pointer -- k=12 ; ka=13; j=0
+	setting residue pointer -- k=13 ; ka=14; j=0
+	setting residue pointer -- k=14 ; ka=15; j=0
+	setting residue pointer -- k=15 ; ka=16; j=0
+	setting residue pointer -- k=16 ; ka=17; j=0
+	setting residue pointer -- k=17 ; ka=18; j=0
+	setting residue pointer -- k=18 ; ka=19; j=0
+	setting residue pointer -- k=19 ; ka=20; j=0
+	setting residue pointer -- k=20 ; ka=21; j=0
+	setting residue pointer -- k=21 ; ka=22; j=0
+	setting residue pointer -- k=22 ; ka=23; j=0
+	setting residue pointer -- k=23 ; ka=24; j=0
+	setting residue pointer -- k=24 ; ka=25; j=0
+	setting residue pointer -- k=25 ; ka=26; j=0
+	setting residue pointer -- k=26 ; ka=27; j=0
+	setting residue pointer -- k=27 ; ka=28; j=0
+	setting residue pointer -- k=28 ; ka=29; j=0
+	setting residue pointer -- k=29 ; ka=30; j=0
+	setting residue pointer -- k=30 ; ka=31; j=0
+	setting residue pointer -- k=31 ; ka=32; j=0
+	setting residue pointer -- k=32 ; ka=33; j=0
+	setting residue pointer -- k=33 ; ka=34; j=0
+	setting residue pointer -- k=34 ; ka=35; j=0
+	setting residue pointer -- k=35 ; ka=36; j=0
+	setting residue pointer -- k=36 ; ka=37; j=0
+	setting residue pointer -- k=37 ; ka=38; j=0
+	setting residue pointer -- k=38 ; ka=39; j=0
+	setting residue pointer -- k=39 ; ka=40; j=0
+	setting residue pointer -- k=40 ; ka=41; j=0
+	setting residue pointer -- k=41 ; ka=42; j=0
+	setting residue pointer -- k=42 ; ka=43; j=0
+	setting residue pointer -- k=43 ; ka=44; j=0
+	setting residue pointer -- k=44 ; ka=45; j=0
+	setting residue pointer -- k=45 ; ka=46; j=0
+	setting residue pointer -- k=46 ; ka=47; j=0
+	setting residue pointer -- k=47 ; ka=48; j=0
+	setting residue pointer -- k=48 ; ka=49; j=0
+	setting residue pointer -- k=49 ; ka=50; j=0
+	setting residue pointer -- k=50 ; ka=51; j=0
+	setting residue pointer -- k=51 ; ka=52; j=0
+	setting residue pointer -- k=52 ; ka=53; j=0
+	setting residue pointer -- k=53 ; ka=54; j=0
+	setting residue pointer -- k=54 ; ka=55; j=0
+	setting residue pointer -- k=55 ; ka=56; j=0
+	setting residue pointer -- k=56 ; ka=57; j=0
+	setting residue pointer -- k=57 ; ka=58; j=0
+	setting residue pointer -- k=58 ; ka=59; j=0
+	setting residue pointer -- k=59 ; ka=60; j=0
+	setting residue pointer -- k=60 ; ka=61; j=0
+	setting residue pointer -- k=61 ; ka=62; j=0
+	setting residue pointer -- k=62 ; ka=63; j=0
+	setting residue pointer -- k=63 ; ka=64; j=0
+	setting residue pointer -- k=64 ; ka=65; j=0
+	setting residue pointer -- k=65 ; ka=66; j=0
+	setting residue pointer -- k=66 ; ka=67; j=0
+	setting residue pointer -- k=67 ; ka=68; j=0
+	setting residue pointer -- k=68 ; ka=69; j=0
+	setting residue pointer -- k=69 ; ka=70; j=0
+	setting residue pointer -- k=70 ; ka=71; j=0
+	setting residue pointer -- k=71 ; ka=72; j=0
+	setting residue pointer -- k=72 ; ka=73; j=0
+	setting residue pointer -- k=73 ; ka=74; j=0
+	setting residue pointer -- k=74 ; ka=75; j=0
+	setting residue pointer -- k=75 ; ka=76; j=0
+	setting residue pointer -- k=76 ; ka=77; j=0
+	setting residue pointer -- k=77 ; ka=78; j=0
+	setting residue pointer -- k=78 ; ka=79; j=0
+	setting residue pointer -- k=79 ; ka=80; j=0
+	setting residue pointer -- k=80 ; ka=81; j=0
+	setting residue pointer -- k=81 ; ka=82; j=0
+	setting residue pointer -- k=82 ; ka=83; j=0
+	setting residue pointer -- k=83 ; ka=84; j=0
+	setting residue pointer -- k=84 ; ka=85; j=0
+	setting residue pointer -- k=85 ; ka=86; j=0
+	setting residue pointer -- k=86 ; ka=87; j=0
+	setting residue pointer -- k=87 ; ka=88; j=0
+	setting residue pointer -- k=88 ; ka=89; j=0
+	setting residue pointer -- k=89 ; ka=90; j=0
+	setting residue pointer -- k=90 ; ka=91; j=0
+	setting residue pointer -- k=91 ; ka=92; j=0
+	setting residue pointer -- k=92 ; ka=93; j=0
+	setting residue pointer -- k=93 ; ka=94; j=0
+	setting residue pointer -- k=94 ; ka=95; j=0
+	setting residue pointer -- k=95 ; ka=96; j=0
+	setting residue pointer -- k=96 ; ka=97; j=0
+	setting residue pointer -- k=97 ; ka=98; j=0
+	setting residue pointer -- k=98 ; ka=99; j=0
+	setting residue pointer -- k=99 ; ka=100; j=0
+	setting residue pointer -- k=100 ; ka=101; j=0
+	setting residue pointer -- k=101 ; ka=102; j=0
+	setting residue pointer -- k=102 ; ka=103; j=0
+	setting residue pointer -- k=103 ; ka=104; j=0
+	setting residue pointer -- k=104 ; ka=105; j=0
+	setting residue pointer -- k=105 ; ka=106; j=0
+	setting residue pointer -- k=106 ; ka=107; j=0
+	setting residue pointer -- k=107 ; ka=108; j=0
+	setting residue pointer -- k=108 ; ka=109; j=0
+	setting residue pointer -- k=109 ; ka=110; j=0
+	setting residue pointer -- k=110 ; ka=111; j=0
+	setting residue pointer -- k=111 ; ka=112; j=0
+	setting residue pointer -- k=112 ; ka=113; j=0
+	setting residue pointer -- k=113 ; ka=114; j=0
+	setting residue pointer -- k=114 ; ka=115; j=0
+	setting residue pointer -- k=115 ; ka=116; j=0
+	setting residue pointer -- k=116 ; ka=117; j=0
+	setting residue pointer -- k=117 ; ka=118; j=0
+	setting residue pointer -- k=118 ; ka=119; j=0
+	setting residue pointer -- k=119 ; ka=120; j=0
+	setting residue pointer -- k=120 ; ka=121; j=0
+	setting residue pointer -- k=121 ; ka=122; j=0
+	setting residue pointer -- k=122 ; ka=123; j=0
+	setting residue pointer -- k=123 ; ka=124; j=0
+	setting residue pointer -- k=124 ; ka=125; j=0
+	setting residue pointer -- k=125 ; ka=126; j=0
+	setting residue pointer -- k=126 ; ka=127; j=0
+	setting residue pointer -- k=127 ; ka=128; j=0
+	setting residue pointer -- k=128 ; ka=129; j=0
+	setting residue pointer -- k=129 ; ka=130; j=0
+	setting residue pointer -- k=130 ; ka=131; j=0
+	setting residue pointer -- k=131 ; ka=132; j=0
+	setting residue pointer -- k=132 ; ka=133; j=0
+	setting residue pointer -- k=133 ; ka=134; j=0
+	setting residue pointer -- k=134 ; ka=135; j=0
+	setting residue pointer -- k=135 ; ka=136; j=0
+	setting residue pointer -- k=136 ; ka=137; j=0
+	setting residue pointer -- k=137 ; ka=138; j=0
+	setting residue pointer -- k=138 ; ka=139; j=0
+	setting residue pointer -- k=139 ; ka=140; j=0
+	setting residue pointer -- k=140 ; ka=141; j=0
+	setting residue pointer -- k=141 ; ka=142; j=0
+	setting residue pointer -- k=142 ; ka=143; j=0
+	setting residue pointer -- k=143 ; ka=144; j=0
+	setting residue pointer -- k=144 ; ka=145; j=0
+	setting residue pointer -- k=145 ; ka=146; j=0
+	setting residue pointer -- k=146 ; ka=147; j=0
+	setting residue pointer -- k=147 ; ka=148; j=0
+	setting residue pointer -- k=148 ; ka=149; j=0
+	setting residue pointer -- k=149 ; ka=150; j=0
+	setting residue pointer -- k=150 ; ka=151; j=0
+	setting residue pointer -- k=151 ; ka=152; j=0
+	setting residue pointer -- k=152 ; ka=153; j=0
+	setting residue pointer -- k=153 ; ka=154; j=0
+	setting residue pointer -- k=154 ; ka=155; j=0
+	setting residue pointer -- k=155 ; ka=156; j=0
+	setting residue pointer -- k=156 ; ka=157; j=0
+	setting residue pointer -- k=157 ; ka=158; j=0
+	setting residue pointer -- k=158 ; ka=159; j=0
+	setting residue pointer -- k=159 ; ka=160; j=0
+	setting residue pointer -- k=160 ; ka=161; j=0
+	setting residue pointer -- k=161 ; ka=162; j=0
+	setting residue pointer -- k=162 ; ka=163; j=0
+	setting residue pointer -- k=163 ; ka=164; j=0
+	setting residue pointer -- k=164 ; ka=165; j=0
+	setting residue pointer -- k=165 ; ka=166; j=0
+	setting residue pointer -- k=166 ; ka=167; j=0
+	setting residue pointer -- k=167 ; ka=168; j=0
+	setting residue pointer -- k=168 ; ka=169; j=0
+	setting residue pointer -- k=169 ; ka=170; j=0
+	setting residue pointer -- k=170 ; ka=171; j=0
+	setting residue pointer -- k=171 ; ka=172; j=0
+	setting residue pointer -- k=172 ; ka=173; j=0
+	setting residue pointer -- k=173 ; ka=174; j=0
+	setting residue pointer -- k=174 ; ka=175; j=0
+	setting residue pointer -- k=175 ; ka=176; j=0
+	setting residue pointer -- k=176 ; ka=177; j=0
+	setting residue pointer -- k=177 ; ka=178; j=0
+	setting residue pointer -- k=178 ; ka=179; j=0
+	setting residue pointer -- k=179 ; ka=180; j=0
+	setting residue pointer -- k=180 ; ka=181; j=0
+	setting residue pointer -- k=181 ; ka=182; j=0
+	setting residue pointer -- k=182 ; ka=183; j=0
+	setting residue pointer -- k=183 ; ka=184; j=0
+	setting residue pointer -- k=184 ; ka=185; j=0
+	setting residue pointer -- k=185 ; ka=186; j=0
+	setting residue pointer -- k=186 ; ka=187; j=0
+	setting residue pointer -- k=187 ; ka=188; j=0
+	setting residue pointer -- k=188 ; ka=189; j=0
+	setting residue pointer -- k=189 ; ka=190; j=0
+	setting residue pointer -- k=190 ; ka=191; j=0
+	setting residue pointer -- k=191 ; ka=192; j=0
+	setting residue pointer -- k=192 ; ka=193; j=0
+	setting residue pointer -- k=193 ; ka=194; j=0
+	setting residue pointer -- k=194 ; ka=195; j=0
+	setting residue pointer -- k=195 ; ka=196; j=0
+	setting residue pointer -- k=196 ; ka=197; j=0
+	setting residue pointer -- k=197 ; ka=198; j=0
+	setting residue pointer -- k=198 ; ka=199; j=0
+	setting residue pointer -- k=199 ; ka=200; j=0
+	setting residue pointer -- k=200 ; ka=201; j=0
+	setting residue pointer -- k=201 ; ka=202; j=0
+	setting residue pointer -- k=202 ; ka=203; j=0
+	setting residue pointer -- k=203 ; ka=204; j=0
+	setting residue pointer -- k=204 ; ka=205; j=0
+	setting residue pointer -- k=205 ; ka=206; j=0
+	setting residue pointer -- k=206 ; ka=207; j=0
+	setting residue pointer -- k=207 ; ka=208; j=0
+	setting residue pointer -- k=208 ; ka=209; j=0
+	setting residue pointer -- k=209 ; ka=210; j=0
+	setting residue pointer -- k=210 ; ka=211; j=0
+	setting residue pointer -- k=211 ; ka=212; j=0
+	setting residue pointer -- k=212 ; ka=213; j=0
+	setting residue pointer -- k=213 ; ka=214; j=0
+	setting residue pointer -- k=214 ; ka=215; j=0
+	setting residue pointer -- k=215 ; ka=216; j=0
+	setting residue pointer -- k=216 ; ka=217; j=0
+	setting residue pointer -- k=217 ; ka=218; j=0
+	setting residue pointer -- k=218 ; ka=219; j=0
+	setting residue pointer -- k=219 ; ka=220; j=0
+	setting residue pointer -- k=220 ; ka=221; j=0
+	setting residue pointer -- k=221 ; ka=222; j=0
+	setting residue pointer -- k=222 ; ka=223; j=0
+	setting residue pointer -- k=223 ; ka=224; j=0
+	setting residue pointer -- k=224 ; ka=225; j=0
+	setting residue pointer -- k=225 ; ka=226; j=0
+	setting residue pointer -- k=226 ; ka=227; j=0
+	setting residue pointer -- k=227 ; ka=228; j=0
+	setting residue pointer -- k=228 ; ka=229; j=0
+	setting residue pointer -- k=229 ; ka=230; j=0
+	setting residue pointer -- k=230 ; ka=231; j=0
+	setting residue pointer -- k=231 ; ka=232; j=0
+PDB Information Successfully Read.
+Entered the FUNction
+finished

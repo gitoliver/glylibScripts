@@ -1,0 +1,74 @@
+Clash Area For Resid No.6 Atom_Name:C1 is   4.7 
+ ...Clashing with Resid No.2 Atom_Name:C3 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C1 is   8.1 
+ ...Clashing with Resid No.2 Atom_Name:O3 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O5 is   2.8 
+ ...Clashing with Resid No.2 Atom_Name:O3 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O5 is   4.7 
+ ...Clashing with Resid No.2 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O5 is   4.5 
+ ...Clashing with Resid No.3 Atom_Name:C1 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O5 is   2.4 
+ ...Clashing with Resid No.3 Atom_Name:C2 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O5 is   4.6 
+ ...Clashing with Resid No.3 Atom_Name:xx in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   2.9 
+ ...Clashing with Resid No.2 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   6.7 
+ ...Clashing with Resid No.3 Atom_Name:C1 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   3.6 
+ ...Clashing with Resid No.3 Atom_Name:C2 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   4.5 
+ ...Clashing with Resid No.3 Atom_Name:C4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   7.8 
+ ...Clashing with Resid No.3 Atom_Name:C5 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   5.1 
+ ...Clashing with Resid No.3 Atom_Name:C6 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   3.9 
+ ...Clashing with Resid No.3 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   9.6 
+ ...Clashing with Resid No.3 Atom_Name:xx in the receptor.
+Clash Area For Resid No.6 Atom_Name:C5 is   2.8 
+ ...Clashing with Resid No.3 Atom_Name:O6 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   2.0 
+ ...Clashing with Resid No.2 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   9.1 
+ ...Clashing with Resid No.3 Atom_Name:C1 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   9.1 
+ ...Clashing with Resid No.3 Atom_Name:C2 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   9.1 
+ ...Clashing with Resid No.3 Atom_Name:C3 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is  11.2 
+ ...Clashing with Resid No.3 Atom_Name:C4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is  11.1 
+ ...Clashing with Resid No.3 Atom_Name:C5 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   4.3 
+ ...Clashing with Resid No.3 Atom_Name:C6 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   6.7 
+ ...Clashing with Resid No.3 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C6 is   8.8 
+ ...Clashing with Resid No.3 Atom_Name:xx in the receptor.
+Clash Area For Resid No.6 Atom_Name:C4 is   3.9 
+ ...Clashing with Resid No.3 Atom_Name:C5 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C4 is   5.7 
+ ...Clashing with Resid No.3 Atom_Name:C6 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C4 is   3.9 
+ ...Clashing with Resid No.3 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:C4 is   3.8 
+ ...Clashing with Resid No.3 Atom_Name:xx in the receptor.
+Clash Area For Resid No.6 Atom_Name:C4 is   7.1 
+ ...Clashing with Resid No.3 Atom_Name:O6 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O4 is   5.2 
+ ...Clashing with Resid No.3 Atom_Name:O4 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O4 is   3.1 
+ ...Clashing with Resid No.3 Atom_Name:O6 in the receptor.
+Clash Area For Resid No.6 Atom_Name:O4 is   4.4 
+ ...Clashing with Resid No.225 Atom_Name:CZ in the receptor.
+Clash Area For Resid No.6 Atom_Name:O4 is   2.9 
+ ...Clashing with Resid No.225 Atom_Name:CH in the receptor.
+Clash Area For Resid No.6 Atom_Name:C3 is   3.3 
+ ...Clashing with Resid No.155 Atom_Name:OH in the receptor.
+Clash Area For Resid No.6 Atom_Name:O3 is   6.4 
+ ...Clashing with Resid No.155 Atom_Name:OH in the receptor.
+Clash Area For Resid No.6 Atom_Name:C2 is   3.5 
+ ...Clashing with Resid No.2 Atom_Name:O3 in the receptor.

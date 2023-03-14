@@ -1,0 +1,58 @@
+# written by oliver grant from tables in ch 1 of conformation of carbohydrates by Rao et al. 1998.
+
+# this cannot be read in. see lookuptable.txt for correct format.
+# NOTE there must be a space at the end of each of the lines.
+
+# D means down, U means up
+# a means this atom determines alpha or beta sugar (can be O1 or O2)
+# - means this atom is present in the sugar but does not define sugar ring type
+# x means this atom is not present in the sugar
+# Rng can be a furanose(f) or a pyranose(p)
+
+
+Name  Rng   O1  O2  O3  O4  O5  C5  C6
+#Aldo-pyranoses-Pentoses
+D-Rib   p   a   D   D   D   -   -   x
+D-Ara   p   a   U   D   D   -   -   x
+D-Xyl   p   a   D   U   D   -   -   x
+D-Lyx   p   a   U   U   D   -   -   x
+#Aldo-pyranoses-Hexoses
+D-All   p   a   D   D   D   D   -   U
+D-Alt   p   a   U   D   D   D   -   U
+D-Glu   p   a   D   U   D   D   -   U
+D-Man   p   a   U   U   D   D   -   U
+D-Gul   p   a   D   D   U   D   -   U
+D-Ido   p   a   U   D   U   D   -   U
+D-Gal   p   a   D   U   U   D   -   U
+D-Tal   p   a   U   U   U   D   -   U
+#Keto-pyranoses-Hexoses
+D-Psi   p   -   a   D   D   D   -   -
+D-Fru   p   -   a   U   D   D   -   -
+D-Sor   p   -   a   D   U   D   -   -
+D-Tag   p   -   a   U   U   D   -   -
+#Aldo-furanoses-Tetroses
+D-Ery   f   a   D   D   -   x   x   x
+#Aldo-furanoses-Pentoses
+D-Rib   f   a   D   D   -   -   U   x
+D-Ara   f   a   U   D   -   -   U   x
+D-Xyl   f   a   D   U   -   -   U   x
+D-Lyx   f   a   U   U   -   -   U   x
+#Aldo-furanoses-Hexoses
+D-All   f   a   D   D   -   -   U   -
+D-Alt   f   a   U   D   -   -   U   -
+D-Glu   f   a   D   U   -   -   U   -
+D-Man   f   a   U   U   -   -   U   -
+D-Gul   f   a   D   D   -   -   D   -
+D-Ido   f   a   U   D   -   -   D   -
+D-Gal   f   a   D   U   -   -   D   -
+D-Tal   f   a   U   U   -   -   D   -
+#Keto-furanoses-Pentoses
+D-Riu   f   -   a   D   D   -   -   x    #Riu is ribulose 
+D-Xyu   f   -   a   U   D   -   -   x    #Xyu is Xylulose
+#Keto-furanoses-Hexoses    
+D-Psi   f   -   a   D   D   -   -   U
+D-Fru   f   -   a   D   D   -   -   U
+D-Sor   f   -   a   D   D   -   -   U
+D-Tag   f   -   a   D   D   -   -   U
+Name  Rng   O1  O2  O3  O4  O5  C5  C6
+

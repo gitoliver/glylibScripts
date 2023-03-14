@@ -1,0 +1,47 @@
+3.housekeeping.sh_2.0:mv RESULTS_library_search/*budcore*Clash*total* Clashes/3.ALL
+3.housekeeping.sh_2.0:mv RESULTS_library_search/*budcore* Structures/
+3.housekeeping.sh_2.0:grep "budcore" * > TOTAL.txt
+grafting.bak:					write=0; // resid is a budcore and we don't want to waste time starting there.
+grafting.bak:			if (write==1){ // if resid wasn't a budcore residue
+grafting.bak1:					write=0; // resid is a budcore and we don't want to waste time starting there.
+grafting.bak1:			if (write==1){ // if resid wasn't a budcore residue
+grafting.bak2:					write=0; // resid is a budcore and we don't want to waste time starting there.
+grafting.bak2:			if (write==1){ // if resid wasn't a budcore residue
+grafting.bak3:					write=0; // resid is a budcore and we don't want to waste time starting there.
+grafting.bak3:			if (write==1){ // if resid wasn't a budcore residue
+grafting.bak4:					write=0; // resid is a budcore and we don't want to waste time starting there.
+grafting.bak4:			if (write==1){ // if resid wasn't a budcore residue
+grafting.c:// nbc = n0_budcores
+grafting.c:int n0_budcores=0; // number of budcores (sequences which match template) in a Library Glycan
+grafting.c:int budcore[30][30]; // budcore[budcoreNumber][residuenumber]
+grafting.c:int n0match; // number of residues which match template. when=TnumRes we have a budcore
+grafting.c:int TtoLG[40][40]; // TtoLG[TResidueNumber][budcorenumber]=LGResidueNumber that matches
+grafting.c:	n0_budcores=0;
+grafting.c:			TtoLG[atoi(Ttable[1][6])][n0_budcores]=atoi(LGtable[j][6]);
+grafting.c:			x=is_A_in_B(&n0match, 1, Ttable, TnumRes, j, LGtable, n0LGres, LG_neighbr, TtoLG, n0_budcores);
+grafting.c:			if (x==TnumRes){ // if success and this is a budcore
+grafting.c:		//		printf("LGtable[%d] is a budcore\n\n",j);
+grafting.c:				n0_budcores++;
+grafting.c:					budcore[n0_budcores][k]=LG_neighbr[k];
+grafting.c:	printf("n0_budcores in library glycan=%d\n",n0_budcores);
+grafting.c:	for (z=1;z<=n0_budcores;z++){
+grafting.c:		// Each budcore will have it's own complete output structure GR
+grafting.c:		// rename_GR(assembly *GR,assembly LG,TtoLG[][n0_budcores]
+grafting.c:		//rename_GR(&GR,LG,TtoLG[][n0_budcores]); // rename Tcore resids in Gr so they match LG naming
+grafting.c:					//printf("budcore[%d]=%d\n",k,budcore[z][k]);
+grafting.c:					if (x==budcore[z][k]){
+grafting.c:						write=0; // resid is a budcore and we don't want to waste time starting there.
+grafting.c:				if (write==1){ // if resid wasn't a budcore residue
+grafting.c:			if (lowest_core_rn>budcore[z][k]){
+grafting.c:				lowest_core_rn=budcore[z][k];
+grafting.c:					if(current_rn==budcore[z][l]){
+grafting.c:                        sprintf(branchoutname, "%s%s%d%s%d%s", d_list[i],"_budcore_",budcore[z][0],"_branch_", 0, ".pdb");
+grafting.c:			sprintf(branchoutname, "%s%s%d%s%d%s", d_list[i],"_budcore_",budcore[z][0],"_branch_", (j+1), ".pdb");
+grafting.c:		sprintf(branchoutname, "%s%s%d%s", d_list[i],"_budcore_",budcore[z][0], ".pdb");
+grafting.c:		sprintf(branchoutname, "%s%s%d%s", d_list[i],"_budcore_",budcore[z][0], "_Clash_results_total.txt");
+grafting.c:                fprintf(pFile,"Clash Area For budcore No.%d is %5.1f\n",budcore[z][0],total_overlap);
+Binary file grafting.exe matches
+log.file:n0_budcores in library glycan=3
+log.file:n0_budcores in library glycan=1
+log.file:n0_budcores in library glycan=1
+log.file1:n0_budcores in library glycan=1

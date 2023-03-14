@@ -1,0 +1,4 @@
+#!/bin/bash
+num=`pbsnodes -a | grep -c free`
+
+echo "Number of free cpus=$((num*8)), which is $num nodes"

@@ -1,0 +1,21 @@
+#/usr/bin/env bash
+
+rm -rf Structures/ Clashes/ > /dev/null 2>&1
+
+mkdir Structures/
+mkdir Clashes/
+mkdir Clashes/0.atoms
+mkdir Clashes/1.resid
+mkdir Clashes/2.total
+
+
+mv RESULTS_library_search/*Clash*atoms* Clashes/0.atoms
+mv RESULTS_library_search/*Clash*resid* Clashes/1.resid
+mv RESULTS_library_search/*Clash*branch* Clashes/2.total
+
+mv RESULTS_library_search/*budcore* Structures/
+
+cd Clashes/2.total/
+grep "Total" * > TOTAL.txt
+
+echo "done!"

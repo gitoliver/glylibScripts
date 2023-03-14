@@ -1,0 +1,17 @@
+Protein:
+gp120.pdb
+
+Glycans:
+glycans/
+
+Protein Residue list:
+109
+347
+585
+END
+
+Glycan id list:
+m9
+m9
+m9
+END

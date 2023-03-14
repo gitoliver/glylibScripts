@@ -1,0 +1,2 @@
+290_noH.pdb_motif_1_budcore_1_branch_ALL_Clash_results_total.txt:budcore1:698
+290_noH.pdb_motif_1_budcore_2_branch_ALL_Clash_results_total.txt:budcore2:130

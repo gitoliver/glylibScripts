@@ -1,0 +1,14 @@
+Clash Area For Resid No.9 Atom_Name:C1 is 5.456804 
+ ...Clashing with Resid No.2 Atom_Name:C2 in the receptor.
+Clash Area For Resid No.9 Atom_Name:C1 is 8.247276 
+ ...Clashing with Resid No.2 Atom_Name:O2 in the receptor.
+Clash Area For Resid No.9 Atom_Name:O5 is 3.146481 
+ ...Clashing with Resid No.2 Atom_Name:O2 in the receptor.
+Clash Area For Resid No.9 Atom_Name:C5 is 3.140216 
+ ...Clashing with Resid No.1 Atom_Name:O1 in the receptor.
+Clash Area For Resid No.9 Atom_Name:C5 is 3.140216 
+ ...Clashing with Resid No.2 Atom_Name:O1 in the receptor.
+Clash Area For Resid No.9 Atom_Name:O3 is 3.651911 
+ ...Clashing with Resid No.58 Atom_Name:OG in the receptor.
+Clash Area For Resid No.9 Atom_Name:C2 is 3.969643 
+ ...Clashing with Resid No.2 Atom_Name:O2 in the receptor.

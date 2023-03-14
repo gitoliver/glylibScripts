@@ -1,0 +1,119 @@
+TnumRes=4
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+70_noH.pdb
+.
+..
+d_list[0]=./RESULTS_library_search/70_noH.pdb
+
+Reading in ./RESULTS_library_search/70_noH.pdb...
+There are 7 molecule(s)
+PDB Information Successfully Read.
+numfiles=1
+filesleft=1
+Number of residues in glycan library file, n0LGres=11
+Checking LGtable[1][6]=2
+TnumRes=4 j=1
+pn0match=1, A_ln=1, Resid to be checked=YB, An0lines=4, B_ln=1 
+A_table[1][3]=1,A_table[A_ln][6]=2
+A_table[2][3]=2,A_table[A_ln][6]=2
+
+
+A rn=5 rN=0fA:
+B rn=11 rN=0fA ...MATCH! number=2
+pn0match=2, A_ln=2, Resid to be checked=fA, An0lines=4, B_ln=2 
+A_table[1][3]=1,A_table[A_ln][6]=5
+A_table[2][3]=2,A_table[A_ln][6]=5
+A_table[3][3]=2,A_table[A_ln][6]=5
+A_table[4][3]=3,A_table[A_ln][6]=5
+
+B rn=3 rN=3LB A_table[3][3]=2,A_table[A_ln][6]=2
+
+
+A rn=3 rN=2LB:
+B rn=11 rN=0fA 
+B rn=3 rN=3LB ...MATCH! number=3
+pn0match=3, A_ln=3, Resid to be checked=LB, An0lines=4, B_ln=3 
+A_table[1][3]=1,A_table[A_ln][6]=3
+A_table[2][3]=2,A_table[A_ln][6]=3
+A_table[3][3]=2,A_table[A_ln][6]=3
+A_table[4][3]=3,A_table[A_ln][6]=3
+
+
+A rn=4 rN=0fA:
+B rn=4 rN=WYB A_table[4][3]=3,A_table[A_ln][6]=2
+x=3
+Checking LGtable[4][6]=4
+TnumRes=4 j=4
+pn0match=1, A_ln=1, Resid to be checked=YB, An0lines=4, B_ln=4 
+A_table[1][3]=1,A_table[A_ln][6]=2
+A_table[2][3]=2,A_table[A_ln][6]=2
+
+
+A rn=5 rN=0fA:
+B rn=10 rN=0fA ...MATCH! number=2
+pn0match=2, A_ln=2, Resid to be checked=fA, An0lines=4, B_ln=5 
+A_table[1][3]=1,A_table[A_ln][6]=5
+A_table[2][3]=2,A_table[A_ln][6]=5
+A_table[3][3]=2,A_table[A_ln][6]=5
+A_table[4][3]=3,A_table[A_ln][6]=5
+
+B rn=5 rN=3LB A_table[3][3]=2,A_table[A_ln][6]=2
+
+
+A rn=3 rN=2LB:
+B rn=10 rN=0fA 
+B rn=5 rN=3LB ...MATCH! number=3
+pn0match=3, A_ln=3, Resid to be checked=LB, An0lines=4, B_ln=6 
+A_table[1][3]=1,A_table[A_ln][6]=3
+A_table[2][3]=2,A_table[A_ln][6]=3
+A_table[3][3]=2,A_table[A_ln][6]=3
+A_table[4][3]=3,A_table[A_ln][6]=3
+
+
+A rn=4 rN=0fA:
+B rn=6 rN=WYB A_table[4][3]=3,A_table[A_ln][6]=2
+x=3
+Checking LGtable[7][6]=6
+TnumRes=4 j=7
+pn0match=1, A_ln=1, Resid to be checked=YB, An0lines=4, B_ln=7 
+A_table[1][3]=1,A_table[A_ln][6]=2
+A_table[2][3]=2,A_table[A_ln][6]=2
+
+
+A rn=5 rN=0fA:
+B rn=9 rN=0fA ...MATCH! number=2
+pn0match=2, A_ln=2, Resid to be checked=fA, An0lines=4, B_ln=8 
+A_table[1][3]=1,A_table[A_ln][6]=5
+A_table[2][3]=2,A_table[A_ln][6]=5
+A_table[3][3]=2,A_table[A_ln][6]=5
+A_table[4][3]=3,A_table[A_ln][6]=5
+
+B rn=7 rN=2LB A_table[3][3]=2,A_table[A_ln][6]=2
+
+
+A rn=3 rN=2LB:
+B rn=9 rN=0fA 
+B rn=7 rN=2LB ...MATCH! number=3
+pn0match=3, A_ln=3, Resid to be checked=LB, An0lines=4, B_ln=9 
+A_table[1][3]=1,A_table[A_ln][6]=3
+A_table[2][3]=2,A_table[A_ln][6]=3
+A_table[3][3]=2,A_table[A_ln][6]=3
+A_table[4][3]=3,A_table[A_ln][6]=3
+
+
+A rn=4 rN=0fA:
+B rn=8 rN=0fA ...MATCH! number=4
+pn0match=4, A_ln=4, Resid to be checked=fA, An0lines=4, B_ln=10 
+A_table[1][3]=1,A_table[A_ln][6]=4
+A_table[2][3]=2,A_table[A_ln][6]=4
+A_table[3][3]=2,A_table[A_ln][6]=4
+A_table[4][3]=3,A_table[A_ln][6]=4
+A_table[4][3]=3,A_table[A_ln][6]=2
+x=4
+BUDCORE!
+n0_budcores in library glycan=1
+final number of branches=0
+Dealing with CORE2ROH
+Writing file: branch.pdb...

@@ -1,0 +1,10 @@
+echo -e "\n0.grafting_NOwgl"
+sh countCorrBinders.sh 0.grafting_NOwgl
+echo -e "\n1.grafting_5wgl"
+sh countCorrBinders.sh 1.grafting_5wgl
+echo -e "\n2.grafting_10wgl"
+sh countCorrBinders.sh 2.grafting_10wgl
+echo -e "\n3.grafting_15wgl"
+sh countCorrBinders.sh 3.grafting_15wgl
+echo -e "\n4.grafting_20wgl"
+sh countCorrBinders.sh 4.grafting_20wgl

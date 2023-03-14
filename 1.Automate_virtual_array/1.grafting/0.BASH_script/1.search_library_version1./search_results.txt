@@ -1,0 +1,5 @@
+./RESULTS_library_search/glycam_1_27_2011_545_MIN_noH_formatted.pdb
+./RESULTS_library_search/test1.pdb
+./RESULTS_library_search/lib2_1083_1_27_2011_MIN_formatted.pdb
+./RESULTS_library_search/glycam_1_27_2011_412_MIN_noH_formatted.pdb
+./RESULTS_library_search/super_test1.pdb

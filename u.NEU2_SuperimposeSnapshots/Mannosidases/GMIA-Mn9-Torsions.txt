@@ -1,0 +1,24 @@
+
+Torsions - GMIA-Mn9						Actual		Expected (Predominant in the PDB)
+M3-G2 Manb1-4GlcNAcb
+NAG 651.B C5 -> NAG 651.B C4 -> NAG 651.B O4 -> BMA 652.B C1:  -108.49	Psi	-120
+BMA 652.B O5 -> BMA 652.B C1 -> NAG 651.B O4 -> NAG 651.B C4:    47.19!	Phi	-70 to -120
+
+M4-M3 Mana1-6Manb
+BMA 652.B O5 -> BMA 652.B C5 -> BMA 652.B C6 -> BMA 652.B O6:   -55.70	Omg	-60, +60
+BMA 652.B C5 -> BMA 652.B C6 -> BMA 652.B O6 -> MAN 649.B C1:  -177.37	Psi	+60 to +180
+BMA 652.B C6 -> BMA 652.B O6 -> MAN 649.B C1 -> MAN 649.B O5:    62.05	Phi	+60
+
+M6-M4 Mana1-6Mana
+MAN 649.B O5 -> MAN 649.B C5 -> MAN 649.B C6 -> MAN 649.B O6:   -78.69	Omg      -60, 60,
+MAN 649.B C5 -> MAN 649.B C6 -> MAN 649.B O6 -> MAN 650.B C1:   174.80  Psi      180,
+MAN 649.B C6 -> MAN 649.B O6 -> MAN 650.B C1 -> MAN 650.B O5:    58.82  Phi      60, -60, 180
+
+M5-M3 Mana1-3Manb
+BMA 652.B C4 -> BMA 652.B C3 -> BMA 652.B O3 -> MAN 653.B C1:   159.63  Psi      85 to 160
+BMA 652.B C3 -> BMA 652.B O3 -> MAN 653.B C1 -> MAN 653.B O5:    83.14  Phi      60 to 110
+
+M8-M5 Mana1-2Mana
+MAN 653.B C3 -> MAN 653.B C2 -> MAN 653.B O2 -> MAN 654.B C1:   145.30  Psi      60, 130 to 170
+MAN 653.B C2 -> MAN 653.B O2 -> MAN 654.B C1 -> MAN 654.B O5:    57.88  Phi      60 to 110
+

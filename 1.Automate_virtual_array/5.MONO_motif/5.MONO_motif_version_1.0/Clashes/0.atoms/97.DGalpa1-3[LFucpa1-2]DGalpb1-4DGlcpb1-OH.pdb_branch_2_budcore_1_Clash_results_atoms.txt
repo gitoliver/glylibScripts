@@ -1,0 +1,56 @@
+Clash Area For Resid No.4 Atom_Name:C1 is 4.792781 
+ ...Clashing with Resid No.2 Atom_Name:C3 in the receptor.
+Clash Area For Resid No.4 Atom_Name:C1 is 8.066080 
+ ...Clashing with Resid No.2 Atom_Name:O3 in the receptor.
+Clash Area For Resid No.4 Atom_Name:C1 is 2.349714 
+ ...Clashing with Resid No.168 Atom_Name:CE in the receptor.
+Clash Area For Resid No.4 Atom_Name:C1 is 2.423549 
+ ...Clashing with Resid No.168 Atom_Name:NE in the receptor.
+Clash Area For Resid No.4 Atom_Name:C2 is 3.446025 
+ ...Clashing with Resid No.2 Atom_Name:O3 in the receptor.
+Clash Area For Resid No.4 Atom_Name:C2 is 4.198833 
+ ...Clashing with Resid No.59 Atom_Name:CG in the receptor.
+Clash Area For Resid No.4 Atom_Name:C2 is 4.365420 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:C2 is 4.488079 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:C2 is 8.442812 
+ ...Clashing with Resid No.168 Atom_Name:CE in the receptor.
+Clash Area For Resid No.4 Atom_Name:C2 is 4.590837 
+ ...Clashing with Resid No.168 Atom_Name:NE in the receptor.
+Clash Area For Resid No.4 Atom_Name:O2 is 3.342617 
+ ...Clashing with Resid No.168 Atom_Name:CG in the receptor.
+Clash Area For Resid No.4 Atom_Name:O2 is 5.887224 
+ ...Clashing with Resid No.168 Atom_Name:ND in the receptor.
+Clash Area For Resid No.4 Atom_Name:O2 is 4.940858 
+ ...Clashing with Resid No.168 Atom_Name:CD in the receptor.
+Clash Area For Resid No.4 Atom_Name:O2 is 16.642637 
+ ...Clashing with Resid No.168 Atom_Name:CE in the receptor.
+Clash Area For Resid No.4 Atom_Name:O2 is 9.683020 
+ ...Clashing with Resid No.168 Atom_Name:NE in the receptor.
+Clash Area For Resid No.4 Atom_Name:C3 is 5.128689 
+ ...Clashing with Resid No.59 Atom_Name:CG in the receptor.
+Clash Area For Resid No.4 Atom_Name:C3 is 8.325276 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:C3 is 4.442587 
+ ...Clashing with Resid No.168 Atom_Name:CE in the receptor.
+Clash Area For Resid No.4 Atom_Name:O3 is 2.049452 
+ ...Clashing with Resid No.59 Atom_Name:CB in the receptor.
+Clash Area For Resid No.4 Atom_Name:O3 is 6.710311 
+ ...Clashing with Resid No.59 Atom_Name:CG in the receptor.
+Clash Area For Resid No.4 Atom_Name:O3 is 9.657146 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:O3 is 2.328237 
+ ...Clashing with Resid No.168 Atom_Name:CE in the receptor.
+Clash Area For Resid No.4 Atom_Name:C4 is 3.349816 
+ ...Clashing with Resid No.59 Atom_Name:CG in the receptor.
+Clash Area For Resid No.4 Atom_Name:C4 is 6.602061 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:O4 is 5.598998 
+ ...Clashing with Resid No.59 Atom_Name:CG in the receptor.
+Clash Area For Resid No.4 Atom_Name:O4 is 2.372807 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:O4 is 5.695339 
+ ...Clashing with Resid No.59 Atom_Name:OD in the receptor.
+Clash Area For Resid No.4 Atom_Name:O5 is 2.791811 
+ ...Clashing with Resid No.2 Atom_Name:O3 in the receptor.

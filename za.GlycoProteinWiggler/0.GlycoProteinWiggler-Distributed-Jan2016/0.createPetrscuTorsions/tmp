@@ -1,0 +1,152 @@
+Program must now print a,b,c or there is something wrong with your input pdb file
+c
+b
+a
+Petrescu1: t Conformer. 49.7 percent pop
+cb.i=1.382, cb.j=0.469, cb.k=-0.220
+ba.i=0.863, ba.j=-0.419, ba.k=1.128
+x_p=0.211, y_p=-1.346, z_p=-0.674
+lmn_x.i=-0.279, lmn_x.j=0.417, lmn_x.k=-0.865
+lmn_y.i=-0.213, lmn_y.j=0.852, lmn_y.k=0.479
+lmn_z.i=0.936, lmn_z.j=0.318, lmn_z.k=-0.149
+HETATM    1  CG  NLN     1      -1.251  -0.827  -3.599  1.00  0.00
+cb.i=0.404, cb.j=1.272, cb.k=0.727
+ba.i=1.382, ba.j=0.469, ba.k=-0.220
+x_p=1.361, y_p=0.064, z_p=-0.674
+lmn_x.i=-0.913, lmn_x.j=0.059, lmn_x.k=0.403
+lmn_y.i=0.309, lmn_y.j=-0.544, lmn_y.k=0.780
+lmn_z.i=0.265, lmn_z.j=0.837, lmn_z.k=0.479
+HETATM    1  CB  NLN     1      -2.653  -1.345  -3.323  1.00  0.00
+cb.i=1.402, cb.j=0.518, cb.k=-0.276
+ba.i=0.404, ba.j=1.272, ba.k=0.727
+x_p=1.361, y_p=0.057, z_p=-0.674
+lmn_x.i=0.160, lmn_x.j=-0.765, lmn_x.k=-0.624
+lmn_y.i=-0.351, lmn_y.j=0.546, lmn_y.k=-0.760
+lmn_z.i=0.922, lmn_z.j=0.341, lmn_z.k=-0.182
+HETATM    1  CA  NLN     1      -3.076  -2.585  -4.093  1.00  0.00
+cb.i=0.424, cb.j=1.240, cb.k=0.770
+ba.i=1.402, ba.j=0.518, ba.k=-0.276
+x_p=1.335, y_p=-0.274, z_p=-0.674
+lmn_x.i=-0.891, lmn_x.j=0.023, lmn_x.k=0.453
+lmn_y.i=0.358, lmn_y.j=-0.578, lmn_y.k=0.734
+lmn_z.i=0.279, lmn_z.j=0.816, lmn_z.k=0.507
+HETATM    1  N   NLN     1      -4.552  -2.946  -4.031  1.00  0.00
+cb.i=-1.402, cb.j=-0.518, cb.k=0.276
+ba.i=1.806, ba.j=1.790, ba.k=0.451
+x_p=1.363, y_p=0.000, z_p=-0.674
+lmn_x.i=0.160, lmn_x.j=-0.765, lmn_x.k=-0.624
+lmn_y.i=0.351, lmn_y.j=-0.546, lmn_y.k=0.760
+lmn_z.i=-0.922, lmn_z.j=-0.341, lmn_z.k=0.182
+HETATM    1  OD1 NLN     1      -0.411  -1.640  -4.571  1.00  0.00
+HETATM    1  ND2 NLN     1      -0.847   0.445  -2.872  1.00  0.00
+Petrescu2: Ga- Conformer. 23.5 percent pop
+cb.i=1.382, cb.j=0.469, cb.k=-0.220
+ba.i=0.863, ba.j=-0.419, ba.k=1.128
+x_p=0.047, y_p=-1.362, z_p=-0.674
+lmn_x.i=-0.279, lmn_x.j=0.417, lmn_x.k=-0.865
+lmn_y.i=-0.213, lmn_y.j=0.852, lmn_y.k=0.479
+lmn_z.i=0.936, lmn_z.j=0.318, lmn_z.k=-0.149
+HETATM    1  CG  NLN     1      -1.201  -0.909  -3.465  1.00  0.00
+cb.i=0.354, cb.j=1.354, cb.k=0.593
+ba.i=1.382, ba.j=0.469, ba.k=-0.220
+x_p=1.353, y_p=0.164, z_p=-0.674
+lmn_x.i=-0.929, lmn_x.j=0.086, lmn_x.k=0.359
+lmn_y.i=0.286, lmn_y.j=-0.446, lmn_y.k=0.848
+lmn_z.i=0.233, lmn_z.j=0.891, lmn_z.k=0.390
+HETATM    1  CB  NLN     1      -2.569  -1.466  -3.103  1.00  0.00
+cb.i=1.367, cb.j=0.557, cb.k=-0.362
+ba.i=0.354, ba.j=1.354, ba.k=0.593
+x_p=1.213, y_p=0.621, z_p=-0.674
+lmn_x.i=0.185, lmn_x.j=-0.813, lmn_x.k=-0.553
+lmn_y.i=-0.396, lmn_y.j=0.453, lmn_y.k=-0.799
+lmn_z.i=0.900, lmn_z.j=0.366, lmn_z.k=-0.238
+HETATM    1  CA  NLN     1      -3.196  -2.417  -4.109  1.00  0.00
+cb.i=0.628, cb.j=0.951, cb.k=1.006
+ba.i=1.367, ba.j=0.557, ba.k=-0.362
+x_p=-0.479, y_p=-1.275, z_p=-0.674
+lmn_x.i=-0.799, lmn_x.j=-0.099, lmn_x.k=0.593
+lmn_y.i=0.437, lmn_y.j=-0.774, lmn_y.k=0.459
+lmn_z.i=0.413, lmn_z.j=0.626, lmn_z.k=0.662
+HETATM    1  N   NLN     1      -3.648  -1.804  -5.425  1.00  0.00
+cb.i=-1.367, cb.j=-0.557, cb.k=0.362
+ba.i=1.722, ba.j=1.911, ba.k=0.231
+x_p=1.363, y_p=0.000, z_p=-0.674
+lmn_x.i=0.185, lmn_x.j=-0.813, lmn_x.k=-0.553
+lmn_y.i=0.396, lmn_y.j=-0.453, lmn_y.k=0.799
+lmn_z.i=-0.900, lmn_z.j=-0.366, lmn_z.k=0.238
+HETATM    1  OD1 NLN     1      -0.344  -1.769  -4.379  1.00  0.00
+HETATM    1  ND2 NLN     1      -0.847   0.445  -2.872  1.00  0.00
+Petrescu3: G+ Conformer. 17.8 percent pop
+cb.i=1.382, cb.j=0.469, cb.k=-0.220
+ba.i=0.863, ba.j=-0.419, ba.k=1.128
+x_p=0.382, y_p=-1.308, z_p=-0.674
+lmn_x.i=-0.279, lmn_x.j=0.417, lmn_x.k=-0.865
+lmn_y.i=-0.213, lmn_y.j=0.852, lmn_y.k=0.479
+lmn_z.i=0.936, lmn_z.j=0.318, lmn_z.k=-0.149
+HETATM    1  CG  NLN     1      -1.306  -0.723  -3.729  1.00  0.00
+cb.i=0.459, cb.j=1.168, cb.k=0.857
+ba.i=1.382, ba.j=0.469, ba.k=-0.220
+x_p=1.362, y_p=0.036, z_p=-0.674
+lmn_x.i=-0.895, lmn_x.j=0.026, lmn_x.k=0.445
+lmn_y.i=0.328, lmn_y.j=-0.639, lmn_y.k=0.696
+lmn_z.i=0.302, lmn_z.j=0.769, lmn_z.k=0.564
+HETATM    1  CB  NLN     1      -2.718  -1.229  -3.478  1.00  0.00
+cb.i=1.411, cb.j=0.506, cb.k=-0.251
+ba.i=0.459, ba.j=1.168, ba.k=0.857
+x_p=1.337, y_p=-0.262, z_p=-0.674
+lmn_x.i=0.122, lmn_x.j=-0.693, lmn_x.k=-0.711
+lmn_y.i=-0.351, lmn_y.j=0.640, lmn_y.k=-0.684
+lmn_z.i=0.928, lmn_z.j=0.333, lmn_z.k=-0.165
+HETATM    1  CA  NLN     1      -3.088  -2.548  -4.137  1.00  0.00
+cb.i=0.370, cb.j=1.318, cb.k=0.659
+ba.i=1.411, ba.j=0.506, ba.k=-0.251
+x_p=-0.606, y_p=1.220, z_p=-0.674
+lmn_x.i=-0.915, lmn_x.j=0.058, lmn_x.k=0.399
+lmn_y.i=0.321, lmn_y.j=-0.494, lmn_y.k=0.808
+lmn_z.i=0.244, lmn_z.j=0.867, lmn_z.k=0.434
+HETATM    1  N   NLN     1      -2.306  -3.770  -3.685  1.00  0.00
+cb.i=-1.411, cb.j=-0.506, cb.k=0.251
+ba.i=1.871, ba.j=1.674, ba.k=0.606
+x_p=1.363, y_p=0.000, z_p=-0.674
+lmn_x.i=0.122, lmn_x.j=-0.693, lmn_x.k=-0.711
+lmn_y.i=0.351, lmn_y.j=-0.640, lmn_y.k=0.684
+lmn_z.i=-0.928, lmn_z.j=-0.333, lmn_z.k=0.165
+HETATM    1  OD1 NLN     1      -0.515  -1.443  -4.809  1.00  0.00
+HETATM    1  ND2 NLN     1      -0.847   0.445  -2.872  1.00  0.00
+Petrescu4: Gb- Conformer. 9 percent pop
+cb.i=1.382, cb.j=0.469, cb.k=-0.220
+ba.i=0.863, ba.j=-0.419, ba.k=1.128
+x_p=0.059, y_p=-1.361, z_p=-0.674
+lmn_x.i=-0.279, lmn_x.j=0.417, lmn_x.k=-0.865
+lmn_y.i=-0.213, lmn_y.j=0.852, lmn_y.k=0.479
+lmn_z.i=0.936, lmn_z.j=0.318, lmn_z.k=-0.149
+HETATM    1  CG  NLN     1      -1.205  -0.904  -3.475  1.00  0.00
+cb.i=0.358, cb.j=1.349, cb.k=0.603
+ba.i=1.382, ba.j=0.469, ba.k=-0.220
+x_p=1.362, y_p=0.045, z_p=-0.674
+lmn_x.i=-0.928, lmn_x.j=0.084, lmn_x.k=0.362
+lmn_y.i=0.288, lmn_y.j=-0.454, lmn_y.k=0.843
+lmn_z.i=0.235, lmn_z.j=0.887, lmn_z.k=0.397
+HETATM    1  CB  NLN     1      -2.614  -1.407  -3.211  1.00  0.00
+cb.i=1.410, cb.j=0.504, cb.k=-0.264
+ba.i=0.358, ba.j=1.349, ba.k=0.603
+x_p=0.353, y_p=-1.316, z_p=-0.674
+lmn_x.i=0.196, lmn_x.j=-0.826, lmn_x.k=-0.529
+lmn_y.i=-0.319, lmn_y.j=0.456, lmn_y.k=-0.831
+lmn_z.i=0.927, lmn_z.j=0.331, lmn_z.k=-0.174
+HETATM    1  CA  NLN     1      -2.751  -2.522  -2.187  1.00  0.00
+cb.i=0.136, cb.j=1.115, cb.k=-1.024
+ba.i=1.410, ba.j=0.504, ba.k=-0.264
+x_p=-0.728, y_p=-1.152, z_p=-0.674
+lmn_x.i=-0.990, lmn_x.j=-0.007, lmn_x.k=-0.139
+lmn_y.i=-0.107, lmn_y.j=0.680, lmn_y.k=0.726
+lmn_z.i=0.090, lmn_z.j=0.733, lmn_z.k=-0.674
+HETATM    1  N   NLN     1      -1.967  -3.794  -2.467  1.00  0.00
+cb.i=-1.410, cb.j=-0.504, cb.k=0.264
+ba.i=1.767, ba.j=1.852, ba.k=0.339
+x_p=1.363, y_p=0.000, z_p=-0.674
+lmn_x.i=0.196, lmn_x.j=-0.826, lmn_x.k=-0.529
+lmn_y.i=0.319, lmn_y.j=-0.456, lmn_y.k=0.831
+lmn_z.i=-0.927, lmn_z.j=-0.331, lmn_z.k=0.174
+HETATM    1  OD1 NLN     1      -0.313  -1.806  -4.313  1.00  0.00
+HETATM    1  ND2 NLN     1      -0.847   0.445  -2.872  1.00  0.00

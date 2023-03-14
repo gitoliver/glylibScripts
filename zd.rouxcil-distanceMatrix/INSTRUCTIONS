@@ -1,0 +1,9 @@
+1.Edit makefile and replace first line:
+GLYHOME = /home/oliver/work/Glylib_May2012
+with your local glylib.
+
+2.In this folder type:
+make
+
+3.Run the clashChecker.exe for instructions:
+./clashChecker.exe 

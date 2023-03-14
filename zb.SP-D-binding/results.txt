@@ -1,0 +1,29 @@
+0MA.2.pdb
+0MA.1.pdb
+..
+.
+Reading in ./snapshots0MA//0MA.1.pdb...
+There are 1 molecule(s)
+WARNING! SETTING BONDS BY DISTANCE.
+PDB Information Successfully Read.
+
+
+Checking ./snapshots0MA//0MA.1.pdb
+Residues (731,769,879) are ~45 Angstrom apart
+
+
+Reading in ./snapshots0MA//0MA.2.pdb...
+There are 1 molecule(s)
+WARNING! SETTING BONDS BY DISTANCE.
+PDB Information Successfully Read.
+
+
+Checking ./snapshots0MA//0MA.2.pdb
+Residues (731,755,841) are ~45 Angstrom apart
+Residues (731,766,843) are ~45 Angstrom apart
+Residues (731,769,879) are ~45 Angstrom apart
+Residues (731,810,854) are ~45 Angstrom apart
+Residues (733,764,876) are ~45 Angstrom apart
+Residues (733,766,846) are ~45 Angstrom apart
+
+

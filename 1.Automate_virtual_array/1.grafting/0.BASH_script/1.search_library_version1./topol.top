@@ -1,0 +1,12 @@
+;
+;	File 'topol.top' was generated
+;	By user: oliver (1000)
+;	On host: rufusruffcutt
+;	At date: Wed Mar  2 12:38:57 2011
+;
+;	This is your topology file
+;	Protein in water
+;
+; Include forcefield parameters
+#include "ffG43a1.itp"
+

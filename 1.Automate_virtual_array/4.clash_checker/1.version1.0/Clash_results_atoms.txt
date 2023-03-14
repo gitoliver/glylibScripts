@@ -1,0 +1,2 @@
+Clash Area For Resid No.302 Atom_Name:O3 is 1.582943 
+ ...Clashing with Resid No.72 Atom_Name:OD in the receptor.

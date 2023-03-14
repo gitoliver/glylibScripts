@@ -1,0 +1,31 @@
+distance between C1 of Mannose in SP-D binding sites is 44.87 Angstrom
+
+Strip out only the 0MA@C1 atoms. Measure distances to 0MA@C1 in other glycans. 
+Keep any with a distance of 45 Angstrom +/- 5. Also check for same distance between each of these residues. Find 3 residues that are each 45 apart from each other.  
+Check if any C-alpha in protein is on opposite side of plane to other C-aplha atoms. If not, BINDER! 
+Report monomer 1,2,3 N-site and residue numbers. Have lookup table and report ACTUAL residue numbers too. 
+
+Monomer 	Residue		0MA residues
+1		N109		720,722,725
+		N190		731,733,736
+2		N109		742,744,747
+		N190		753,755,758
+3		N109		764,766,769
+		N190		775,777,780
+1		N7		786,788,791
+		N70		797,799,802
+		N88		808,810,813
+2		N7		819,821,824
+		N70		830,832,835
+		N88		841,843,846
+3		N7		852,854,857
+		N70		863,865,868
+		N88		874,876,879
+
+				Pattern
+				--,+2,+3
+				+6,+2,+3, etc
+				In a for loop: At loop start: i=2. At loop end: if i==2 {i=3}; if i==3 {i=6}; if i==6 {i=2}
+				No wait just check every other atom if only have 0MA@C1 in file. 
+				for (ai=1, ai<=A.na, ai++)
+                                   for (aii=ai, aii<=A.na, aii++) note the aii=aii so don't repeat distance measurments.

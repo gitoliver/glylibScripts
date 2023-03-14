@@ -1,0 +1,4 @@
+trajin md5000frames.nc netcdf
+
+dihedral car1 :4@C6 :4@O6 :4@C2 :4@C1 out C6-O6-C2-C1.csv
+dihedral car2 :4@C4 :4@C3 :4@C2 :4@C1 out C4-C3-C2-C1.csv

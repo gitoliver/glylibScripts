@@ -1,0 +1,15 @@
+Protein:
+gp120_template.pdb
+
+Glycans:
+glycans/
+
+Protein Residue list:
+461
+478
+END
+
+Glycan id list:
+PetRescu1.pdb
+m3.pdb
+END

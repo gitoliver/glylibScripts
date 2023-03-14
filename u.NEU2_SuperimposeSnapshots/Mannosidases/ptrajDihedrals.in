@@ -1,0 +1,2 @@
+trajin GMIA-M5.pdb pdb
+dihedral one :602.Z@O5 :602.Z@C5 :602.Z@C6 :602.Z@O6 out output.txt

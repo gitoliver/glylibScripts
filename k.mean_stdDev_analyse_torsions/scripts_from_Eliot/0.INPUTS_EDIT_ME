@@ -1,0 +1,11 @@
+#!/bin/bash
+topName=6mer_28-Neu5Ac.top
+trajName=md_6mer_28-Neu5Ac_noWATions.crd
+trajtype=netcdf
+number_residues=7
+cutoff=5
+phi=1
+psi=7
+ome7=0 #one state
+ome8=1
+ome9=1

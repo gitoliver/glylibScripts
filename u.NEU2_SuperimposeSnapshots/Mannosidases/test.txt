@@ -1,0 +1,56 @@
+Model #0 is FINAL ERMAN9.pdb
+Model #1 is GMIAM9-Bchain.pdb
+Model #2 is 1x9d TDS.pdb
+Model #3 is GMIA Man5.pdb
+
+Angles/Torsions
+#0 MAN 602.Z O5 -> #0 MAN 602.Z C5 -> #0 MAN 602.Z C6 -> #0 MAN 602.Z O6:   -66.48
+#0 MAN 602.Z C6 -> #0 MAN 602.Z O6 -> #0 MAN 602.Z C5 -> #0 MAN 603.Z C1:   111.91
+#0 MAN 602.Z C6 -> #0 MAN 602.Z O6 -> #0 MAN 603.Z C1 -> #0 MAN 603.Z O5:    48.69
+#0 NAG 601.Z C5 -> #0 NAG 601.Z C4 -> #0 NAG 601.Z O4 -> #0 MAN 602.Z C1:  -120.23
+#0 NAG 601.Z C4 -> #0 NAG 601.Z O4 -> #0 MAN 602.Z C1 -> #0 MAN 602.Z O5:   -87.63
+#0 MAN 602.Z C4 -> #0 MAN 602.Z C3 -> #0 MAN 602.Z O3 -> #0 MAN 604.Z C1:   157.28
+#0 MAN 602.Z C3 -> #0 MAN 602.Z O3 -> #0 MAN 604.Z C1 -> #0 MAN 604.Z O5:   102.07
+#0 MAN 604.Z C3 -> #0 MAN 604.Z C2 -> #0 MAN 604.Z O2 -> #0 MAN 609.Z C1:   140.53
+#0 MAN 604.Z C2 -> #0 MAN 604.Z O2 -> #0 MAN 609.Z C1 -> #0 MAN 609.Z O5:    79.76
+#0 MAN 603.Z C4 -> #0 MAN 603.Z C3 -> #0 MAN 603.Z O3 -> #0 MAN 607.Z C1:   160.76
+#0 MAN 603.Z C3 -> #0 MAN 603.Z O3 -> #0 MAN 607.Z C1 -> #0 MAN 607.Z O5:    87.46
+#0 MAN 605.Z O5 -> #0 MAN 605.Z C1 -> #0 MAN 603.Z O6 -> #0 MAN 603.Z C6:    70.62
+#0 MAN 605.Z C1 -> #0 MAN 603.Z O6 -> #0 MAN 603.Z C6 -> #0 MAN 603.Z C5:  -161.03
+#0 MAN 603.Z O6 -> #0 MAN 603.Z C6 -> #0 MAN 603.Z C5 -> #0 MAN 603.Z O5:   -49.36
+#0 MAN 606.Z O5 -> #0 MAN 606.Z C1 -> #0 MAN 605.Z O2 -> #0 MAN 605.Z C2:    72.53
+#0 MAN 606.Z C1 -> #0 MAN 605.Z O2 -> #0 MAN 605.Z C2 -> #0 MAN 605.Z C3:   135.79
+#0 MAN 605.Z O5 -> #0 MAN 605.Z C1 -> #0 MAN 603.Z O6 -> #0 MAN 603.Z C6:    70.62
+#0 MAN 605.Z C1 -> #0 MAN 603.Z O6 -> #0 MAN 603.Z C6 -> #0 MAN 603.Z C5:  -161.03
+#0 MAN 603.Z O6 -> #0 MAN 603.Z C6 -> #0 MAN 603.Z C5 -> #0 MAN 603.Z O5:   -49.36
+#0 NAG 601.Z C3 -> #0 NAG 601.Z C2 -> #0 NAG 601.Z N2 -> #0 NAG 601.Z C7:  -131.91
+#1 NAG 651.B C5 -> #1 NAG 651.B C4 -> #1 NAG 651.B O4 -> #1 BMA 652.B C1:  -108.49
+#1 BMA 652.B O5 -> #1 BMA 652.B C1 -> #1 NAG 651.B O4 -> #1 NAG 651.B C4:    47.19
+#1 BMA 652.B O5 -> #1 BMA 652.B C5 -> #1 BMA 652.B C6 -> #1 BMA 652.B O6:   -55.70
+#1 BMA 652.B C5 -> #1 BMA 652.B C6 -> #1 BMA 652.B O6 -> #1 MAN 649.B C1:  -177.37
+#1 BMA 652.B C6 -> #1 BMA 652.B O6 -> #1 MAN 649.B C1 -> #1 MAN 649.B O5:    62.05
+#1 MAN 649.B O5 -> #1 MAN 649.B C5 -> #1 MAN 649.B C6 -> #1 MAN 649.B O6:   -78.69
+#1 MAN 649.B C5 -> #1 MAN 649.B C6 -> #1 MAN 649.B O6 -> #1 MAN 650.B C1:   174.80
+#1 MAN 649.B C6 -> #1 MAN 649.B O6 -> #1 MAN 650.B C1 -> #1 MAN 650.B O5:    58.82
+#1 BMA 652.B C4 -> #1 BMA 652.B C3 -> #1 BMA 652.B O3 -> #1 MAN 653.B C1:   159.63
+#1 BMA 652.B C3 -> #1 BMA 652.B O3 -> #1 MAN 653.B C1 -> #1 MAN 653.B O5:    83.14
+#1 MAN 653.B C3 -> #1 MAN 653.B C2 -> #1 MAN 653.B O2 -> #1 MAN 654.B C1:   145.30
+#1 MAN 653.B C2 -> #1 MAN 653.B O2 -> #1 MAN 654.B C1 -> #1 MAN 654.B O5:    57.88
+        #3 NAG 1.D C5 -> #3 NAG 1.D C4 -> #3 NAG 1.D O4 -> #3 NAG 2.D C1:  -127.83
+        #3 NAG 1.D C4 -> #3 NAG 1.D O4 -> #3 NAG 2.D C1 -> #3 NAG 2.D O5:   -79.45
+        #3 NAG 2.D C5 -> #3 NAG 2.D C4 -> #3 NAG 2.D O4 -> #3 MAN 3.D C1:  -136.62
+        #3 NAG 2.D C4 -> #3 NAG 2.D O4 -> #3 MAN 3.D C1 -> #3 MAN 3.D O5:   -85.33
+        #3 MAN 3.D C4 -> #3 MAN 3.D C3 -> #3 MAN 3.D O3 -> #3 MAN 5.D C1:   147.95
+        #3 MAN 3.D C3 -> #3 MAN 3.D O3 -> #3 MAN 5.D C1 -> #3 MAN 5.D O5:    78.58
+        #3 MAN 5.D O5 -> #3 MAN 5.D C5 -> #3 MAN 5.D C6 -> #3 MAN 5.D O6:   -65.46
+        #3 MAN 5.D C5 -> #3 MAN 5.D C6 -> #3 MAN 5.D O6 -> #3 MAN 8.D C1:  -167.94
+        #3 MAN 5.D C6 -> #3 MAN 5.D O6 -> #3 MAN 8.D C1 -> #3 MAN 8.D O5:    48.67
+        #3 MAN 3.D O5 -> #3 MAN 3.D C5 -> #3 MAN 3.D C6 -> #3 MAN 3.D O6:    70.02
+        #3 MAN 3.D C5 -> #3 MAN 3.D C6 -> #3 MAN 3.D O6 -> #3 MAN 4.D C1:   155.71
+        #3 MAN 3.D C6 -> #3 MAN 3.D O6 -> #3 MAN 4.D C1 -> #3 MAN 4.D O5:    62.12
+        #3 MAN 4.D O5 -> #3 MAN 4.D C5 -> #3 MAN 4.D C6 -> #3 MAN 4.D O6:   -71.10
+        #3 MAN 4.D C5 -> #3 MAN 4.D C6 -> #3 MAN 4.D O6 -> #3 MAN 6.D C1:   170.43
+        #3 MAN 4.D C6 -> #3 MAN 4.D O6 -> #3 MAN 6.D C1 -> #3 MAN 6.D O5:    53.54
+        #3 MAN 4.D C4 -> #3 MAN 4.D C3 -> #3 MAN 4.D O3 -> #3 MAN 7.D C1:   101.48
+        #3 MAN 4.D C3 -> #3 MAN 4.D O3 -> #3 MAN 7.D C1 -> #3 MAN 7.D O5:    57.24
+        #3 NAG 1.D C3 -> #3 NAG 1.D C2 -> #3 NAG 1.D N2 -> #3 NAG 1.D C7:    62.93

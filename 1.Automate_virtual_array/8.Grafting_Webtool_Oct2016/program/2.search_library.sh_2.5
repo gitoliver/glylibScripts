@@ -1,0 +1,35 @@
+#!/bin/bash
+
+source installerInputs.txt
+source userInputs.txt
+source ../folderName
+library="$lib[@]"
+current=${!library}
+cp $current/../GLYCANS.txt .
+cp $current/../spacer_id.txt .
+
+if [ -z $current ]; then
+    echo "stop=1" > stop.txt
+    echo "library not set correctly, problem with "$lib" option." >> status.txt
+fi
+
+>searchLibraryResults.txt
+/programs/site_deps/Grafting/program/searchLibraryGrafting/searchLibraryGrafting.exe $current $folder
+mv searchLibraryResults.txt search_results.txt
+#Now check if it found glycans to graft
+if [ -s search_results.txt ]; then
+    >graftlist
+    for f in `cat search_results.txt`; do basename $f >> graftlist; done
+    num2graft=`cut -d - -f1 graftlist | sed 's/[^0-9]*//g' | sort -u | grep -c "."`
+    rm graftlist
+    rot2graft=`grep -c "." search_results.txt`
+    #echo "finished library search, found $num2graft glycans to graft"
+    echo "Found $num2graft library glycans ($rot2graft 3D structures including rotamers and ambiguous anomers) to graft" >> status.txt
+    printf "___________________________________________________________\n\n" >> status.txt
+    cp status.txt updated-status.txt
+else
+    echo "stop=1" > stop.txt
+    echo "No library glycans contained the provided carbohydrate in their structure" >> status.txt
+    echo "If you think this unlikely, please forward this status file to glycam@uga.edu" >> status.txt
+    cp status.txt updated-status.txt
+fi

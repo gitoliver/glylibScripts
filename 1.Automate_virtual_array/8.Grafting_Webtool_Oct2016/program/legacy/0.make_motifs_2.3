@@ -1,0 +1,98 @@
+#!/bin/bash
+#expects LINK.txt which contains LINK cards describing bonding in the "rootstock" or "core" structure
+
+#OUTPUTS
+#Snmotif.txt a sourceable variable $num which is the number of motifs 
+#individual sourceable motifs Smotif1_$i.txt and Smotif2_$i.txt
+
+#note for later
+#for a library hit to be successful it must contain all of the motifs
+#I am ashamed of how crap this script is but glad it works.
+
+#nomenclature
+#.tmp files are removed at the end, .txt files are kept
+#S stands for sourceable. nmotif is the number of motifs
+#Sensitive to the number of spaces used in LINK cards. FIX and REMOVE THIS LINE
+
+#counts number of motifs 
+cat LINK.txt | grep LINK\ | grep -v OME | grep -c -v ROH > nmotifs.tmp
+awk '{print"num=\"",$1"\""}' nmotifs.tmp > Snmotif.tmp
+cat Snmotif.tmp | sed s'/\ //'g > Snmotif.txt #removes the space
+
+#num='more n.motifs.txt'
+source Snmotif.txt
+
+if [[ $num -eq 0 ]]; then
+    echo "Monosaccharide Core"
+    cat LINK.txt | grep LINK\  > motifs.tmp
+    #FOR RESIDUE 1
+    #get the linkage resid
+    awk '{print"Tcore_rn1=",$7""}' motifs.tmp | sed 's/\ //g' > Tcore_rn1_motif.txt #always 2
+    #now get the linkage residue name
+    awk '{print"",$6}' motifs.tmp > m1.tmp
+    cat m1.tmp | cut -c 3-4 > m11.tmp
+    awk '{print"m1_name=\".",$1"\""}' m11.tmp | sed 's/\ //g' > m1_name.txt
+
+    rm -rf 9.MOTIFS
+    mkdir 9.MOTIFS
+    mv m1_name.txt 9.MOTIFS/
+    mv *Tcore*.txt 9.MOTIFS/
+    rm *.tmp 2>/dev/null
+    mv Snmotif.txt 9.MOTIFS/
+    echo "finished!"
+
+else 
+    echo "Oligosaccharide Core"
+    cat LINK.txt | grep LINK\ | grep -v OME | grep -v ROH > motifs.tmp
+
+    for ((i=1;i<=$num;i++))
+    do
+	awk "NR==$i" motifs.tmp > motif_$i.tmp
+
+	#FOR RESIDUE 1
+	#get the linkage resid
+        resid1=`cut -c 23-26  motif_$i.tmp | sed 's/\ //g'`
+        echo "Tcore_rn1=$resid1" > Tcore_rn1_motif_$i.txt
+	#awk '{print"Tcore_rn1=",$4""}' motif_$i.tmp | sed 's/\ //g' > Tcore_rn1_motif_$i.txt
+
+	#get the linkage atom name
+	atom1=`cut -c 13-16  motif_$i.tmp | sed 's/\ //g'`
+        echo "m1_link=\""$atom1"\"" > m1_linkage.tmp
+	#awk '{print"m1_link=\"",$2"\""}' motif_$i.tmp | sed 's/\ //g' > m1_linkage.tmp 
+
+	#now get the linkage residue name
+        resname1=`cut -c 19-20  motif_$i.tmp | sed 's/\ //g'`
+        echo "m1_name=\"."$resname1"\"" > m1_name.tmp
+	#awk '{print"",$3}' motif_$i.tmp > m1.tmp
+	#cat m1.tmp | cut -c 2-3 > m11.tmp
+	#awk '{print"m1_name=\".",$1"\""}' m11.tmp | sed 's/\ //g' > m1_name.tmp
+	source m1_name.tmp
+	source m1_linkage.tmp
+	echo "motif1=\"$m1_link\ \ $m1_name\"" > Smotif1_$i.txt
+
+	#FOR RESIDUE 2
+	#get the linkage resid
+        resid2=`cut -c 53-56 motif_$i.tmp | sed 's/\ //g'`
+        echo "Tcore_rn2=$resid1" > Tcore_rn2_motif_$i.txt
+        #awk '{print"Tcore_rn1=",$4""}' motif_$i.tmp | sed 's/\ //g' > Tcore_rn1_motif_$i.txt
+
+        #get the linkage atom name
+        atom2=`cut -c 43-46 motif_$i.tmp | sed 's/\ //g'`
+        echo "m2_link=\""$atom2"\"" > m2_linkage.tmp
+        #awk '{print"m1_link=\"",$2"\""}' motif_$i.tmp | sed 's/\ //g' > m1_linkage.tmp 
+
+        #now get the linkage residue name
+        resname2=`cut -c 49-50 motif_$i.tmp | sed 's/\ //g'`
+        echo "m2_name=\"."$resname2"\"" > m2_name.tmp
+
+	source m2_name.tmp
+	source m2_linkage.tmp
+	echo "motif2=\"$m2_link\ \ $m2_name\"" > Smotif2_$i.txt
+    done
+    rm -rf 9.MOTIFS
+    mkdir 9.MOTIFS
+    mv S*motif*.txt 9.MOTIFS/
+    mv *Tcore*.txt 9.MOTIFS/
+    rm *.tmp 2>/dev/null
+    echo "finished!"
+fi

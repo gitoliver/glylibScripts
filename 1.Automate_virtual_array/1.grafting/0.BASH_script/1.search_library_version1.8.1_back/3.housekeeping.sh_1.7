@@ -1,0 +1,25 @@
+#/usr/bin/env bash
+
+rm -rf Branches/ Clashes/ > /dev/null 2>&1
+
+mkdir Branches/
+mkdir Clashes/
+mkdir Clashes/0.atoms
+mkdir Clashes/1.resid
+mkdir Clashes/2.total
+mkdir Clashes/3.ALL
+
+mv RESULTS_library_search/*ALL*Clash* Clashes/3.ALL
+mv RESULTS_library_search/*Clash*atoms* Clashes/0.atoms
+mv RESULTS_library_search/*Clash*resid* Clashes/1.resid
+mv RESULTS_library_search/*Clash*total* Clashes/2.total
+
+mv RESULTS_library_search/*branch* Branches/
+
+cd Clashes/2.total/
+grep "Total" * > TOTAL_branches.txt
+cd ../3.ALL/
+grep "budcore" * > TOTAL.txt
+
+
+echo "done!"

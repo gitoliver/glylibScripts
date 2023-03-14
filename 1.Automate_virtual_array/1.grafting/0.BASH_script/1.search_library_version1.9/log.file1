@@ -1,0 +1,1090 @@
+
+starting ./RESULTS_library_search/290_noH.pdb
+Budcore=1
+
+ NO CORE2ROH IN THIS STRUCTURE
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   31  O4  WYB     2       5.419  -0.853   8.392  1.00  0.00
+HETATM   27  CME WYB     2       8.773  -4.818  13.156  1.00  0.00
+HETATM   26  O2N WYB     2       6.716  -3.604  13.505  1.00  0.00
+HETATM   25  C2N WYB     2       7.789  -3.660  12.901  1.00  0.00
+HETATM   23  N2  WYB     2       8.182  -2.760  11.979  1.00  0.00
+HETATM   21  C2  WYB     2       7.391  -1.599  11.557  1.00  0.00
+HETATM   20  O3  WYB     2       5.830  -2.992  10.228  1.00  0.00
+HETATM   18  C3  WYB     2       6.768  -1.850  10.170  1.00  0.00
+HETATM   16  C4  WYB     2       5.978  -0.608   9.734  1.00  0.00
+HETATM   14  O6  WYB     2       7.054   3.008   9.251  1.00  0.00
+HETATM   11  C6  WYB     2       6.116   1.927   9.338  1.00  0.00
+HETATM    9  C5  WYB     2       6.873   0.640   9.688  1.00  0.00
+HETATM    8  O5  WYB     2       7.473   0.803  11.032  1.00  0.00
+HETATM    6  C1  WYB     2       8.271  -0.332  11.550  1.00  0.00
+TER
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+HETATM   31  O4  WYB     2       5.419  -0.853   8.392  1.00  0.00
+HETATM   27  CME WYB     2       8.773  -4.818  13.156  1.00  0.00
+HETATM   26  O2N WYB     2       6.716  -3.604  13.505  1.00  0.00
+HETATM   25  C2N WYB     2       7.789  -3.660  12.901  1.00  0.00
+HETATM   23  N2  WYB     2       8.182  -2.760  11.979  1.00  0.00
+HETATM   21  C2  WYB     2       7.391  -1.599  11.557  1.00  0.00
+HETATM   20  O3  WYB     2       5.830  -2.992  10.228  1.00  0.00
+HETATM   18  C3  WYB     2       6.768  -1.850  10.170  1.00  0.00
+HETATM   16  C4  WYB     2       5.978  -0.608   9.734  1.00  0.00
+HETATM   14  O6  WYB     2       7.054   3.008   9.251  1.00  0.00
+HETATM   11  C6  WYB     2       6.116   1.927   9.338  1.00  0.00
+HETATM    9  C5  WYB     2       6.873   0.640   9.688  1.00  0.00
+HETATM    8  O5  WYB     2       7.473   0.803  11.032  1.00  0.00
+HETATM    6  C1  WYB     2       8.271  -0.332  11.550  1.00  0.00
+TER
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_1
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 2 molecule(s)
+PDB Information Successfully Read.
+core residue number=2
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 22 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -11 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+entering the loop, is is 11 -- the card is TER   ; j is 1
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+TER
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+TER
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+TER
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+TER
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_2
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 3 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 1 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 197 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_2
+Reading in ligand.pdb...
+There are 2 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 2; residue 0 -- nm is 2, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 2; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+entering the loop, is is 11 -- the card is ATOM  ; j is 1
+about to call getResInfo. i is 11 -- j is 1
+nm in the assembly is 2; the current moleucle is 1; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 11 ; k is 0
+allocating residues and atoms:
+	 molecule 1, residue 0 -- nr is 1 and na is 14
+entering the loop, is is 26 -- the card is TER   ; j is 2
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+TER
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+TER
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+HETATM   52  O3  3LB     3       1.646  -1.351   5.325  1.00  0.00
+HETATM   50  O2  3LB     3       4.022   0.206   6.071  1.00  0.00
+HETATM   48  C2  3LB     3       3.524  -0.900   6.841  1.00  0.00
+HETATM   46  C3  3LB     3       1.995  -0.934   6.699  1.00  0.00
+HETATM   44  O4  3LB     3       1.586  -3.247   7.347  1.00  0.00
+HETATM   42  C4  3LB     3       1.298  -1.878   7.699  1.00  0.00
+HETATM   40  O6  3LB     3       1.706  -2.163  11.491  1.00  0.00
+HETATM   37  C6  3LB     3       1.211  -2.557  10.204  1.00  0.00
+HETATM   35  C5  3LB     3       1.783  -1.612   9.138  1.00  0.00
+HETATM   34  O5  3LB     3       3.260  -1.694   9.149  1.00  0.00
+HETATM   32  C1  3LB     3       3.958  -0.699   8.303  1.00  0.00
+TER
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+TER
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_3
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 3 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 1 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 197 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_1_branch_3
+Reading in ligand.pdb...
+There are 2 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 2; residue 0 -- nm is 2, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 2; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0LB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 11
+entering the loop, is is 12 -- the card is ATOM  ; j is 1
+about to call getResInfo. i is 12 -- j is 1
+nm in the assembly is 2; the current moleucle is 1; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 12 ; k is 0
+allocating residues and atoms:
+	 molecule 1, residue 0 -- nr is 1 and na is 14
+entering the loop, is is 27 -- the card is TER   ; j is 2
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+Budcore=2
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+HETATM  141  O2  0fA     7       4.877  -5.319  11.384  1.00  0.00
+HETATM  139  C2  0fA     7       5.288  -5.410  10.008  1.00  0.00
+HETATM  137  O3  0fA     7       3.166  -6.417   9.315  1.00  0.00
+HETATM  135  C3  0fA     7       4.047  -5.299   9.098  1.00  0.00
+HETATM  133  O4  0fA     7       5.044  -6.471   7.191  1.00  0.00
+HETATM  131  C4  0fA     7       4.422  -5.235   7.603  1.00  0.00
+HETATM  127  C6  0fA     7       5.911  -3.882   5.940  1.00  0.00
+HETATM  125  C5  0fA     7       5.418  -4.085   7.374  1.00  0.00
+HETATM  124  O5  0fA     7       6.593  -4.253   8.263  1.00  0.00
+HETATM  122  C1  0fA     7       6.321  -4.296   9.722  1.00  0.00
+Contains 0.resid branch which terminated in a ROH
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+TER
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+HETATM   78  O4  WYB     4      -2.349   1.413   2.433  1.00  0.00
+HETATM   74  CME WYB     4       3.412  -2.498   1.081  1.00  0.00
+HETATM   73  O2N WYB     4       1.224  -3.308   1.699  1.00  0.00
+HETATM   72  C2N WYB     4       2.040  -2.387   1.775  1.00  0.00
+HETATM   70  N2  WYB     4       1.813  -1.234   2.432  1.00  0.00
+HETATM   68  C2  WYB     4       0.576  -0.917   3.159  1.00  0.00
+HETATM   67  O3  WYB     4      -0.697  -0.499   1.075  1.00  0.00
+HETATM   65  C3  WYB     4      -0.287   0.086   2.369  1.00  0.00
+HETATM   63  C4  WYB     4      -1.559   0.412   3.169  1.00  0.00
+HETATM   61  O6  WYB     4      -1.997   1.783   6.696  1.00  0.00
+HETATM   58  C6  WYB     4      -2.443   1.232   5.449  1.00  0.00
+HETATM   56  C5  WYB     4      -1.223   0.976   4.557  1.00  0.00
+HETATM   55  O5  WYB     4      -0.371  -0.022   5.228  1.00  0.00
+HETATM   53  C1  WYB     4       0.903  -0.351   4.554  1.00  0.00
+TER
+HETATM  120  O2  0fA     6      -0.400  -2.254  -1.049  1.00  0.00
+HETATM  118  C2  0fA     6      -0.390  -0.850  -1.367  1.00  0.00
+HETATM  116  O3  0fA     6      -2.128  -1.094  -3.072  1.00  0.00
+HETATM  114  C3  0fA     6      -1.794  -0.423  -1.844  1.00  0.00
+HETATM  112  O4  0fA     6      -1.027   1.515  -3.132  1.00  0.00
+HETATM  110  C4  0fA     6      -1.899   1.103  -2.058  1.00  0.00
+HETATM  106  C6  0fA     6      -1.483   3.364  -0.813  1.00  0.00
+HETATM  104  C5  0fA     6      -1.471   1.835  -0.773  1.00  0.00
+HETATM  103  O5  0fA     6      -0.114   1.389  -0.376  1.00  0.00
+HETATM  101  C1  0fA     6       0.063  -0.061  -0.118  1.00  0.00
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_2
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 2 molecule(s)
+PDB Information Successfully Read.
+core residue number=4
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -49 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -11 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+entering the loop, is is 11 -- the card is TER   ; j is 1
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+HETATM   99  O2  0LB     5      -4.608   3.228   2.591  1.00  0.00
+HETATM   97  C2  0LB     5      -4.511   2.207   1.584  1.00  0.00
+HETATM   95  O3  0LB     5      -6.563   2.878   0.450  1.00  0.00
+HETATM   93  C3  0LB     5      -5.934   1.794   1.158  1.00  0.00
+HETATM   91  O4  0LB     5      -5.308   0.800  -0.987  1.00  0.00
+HETATM   89  C4  0LB     5      -5.955   0.526   0.276  1.00  0.00
+HETATM   87  O6  0LB     5      -4.406  -2.905   0.973  1.00  0.00
+HETATM   84  C6  0LB     5      -5.090  -1.926   0.178  1.00  0.00
+HETATM   82  C5  0LB     5      -5.192  -0.618   0.975  1.00  0.00
+HETATM   81  O5  0LB     5      -3.827  -0.138   1.285  1.00  0.00
+HETATM   79  C1  0LB     5      -3.747   1.021   2.201  1.00  0.00
+Entered 2nd condition, therefore started and ended on a core. current_ri=5. THIS BRANCH HAS BEEN REMOVED
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_0
+DEALING WITH ROH ENDING BRANCHES
+Reading in branch.pdb...
+There are 4 molecule(s)
+PDB Information Successfully Read.
+core residue number=4
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Yawing assembly approx. 240 degrees...
+Writting file: superimposed.pdb...
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+2 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+cplx_a4=O5
+
+4
+cplx_a4=O5
+cplx_a4=O5
+3 a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Yawing assembly approx. 57 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/290_noH.pdb_motif_1_budcore_2_branch_0
+Reading in ligand.pdb...
+There are 4 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 4; residue 0 -- nm is 4, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 4; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+entering the loop, is is 11 -- the card is ATOM  ; j is 1
+about to call getResInfo. i is 11 -- j is 1
+nm in the assembly is 4; the current moleucle is 1; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is OME ; i is 11 ; k is 0
+allocating residues and atoms:
+	 molecule 1, residue 0 -- nr is 1 and na is 2
+entering the loop, is is 14 -- the card is ATOM  ; j is 2
+about to call getResInfo. i is 14 -- j is 2
+nm in the assembly is 4; the current moleucle is 2; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 14 ; k is 0
+allocating residues and atoms:
+	 molecule 2, residue 0 -- nr is 1 and na is 14
+entering the loop, is is 29 -- the card is ATOM  ; j is 3
+about to call getResInfo. i is 29 -- j is 3
+nm in the assembly is 4; the current moleucle is 3; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 3LB ; i is 29 ; k is 0
+allocating residues and atoms:
+	 molecule 3, residue 0 -- nr is 1 and na is 10
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+
+starting ./RESULTS_library_search/103_noH.pdb
+Budcore=1
+
+ NO CORE2ROH IN THIS STRUCTURE
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   31  O4  WYB     2      -2.018   1.279   2.583  1.00  0.00
+HETATM   27  CME WYB     2      -4.071   7.409   5.267  1.00  0.00
+HETATM   26  O2N WYB     2      -4.023   5.378   6.573  1.00  0.00
+HETATM   25  C2N WYB     2      -4.161   5.883   5.460  1.00  0.00
+HETATM   23  N2  WYB     2      -4.371   5.176   4.332  1.00  0.00
+HETATM   21  C2  WYB     2      -4.417   3.712   4.255  1.00  0.00
+HETATM   20  O3  WYB     2      -1.962   3.445   4.437  1.00  0.00
+HETATM   18  C3  WYB     2      -3.135   3.193   3.575  1.00  0.00
+HETATM   16  C4  WYB     2      -3.214   1.677   3.349  1.00  0.00
+HETATM   14  O6  WYB     2      -5.812  -0.484   1.591  1.00  0.00
+HETATM   11  C6  WYB     2      -4.654  -0.238   2.400  1.00  0.00
+HETATM    9  C5  WYB     2      -4.481   1.276   2.573  1.00  0.00
+HETATM    8  O5  WYB     2      -5.642   1.801   3.321  1.00  0.00
+HETATM    6  C1  WYB     2      -5.679   3.271   3.484  1.00  0.00
+TER
+HETATM  114  O2  0fA     6      -0.846   4.870   6.523  1.00  0.00
+HETATM  112  C2  0fA     6      -0.119   4.863   5.281  1.00  0.00
+HETATM  110  O3  0fA     6       1.924   4.069   6.372  1.00  0.00
+HETATM  108  C3  0fA     6       0.972   3.774   5.333  1.00  0.00
+HETATM  106  O4  0fA     6       2.441   4.865   3.717  1.00  0.00
+HETATM  104  C4  0fA     6       1.717   3.646   3.989  1.00  0.00
+HETATM  100  C6  0fA     6       1.319   3.358   1.433  1.00  0.00
+HETATM   98  C5  0fA     6       0.715   3.406   2.840  1.00  0.00
+HETATM   97  O5  0fA     6      -0.350   4.441   2.862  1.00  0.00
+HETATM   95  C1  0fA     6      -1.112   4.617   4.126  1.00  0.00
+HETATM   31  O4  WYB     2      -2.018   1.279   2.583  1.00  0.00
+HETATM   27  CME WYB     2      -4.071   7.409   5.267  1.00  0.00
+HETATM   26  O2N WYB     2      -4.023   5.378   6.573  1.00  0.00
+HETATM   25  C2N WYB     2      -4.161   5.883   5.460  1.00  0.00
+HETATM   23  N2  WYB     2      -4.371   5.176   4.332  1.00  0.00
+HETATM   21  C2  WYB     2      -4.417   3.712   4.255  1.00  0.00
+HETATM   20  O3  WYB     2      -1.962   3.445   4.437  1.00  0.00
+HETATM   18  C3  WYB     2      -3.135   3.193   3.575  1.00  0.00
+HETATM   16  C4  WYB     2      -3.214   1.677   3.349  1.00  0.00
+HETATM   14  O6  WYB     2      -5.812  -0.484   1.591  1.00  0.00
+HETATM   11  C6  WYB     2      -4.654  -0.238   2.400  1.00  0.00
+HETATM    9  C5  WYB     2      -4.481   1.276   2.573  1.00  0.00
+HETATM    8  O5  WYB     2      -5.642   1.801   3.321  1.00  0.00
+HETATM    6  C1  WYB     2      -5.679   3.271   3.484  1.00  0.00
+TER
+HETATM  114  O2  0fA     6      -0.846   4.870   6.523  1.00  0.00
+HETATM  112  C2  0fA     6      -0.119   4.863   5.281  1.00  0.00
+HETATM  110  O3  0fA     6       1.924   4.069   6.372  1.00  0.00
+HETATM  108  C3  0fA     6       0.972   3.774   5.333  1.00  0.00
+HETATM  106  O4  0fA     6       2.441   4.865   3.717  1.00  0.00
+HETATM  104  C4  0fA     6       1.717   3.646   3.989  1.00  0.00
+HETATM  100  C6  0fA     6       1.319   3.358   1.433  1.00  0.00
+HETATM   98  C5  0fA     6       0.715   3.406   2.840  1.00  0.00
+HETATM   97  O5  0fA     6      -0.350   4.441   2.862  1.00  0.00
+HETATM   95  C1  0fA     6      -1.112   4.617   4.126  1.00  0.00
+./RESULTS_library_search/103_noH.pdb_motif_1_budcore_1_branch_1
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 2 molecule(s)
+PDB Information Successfully Read.
+core residue number=2
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 158 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. -11 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/103_noH.pdb_motif_1_budcore_1_branch_1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+entering the loop, is is 11 -- the card is TER   ; j is 1
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   51  O3  ZLB     3       1.873  -1.647   1.966  1.00  0.00
+HETATM   50  O2  ZLB     3      -0.728  -0.696   0.862  1.00  0.00
+HETATM   48  C2  ZLB     3      -0.144  -0.258   2.165  1.00  0.00
+HETATM   46  C3  ZLB     3       0.690  -1.394   2.803  1.00  0.00
+HETATM   44  O4  ZLB     3       2.154  -0.024   4.188  1.00  0.00
+HETATM   42  C4  ZLB     3       1.162  -1.072   4.242  1.00  0.00
+HETATM   40  O6  ZLB     3      -0.787   0.249   7.264  1.00  0.00
+HETATM   37  C6  ZLB     3       0.395  -0.124   6.542  1.00  0.00
+HETATM   35  C5  ZLB     3      -0.003  -0.611   5.139  1.00  0.00
+HETATM   34  O5  ZLB     3      -0.710   0.479   4.442  1.00  0.00
+HETATM   32  C1  ZLB     3      -1.287   0.132   3.126  1.00  0.00
+TER
+HETATM   93  O2  0fA     5      -0.440  -1.873  -1.759  1.00  0.00
+HETATM   91  C2  0fA     5      -0.841  -0.506  -1.671  1.00  0.00
+HETATM   89  O3  0fA     5      -2.768  -0.981  -3.109  1.00  0.00
+HETATM   87  C3  0fA     5      -2.369  -0.422  -1.842  1.00  0.00
+HETATM   85  O4  0fA     5      -2.319   1.791  -2.877  1.00  0.00
+HETATM   83  C4  0fA     5      -2.854   1.037  -1.767  1.00  0.00
+HETATM   79  C6  0fA     5      -2.672   3.174  -0.289  1.00  0.00
+HETATM   77  C5  0fA     5      -2.372   1.681  -0.454  1.00  0.00
+HETATM   76  O5  0fA     5      -0.909   1.491  -0.277  1.00  0.00
+HETATM   74  C1  0fA     5      -0.357   0.115  -0.336  1.00  0.00
+HETATM   51  O3  ZLB     3       1.873  -1.647   1.966  1.00  0.00
+HETATM   50  O2  ZLB     3      -0.728  -0.696   0.862  1.00  0.00
+HETATM   48  C2  ZLB     3      -0.144  -0.258   2.165  1.00  0.00
+HETATM   46  C3  ZLB     3       0.690  -1.394   2.803  1.00  0.00
+HETATM   44  O4  ZLB     3       2.154  -0.024   4.188  1.00  0.00
+HETATM   42  C4  ZLB     3       1.162  -1.072   4.242  1.00  0.00
+HETATM   40  O6  ZLB     3      -0.787   0.249   7.264  1.00  0.00
+HETATM   37  C6  ZLB     3       0.395  -0.124   6.542  1.00  0.00
+HETATM   35  C5  ZLB     3      -0.003  -0.611   5.139  1.00  0.00
+HETATM   34  O5  ZLB     3      -0.710   0.479   4.442  1.00  0.00
+HETATM   32  C1  ZLB     3      -1.287   0.132   3.126  1.00  0.00
+TER
+HETATM   93  O2  0fA     5      -0.440  -1.873  -1.759  1.00  0.00
+HETATM   91  C2  0fA     5      -0.841  -0.506  -1.671  1.00  0.00
+HETATM   89  O3  0fA     5      -2.768  -0.981  -3.109  1.00  0.00
+HETATM   87  C3  0fA     5      -2.369  -0.422  -1.842  1.00  0.00
+HETATM   85  O4  0fA     5      -2.319   1.791  -2.877  1.00  0.00
+HETATM   83  C4  0fA     5      -2.854   1.037  -1.767  1.00  0.00
+HETATM   79  C6  0fA     5      -2.672   3.174  -0.289  1.00  0.00
+HETATM   77  C5  0fA     5      -2.372   1.681  -0.454  1.00  0.00
+HETATM   76  O5  0fA     5      -0.909   1.491  -0.277  1.00  0.00
+HETATM   74  C1  0fA     5      -0.357   0.115  -0.336  1.00  0.00
+./RESULTS_library_search/103_noH.pdb_motif_1_budcore_1_branch_2
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 2 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C2,a2 is O2,a3 is C1, a4 is C3 a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+Yawing assembly approx. 161 degrees...
+Writting file: superimposed.pdb...
+a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+2 a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+
+4
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+cplx_a4=C3
+3 a1 is C2,a2 is O2,a3 is C1, a4 is C3 
+Yawing assembly approx. -19 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/103_noH.pdb_motif_1_budcore_1_branch_2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0fA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 10
+entering the loop, is is 11 -- the card is TER   ; j is 1
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+######################################################### STARTING A BRANCH ###########################################################################
+HETATM   51  O3  ZLB     3       1.873  -1.647   1.966  1.00  0.00
+HETATM   50  O2  ZLB     3      -0.728  -0.696   0.862  1.00  0.00
+HETATM   48  C2  ZLB     3      -0.144  -0.258   2.165  1.00  0.00
+HETATM   46  C3  ZLB     3       0.690  -1.394   2.803  1.00  0.00
+HETATM   44  O4  ZLB     3       2.154  -0.024   4.188  1.00  0.00
+HETATM   42  C4  ZLB     3       1.162  -1.072   4.242  1.00  0.00
+HETATM   40  O6  ZLB     3      -0.787   0.249   7.264  1.00  0.00
+HETATM   37  C6  ZLB     3       0.395  -0.124   6.542  1.00  0.00
+HETATM   35  C5  ZLB     3      -0.003  -0.611   5.139  1.00  0.00
+HETATM   34  O5  ZLB     3      -0.710   0.479   4.442  1.00  0.00
+HETATM   32  C1  ZLB     3      -1.287   0.132   3.126  1.00  0.00
+TER
+HETATM   72  O6  0LA     4      -1.130  -4.343   0.365  1.00  0.00
+HETATM   69  C6  0LA     4       0.054  -4.713  -0.356  1.00  0.00
+HETATM   68  O5  0LA     4       1.549  -4.018   1.475  1.00  0.00
+HETATM   66  C5  0LA     4       1.189  -3.769   0.059  1.00  0.00
+HETATM   64  O4  0LA     4       2.973  -5.144  -0.818  1.00  0.00
+HETATM   62  C4  0LA     4       2.461  -3.796  -0.815  1.00  0.00
+HETATM   60  O3  0LA     4       4.751  -2.967  -0.992  1.00  0.00
+HETATM   58  C3  0LA     4       3.524  -2.823  -0.253  1.00  0.00
+HETATM   56  O2  0LA     4       4.647  -2.013   1.755  1.00  0.00
+HETATM   54  C2  0LA     4       3.782  -3.046   1.251  1.00  0.00
+HETATM   52  C1  0LA     4       2.463  -3.004   2.047  1.00  0.00
+HETATM   51  O3  ZLB     3       1.873  -1.647   1.966  1.00  0.00
+HETATM   50  O2  ZLB     3      -0.728  -0.696   0.862  1.00  0.00
+HETATM   48  C2  ZLB     3      -0.144  -0.258   2.165  1.00  0.00
+HETATM   46  C3  ZLB     3       0.690  -1.394   2.803  1.00  0.00
+HETATM   44  O4  ZLB     3       2.154  -0.024   4.188  1.00  0.00
+HETATM   42  C4  ZLB     3       1.162  -1.072   4.242  1.00  0.00
+HETATM   40  O6  ZLB     3      -0.787   0.249   7.264  1.00  0.00
+HETATM   37  C6  ZLB     3       0.395  -0.124   6.542  1.00  0.00
+HETATM   35  C5  ZLB     3      -0.003  -0.611   5.139  1.00  0.00
+HETATM   34  O5  ZLB     3      -0.710   0.479   4.442  1.00  0.00
+HETATM   32  C1  ZLB     3      -1.287   0.132   3.126  1.00  0.00
+TER
+HETATM   72  O6  0LA     4      -1.130  -4.343   0.365  1.00  0.00
+HETATM   69  C6  0LA     4       0.054  -4.713  -0.356  1.00  0.00
+HETATM   68  O5  0LA     4       1.549  -4.018   1.475  1.00  0.00
+HETATM   66  C5  0LA     4       1.189  -3.769   0.059  1.00  0.00
+HETATM   64  O4  0LA     4       2.973  -5.144  -0.818  1.00  0.00
+HETATM   62  C4  0LA     4       2.461  -3.796  -0.815  1.00  0.00
+HETATM   60  O3  0LA     4       4.751  -2.967  -0.992  1.00  0.00
+HETATM   58  C3  0LA     4       3.524  -2.823  -0.253  1.00  0.00
+HETATM   56  O2  0LA     4       4.647  -2.013   1.755  1.00  0.00
+HETATM   54  C2  0LA     4       3.782  -3.046   1.251  1.00  0.00
+HETATM   52  C1  0LA     4       2.463  -3.004   2.047  1.00  0.00
+./RESULTS_library_search/103_noH.pdb_motif_1_budcore_1_branch_3
+ENDED ON A CORE
+Reading in branch.pdb...
+There are 2 molecule(s)
+PDB Information Successfully Read.
+core residue number=3
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 126 degrees...
+Writting file: superimposed.pdb...
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Writting file: superimposed_branch.pdb...
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+1 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+2 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+
+4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+cplx_a4=C4
+3 a1 is C3,a2 is O3,a3 is C2, a4 is C4 
+Yawing assembly approx. 197 degrees...
+Writting file: superimposed.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_cplx.pdb...
+./RESULTS_library_search/103_noH.pdb_motif_1_budcore_1_branch_3
+Reading in ligand.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 1 (which should be the same as: 1)
+	called getResInfo. (*curMol).r[0].N is 0LA ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 1 and na is 11
+entering the loop, is is 12 -- the card is TER   ; j is 1
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+First allocate of residues and atoms:
+	 molecule 0, init is 1; residue 0 -- nm is 1, A.nr is 0, A.na is 0
+entering the loop, is is 0 -- the card is ATOM  ; j is 0
+about to call getResInfo. i is 0 -- j is 0
+nm in the assembly is 1; the current moleucle is 0; nr in that is -1
+	curMol nr is 234 (which should be the same as: 234)
+	called getResInfo. (*curMol).r[0].N is WYB ; i is 0 ; k is 0
+allocating residues and atoms:
+	 molecule 0, residue 0 -- nr is 234 and na is 15
+PDB Information Successfully Read.
+Entered the FUNction
+########################################################## FINISHED BRANCH ############################################################################
+
+
+
+finished

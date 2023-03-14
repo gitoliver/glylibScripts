@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n '[%] Running Leap...'
+$AMBERHOME/exe/tleap -f leap.in > log-leap.log
+echo 'Finished.'
+echo -n '[?] Press enter to view log (less log-leap.log): '
+        read a                  # dummy read
+less log-leap.log
+echo 'ok'

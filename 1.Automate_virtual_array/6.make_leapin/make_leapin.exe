@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo "[%] Generating input file for leap (leap.in):"
+echo 'source leaprc.ff99SB'    > leap.in
+echo 'source leaprc.GLYCAM_06' >> leap.in
+echo 'set default PBRadii mbondi2' >> leap.in
+echo ' ' >> leap.in
+
+echo "L = loadpdb carb.pdb" >> leap.in
+echo -e "\n" >> leap.in
+cat bondinfo.txt >> leap.in
+echo -e "\n" >> leap.in
+echo "R = loadpdb receptor.pdb" >> leap.in
+echo "C = combine {L + R}" >> leap.in
+echo "saveamberparm C cplx.top cplx.crd" >> leap.in
+echo "savepdb C cplx.pdb" >> leap.in
+echo -e "\n" >> leap.in
+
+echo "ok"
+
+echo "quit" >> leap.in
+
+
+echo "Finished."
+

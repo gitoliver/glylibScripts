@@ -1,0 +1,1770 @@
+Reading in receptor.pdb...
+There are 1 molecule(s)
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+total_clash=3094.905407
+Clashiest resid is now 6
+Clashiest resid is now 7
+Clashiest resid is now 21
+Found core, resid=6
+branch[0]=7
+branch[1]=6
+branch[2]=5
+branch[3]=4
+branch[4]=14
+branch[5]=19
+branch[6]=20
+branch[7]=21
+Starting wiggling
+Will find which atoms are involved in linkage
+Will generate torsions
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=2
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+calling generate torsions again with tor=1
+Reading in ligand.pdb...
+There are 1 molecule(s)
+The function set_assembly_residue_molbonds_from_PDB_LINK has not been written yet... continuing
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+in find new bonds function
+Finished generating torsions for resid 21
+core_ri[1]=6
+Error opening file.
+Expected location is:
+
+	best_structure.pdb
+
+Attempted file open for r
+Exiting.

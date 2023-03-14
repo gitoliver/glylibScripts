@@ -1,0 +1,11 @@
+LINK         O1  ROH     1                  C1  4YB   2
+LINK         O4  4YB     2                  C1  4YB   3
+LINK         O4  4YB     3                  C1  VMB   4
+LINK         O6  VMB     4                  C1  2MA   9
+LINK         O3  VMB     4                  C1  2MA   5
+LINK         O2  2MA     5                  C1  WYB   6
+LINK         O3  WYB     6                  C1  0LB   7
+LINK         O4  WYB     6                  C1  0FA   8
+LINK         O2  2MA     9                  C1  WYB  10
+LINK         O3  WYB    10                  C1  0LB  11
+LINK         O4  WYB    10                  C1  0FA  12

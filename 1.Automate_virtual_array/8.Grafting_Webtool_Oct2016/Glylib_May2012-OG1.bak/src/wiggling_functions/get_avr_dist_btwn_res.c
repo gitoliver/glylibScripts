@@ -1,0 +1,61 @@
+#include <glylib.h> // required for load_pdb function
+#include <mylib.h>
+#include <molecules.h>
+
+//int main (void){
+double get_avr_dist_btwn_res(assembly *A, assembly *B, int linkage_resid, int target_resid){
+double dist=0.0;
+int i=0,j=0;
+double totxdiff=0.0,totydiff=0.0,totzdiff=0.0;
+
+//printf("lr=%d,tr=%d\n",linkage_resid,target_resid);
+
+/************Get residues to send to get_avr_dist_btwn_res function*****/
+residue *lr,*tr;
+lr=(residue *)calloc(1, sizeof(residue));
+tr=(residue *)calloc(1, sizeof(residue));
+lr=&(*A).m[0][0].r[linkage_resid];
+tr=&(*B).m[0][0].r[target_resid];
+
+/*TEMP HACK*/
+residue *lr2,*tr2;
+lr2=(residue *)calloc(1, sizeof(residue));
+tr2=(residue *)calloc(1, sizeof(residue));
+lr2=&(*A).m[0][0].r[(linkage_resid-1)]; // cheat to include the Gal
+tr2=&(*B).m[0][0].r[(target_resid-1)]; // cheat to include the Gal
+/*TEMP HACK END*/
+
+if (lr->na != tr->na){ printf("Number of atoms %d in res1:%s.%d is not equal to %d in res2%s.%d! What happened???\n",lr->na,lr->N,lr->n,tr->na,tr->N,tr->n);}
+
+for (i=0; i<lr->na; i++){
+    //printf("lr->a[%d].N=%s\n",i,lr->a[i].N);
+    for (j=0; j<tr->na; j++){
+        //printf("tr->a[%d].N=%s\n",j,tr->a[j].N);
+        if (strcmp(lr->a[i].N,tr->a[j].N)==0){ //...I want compare C1 to C1, etc. So as to get orientation correct.
+           // printf("Match between %s and %s\n",lr->a[i].N,tr->a[j].N);
+            totxdiff=(totxdiff + ( (lr->a[i].x.i - tr->a[j].x.i)*(lr->a[i].x.i - tr->a[j].x.i) ));
+            totydiff=(totydiff + ( (lr->a[i].x.j - tr->a[j].x.j)*(lr->a[i].x.j - tr->a[j].x.j) ));
+            totzdiff=(totzdiff + ( (lr->a[i].x.k - tr->a[j].x.k)*(lr->a[i].x.k - tr->a[j].x.k) ));
+        }
+    }
+}
+
+/*TEMP HACK*/
+for (i=0; i<lr2->na; i++){
+    //printf("lr->a[%d].N=%s\n",i,lr->a[i].N);
+    for (j=0; j<tr2->na; j++){
+        //printf("tr->a[%d].N=%s\n",j,tr->a[j].N);
+        if (strcmp(lr2->a[i].N,tr2->a[j].N)==0){ //...I want compare C1 to C1, etc. So as to get orientation correct.
+           // printf("Match between %s and %s\n",lr->a[i].N,tr->a[j].N);
+            totxdiff=(totxdiff + ( (lr2->a[i].x.i - tr2->a[j].x.i)*(lr2->a[i].x.i - tr2->a[j].x.i) ));
+            totydiff=(totydiff + ( (lr2->a[i].x.j - tr2->a[j].x.j)*(lr2->a[i].x.j - tr2->a[j].x.j) ));
+            totzdiff=(totzdiff + ( (lr2->a[i].x.k - tr2->a[j].x.k)*(lr2->a[i].x.k - tr2->a[j].x.k) ));
+        }
+    }
+}
+/*TEMP HACK END*/
+
+dist=sqrt( (totxdiff + totydiff + totzdiff) / (lr->na + lr2->na) ); // I've done the squaring above
+//printf("dist=%.3f\n",dist);
+return dist;
+}

@@ -1,0 +1,150 @@
+TITLE      FILE:glycam_4_25_2011_586_MIN_formatted.pdb
+TITLE      STRUCTURE GENERATED USING GLYCAM/WEB http://www.glycam.org
+REMARK
+REMARK     REFINEMENT
+REMARK     PROGRAM     : AMBER SOFTWARE WITH GLYCAM06f FORCEFIELD
+REMARK     AUTHORS     : GROUP OF R.J.WOODS
+REMARK
+REMARK     OTHER REFINEMENT REMARKS:
+REMARK     **** USERS PLEASE NOTE ****
+REMARK     STRUCTURE WILL RARELY BE ADEQUATE TO DESCRIBE SOLUTION BEHAVIOR
+REMARK
+REMARK     COMPLIES WITH FORMAT V.3.20, 01-DEC-08
+REMARK 250
+REMARK 250 EXPERIMENTAL DETAILS
+REMARK 250 EXPERIMENT TYPE :  THEORITICAL STRUCTURE
+REMARK 250 DATE OF DATA COLLECTION : 
+REMARK
+REMARK LINEAR SEQUENCE OME WYB 3LB WYB 3LB 4YB 4LB 0YA
+REMARK BRANCH SEQUENCE 0fA
+REMARK BRANCH SEQUENCE 0fA
+REMARK     *NOTE THAT THE REDUCING TERMINUS IS ON THE LEFT END OF THE SEQUENCE
+REMARK     THIS ORDERING IS REVERSED COMPARED TO COMMON POLYSACCHARIDE
+REMARK     CONVENTION
+REMARK
+REMARK     THE GLYCOSIDIC LINKAGES FOLLOW
+LINK         O   OME     1                  C1  WYB   2
+LINK         O3  WYB     2                  C1  0fA  10
+LINK         O4  WYB     2                  C1  3LB   3
+LINK         O3  3LB     3                  C1  WYB   4
+LINK         O3  WYB     4                  C1  0fA   9
+LINK         O4  WYB     4                  C1  3LB   5
+LINK         O3  3LB     5                  C1  4YB   6
+LINK         O4  4YB     6                  C1  4LB   7
+LINK         O4  4LB     7                  C1  0YA   8
+HETATM    2  CH3 OME     1       9.774   0.992  13.063  1.00  0.00
+HETATM    5  O   OME     1       8.773  -0.076  12.953  1.00  0.00
+HETATM    6  C1  WYB     2       8.307  -0.340  11.583  1.00  0.00
+HETATM    8  O5  WYB     2       7.508   0.796  11.065  1.00  0.00
+HETATM    9  C5  WYB     2       6.909   0.631   9.722  1.00  0.00
+HETATM   11  C6  WYB     2       6.147   1.916   9.370  1.00  0.00
+HETATM   14  O6  WYB     2       7.081   3.000   9.278  1.00  0.00
+HETATM   16  C4  WYB     2       6.016  -0.618   9.771  1.00  0.00
+HETATM   18  C3  WYB     2       6.805  -1.861  10.205  1.00  0.00
+HETATM   20  O3  WYB     2       5.865  -3.003  10.260  1.00  0.00
+HETATM   21  C2  WYB     2       7.425  -1.607  11.592  1.00  0.00
+HETATM   23  N2  WYB     2       8.213  -2.769  12.015  1.00  0.00
+HETATM   25  C2N WYB     2       7.810  -3.676  12.926  1.00  0.00
+HETATM   26  O2N WYB     2       6.732  -3.622  13.521  1.00  0.00
+HETATM   27  CME WYB     2       8.788  -4.839  13.178  1.00  0.00
+HETATM   31  O4  WYB     2       5.463  -0.866   8.431  1.00  0.00
+TER
+HETATM   32  C1  3LB     3       4.004  -0.716   8.342  1.00  0.00
+HETATM   34  O5  3LB     3       3.305  -1.710   9.189  1.00  0.00
+HETATM   35  C5  3LB     3       1.828  -1.635   9.167  1.00  0.00
+HETATM   37  C6  3LB     3       1.249  -2.567  10.241  1.00  0.00
+HETATM   40  O6  3LB     3       1.734  -2.157  11.526  1.00  0.00
+HETATM   42  C4  3LB     3       1.357  -1.922   7.729  1.00  0.00
+HETATM   44  O4  3LB     3       1.646  -3.295   7.397  1.00  0.00
+HETATM   46  C3  3LB     3       2.064  -0.991   6.724  1.00  0.00
+HETATM   48  C2  3LB     3       3.586  -0.925   6.878  1.00  0.00
+HETATM   50  O2  3LB     3       4.068   0.192   6.114  1.00  0.00
+HETATM   52  O3  3LB     3       1.751  -1.438   5.351  1.00  0.00
+HETATM   53  C1  WYB     4       1.036  -0.438   4.560  1.00  0.00
+HETATM   55  O5  WYB     4      -0.240  -0.094   5.220  1.00  0.00
+HETATM   56  C5  WYB     4      -1.062   0.918   4.545  1.00  0.00
+HETATM   58  C6  WYB     4      -2.297   1.182   5.415  1.00  0.00
+HETATM   61  O6  WYB     4      -1.872   1.726   6.672  1.00  0.00
+HETATM   63  C4  WYB     4      -1.374   0.356   3.153  1.00  0.00
+HETATM   65  C3  WYB     4      -0.105   0.010   2.361  1.00  0.00
+HETATM   67  O3  WYB     4      -0.522  -0.567   1.065  1.00  0.00
+HETATM   68  C2  WYB     4       0.727  -1.006   3.162  1.00  0.00
+HETATM   70  N2  WYB     4       1.967  -1.335   2.450  1.00  0.00
+HETATM   72  C2N WYB     4       2.168  -2.471   1.754  1.00  0.00
+HETATM   73  O2N WYB     4       1.333  -3.372   1.649  1.00  0.00
+HETATM   74  CME WYB     4       3.532  -2.584   1.047  1.00  0.00
+HETATM   78  O4  WYB     4      -2.121   1.370   2.409  1.00  0.00
+TER
+HETATM   79  C1  3LB     5      -3.510   0.992   2.149  1.00  0.00
+HETATM   81  O5  3LB     5      -3.586  -0.188   1.258  1.00  0.00
+HETATM   82  C5  3LB     5      -4.953  -0.645   0.932  1.00  0.00
+HETATM   84  C6  3LB     5      -4.876  -1.984   0.184  1.00  0.00
+HETATM   87  O6  3LB     5      -4.238  -2.953   1.028  1.00  0.00
+HETATM   89  C4  3LB     5      -5.666   0.496   0.181  1.00  0.00
+HETATM   91  O4  3LB     5      -5.028   0.700  -1.095  1.00  0.00
+HETATM   93  C3  3LB     5      -5.605   1.800   1.001  1.00  0.00
+HETATM   95  C2  3LB     5      -4.203   2.181   1.477  1.00  0.00
+HETATM   97  O2  3LB     5      -4.321   3.233   2.449  1.00  0.00
+HETATM   99  O3  3LB     5      -6.147   2.912   0.197  1.00  0.00
+HETATM  100  C1  4YB     6      -7.245   3.623   0.852  1.00  0.00
+HETATM  102  O5  4YB     6      -8.346   2.676   1.121  1.00  0.00
+HETATM  103  C5  4YB     6      -9.570   3.235   1.699  1.00  0.00
+HETATM  105  C6  4YB     6     -10.507   2.064   2.020  1.00  0.00
+HETATM  108  O6  4YB     6      -9.876   1.214   2.988  1.00  0.00
+HETATM  110  C4  4YB     6     -10.088   4.234   0.657  1.00  0.00
+HETATM  112  C3  4YB     6      -9.064   5.360   0.432  1.00  0.00
+HETATM  114  O3  4YB     6      -9.581   6.257  -0.566  1.00  0.00
+HETATM  116  C2  4YB     6      -7.743   4.744  -0.082  1.00  0.00
+HETATM  118  N2  4YB     6      -6.701   5.772  -0.222  1.00  0.00
+HETATM  120  C2N 4YB     6      -6.223   6.224  -1.398  1.00  0.00
+HETATM  121  O2N 4YB     6      -6.627   5.844  -2.498  1.00  0.00
+HETATM  122  CME 4YB     6      -5.110   7.287  -1.296  1.00  0.00
+HETATM  126  O4  4YB     6     -11.385   4.751   1.121  1.00  0.00
+HETATM  127  C1  4LB     7     -12.573   4.718   0.240  1.00  0.00
+HETATM  129  O5  4LB     7     -13.698   5.309   0.999  1.00  0.00
+HETATM  130  C5  4LB     7     -15.056   5.273   0.413  1.00  0.00
+HETATM  132  C6  4LB     7     -16.015   5.996   1.363  1.00  0.00
+HETATM  135  O6  4LB     7     -15.638   7.378   1.430  1.00  0.00
+HETATM  137  C4  4LB     7     -15.428   3.808   0.128  1.00  0.00
+HETATM  139  C3  4LB     7     -14.372   3.217  -0.816  1.00  0.00
+HETATM  141  O3  4LB     7     -14.714   1.853  -1.110  1.00  0.00
+HETATM  143  C2  4LB     7     -12.958   3.278  -0.212  1.00  0.00
+HETATM  145  O2  4LB     7     -12.071   2.851  -1.260  1.00  0.00
+HETATM  147  O4  4LB     7     -15.467   3.041   1.402  1.00  0.00
+HETATM  148  C1  0YA     8     -16.749   2.379   1.723  1.00  0.00
+HETATM  150  C2  0YA     8     -16.790   1.884   3.187  1.00  0.00
+HETATM  152  N2  0YA     8     -16.383   2.954   4.111  1.00  0.00
+HETATM  154  C2N 0YA     8     -17.082   3.341   5.195  1.00  0.00
+HETATM  155  O2N 0YA     8     -18.185   2.886   5.502  1.00  0.00
+HETATM  156  CME 0YA     8     -16.394   4.392   6.088  1.00  0.00
+HETATM  160  C3  0YA     8     -15.940   0.619   3.428  1.00  0.00
+HETATM  162  O3  0YA     8     -16.212   0.119   4.752  1.00  0.00
+HETATM  164  C4  0YA     8     -16.287  -0.490   2.419  1.00  0.00
+HETATM  166  O4  0YA     8     -15.340  -1.561   2.582  1.00  0.00
+HETATM  168  C5  0YA     8     -16.169   0.026   0.975  1.00  0.00
+HETATM  170  O5  0YA     8     -17.018   1.234   0.823  1.00  0.00
+HETATM  171  C6  0YA     8     -16.537  -0.963  -0.142  1.00  0.00
+HETATM  174  O6  0YA     8     -17.915  -1.345  -0.029  1.00  0.00
+TER
+HETATM  176  C1  0fA     9       0.234  -0.145  -0.138  1.00  0.00
+HETATM  178  O5  0fA     9       0.095   1.311  -0.394  1.00  0.00
+HETATM  179  C5  0fA     9      -1.254   1.790  -0.783  1.00  0.00
+HETATM  181  C6  0fA     9      -1.244   3.320  -0.811  1.00  0.00
+HETATM  185  C4  0fA     9      -1.712   1.076  -2.066  1.00  0.00
+HETATM  187  O4  0fA     9      -0.837   1.466  -3.145  1.00  0.00
+HETATM  189  C3  0fA     9      -1.649  -0.451  -1.850  1.00  0.00
+HETATM  191  O3  0fA     9      -2.017  -1.114  -3.074  1.00  0.00
+HETATM  193  C2  0fA     9      -0.256  -0.920  -1.383  1.00  0.00
+HETATM  195  O2  0fA     9      -0.309  -2.323  -1.064  1.00  0.00
+TER
+HETATM  197  C1  0fA    10       6.349  -4.308   9.750  1.00  0.00
+HETATM  199  O5  0fA    10       6.625  -4.264   8.292  1.00  0.00
+HETATM  200  C5  0fA    10       5.453  -4.094   7.400  1.00  0.00
+HETATM  202  C6  0fA    10       5.946  -3.887   5.966  1.00  0.00
+HETATM  206  C4  0fA    10       4.455  -5.245   7.623  1.00  0.00
+HETATM  208  O4  0fA    10       5.078  -6.480   7.214  1.00  0.00
+HETATM  210  C3  0fA    10       4.073  -5.306   9.116  1.00  0.00
+HETATM  212  O3  0fA    10       3.189  -6.422   9.329  1.00  0.00
+HETATM  214  C2  0fA    10       5.309  -5.418  10.031  1.00  0.00
+HETATM  216  O2  0fA    10       4.891  -5.324  11.405  1.00  0.00
+TER

@@ -1,0 +1,13 @@
+USAGE:
+
+./reorder inputfile
+
+OUTPUT:
+
+allmodels.pdb - consists of all models reordered and seperated by the ENDMDL card so you can load this into VMD directly and visualize all the models
+
+model*.pdb - PDB file for each individual model
+
+* represents the  model number
+
+

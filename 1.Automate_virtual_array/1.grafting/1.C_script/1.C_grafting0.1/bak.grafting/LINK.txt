@@ -1,0 +1,4 @@
+LINK         O1  ROH     1                  C1  WYB   2
+LINK         O3  WYB     2                  C1  0fA   5
+LINK         O4  WYB     2                  C1  2LB   3
+LINK         O2  2LB     3                  C1  0fA   4

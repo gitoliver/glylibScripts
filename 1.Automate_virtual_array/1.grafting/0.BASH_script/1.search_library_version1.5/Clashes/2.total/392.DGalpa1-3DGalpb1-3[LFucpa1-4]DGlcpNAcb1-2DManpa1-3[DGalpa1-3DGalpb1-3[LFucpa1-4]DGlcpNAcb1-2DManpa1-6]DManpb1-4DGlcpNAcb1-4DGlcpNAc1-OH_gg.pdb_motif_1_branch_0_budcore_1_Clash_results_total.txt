@@ -1,0 +1,2 @@
+
+Total_Overlap=1139.074513 Angstrom^2

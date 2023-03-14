@@ -1,0 +1,74 @@
+TITLE      FILE:conden_3_18_2011_20_MIN_noH_formatted.pdb
+TITLE      STRUCTURE GENERATED USING GLYCAM/WEB http://www.glycam.org
+REMARK
+REMARK     REFINEMENT
+REMARK     PROGRAM     : AMBER SOFTWARE WITH GLYCAM06f FORCEFIELD
+REMARK     AUTHORS     : GROUP OF R.J.WOODS
+REMARK
+REMARK     OTHER REFINEMENT REMARKS:
+REMARK     **** USERS PLEASE NOTE ****
+REMARK     OLIGOSACCHARIDES ARE HIGHLY FLEXIBLE IN SOLUTION.THIS SINGLE
+REMARK     STRUCTURE WILL RARELY BE ADEQUATE TO DESCRIBE SOLUTION BEHAVIOR
+REMARK
+REMARK     COMPLIES WITH FORMAT V.3.20, 01-DEC-08
+REMARK 250
+REMARK 250 EXPERIMENTAL DETAILS
+REMARK 250 EXPERIMENT TYPE :  THEORITICAL STRUCTURE
+REMARK 250 DATE OF DATA COLLECTION : 
+REMARK
+REMARK LINEAR SEQUENCE ROH UGB XLB 0fA
+REMARK     *NOTE THAT THE REDUCING TERMINUS IS ON THE LEFT END OF THE SEQUENCE
+REMARK     THIS ORDERING IS REVERSED COMPARED TO COMMON POLYSACCHARIDE
+REMARK     CONVENTION
+REMARK
+REMARK     THE GLYCOSIDIC LINKAGES FOLLOW
+LINK         O1  ROH     1                  C1  UGB   2
+LINK         O4  UGB     2                  C1  XLB   3
+LINK         O2  XLB     3                  C1  0fA   4
+LINK         O6  XLB     3                  S1  0S3   5
+LINK         O6  UGB     2                  S1  0S3   6
+HETATM    2  O1  ROH     1       0.103  -0.170   0.105  1.00  0.00
+HETATM    3  C1  UGB     2      -0.450   1.148  -0.006  1.00  0.00
+HETATM    5  O5  UGB     2      -0.035   1.985   1.138  1.00  0.00
+HETATM    6  C5  UGB     2      -0.589   3.356   1.177  1.00  0.00
+HETATM    8  C6  UGB     2       0.037   4.097   2.365  1.00  0.00
+HETATM   11  O6  UGB     2       1.448   4.219   2.145  1.00  0.00
+HETATM   13  C4  UGB     2      -2.123   3.241   1.250  1.00  0.00
+HETATM   15  C3  UGB     2      -2.676   2.407   0.084  1.00  0.00
+HETATM   17  O3  UGB     2      -4.080   2.196   0.318  1.00  0.00
+HETATM   19  C2  UGB     2      -1.987   1.034  -0.029  1.00  0.00
+HETATM   21  O2  UGB     2      -2.367   0.459  -1.292  1.00  0.00
+HETATM   23  O4  UGB     2      -2.712   4.590   1.157  1.00  0.00
+HETATM   24  C1  XLB     3      -3.323   5.114   2.386  1.00  0.00
+HETATM   26  O5  XLB     3      -4.578   4.394   2.698  1.00  0.00
+HETATM   27  C5  XLB     3      -5.337   4.875   3.877  1.00  0.00
+HETATM   29  C6  XLB     3      -6.527   3.934   4.110  1.00  0.00
+HETATM   32  O6  XLB     3      -6.030   2.624   4.415  1.00  0.00
+HETATM   34  C4  XLB     3      -5.710   6.358   3.653  1.00  0.00
+HETATM   36  O4  XLB     3      -6.620   6.442   2.535  1.00  0.00
+HETATM   38  C3  XLB     3      -4.438   7.178   3.348  1.00  0.00
+HETATM   40  O3  XLB     3      -4.798   8.544   3.077  1.00  0.00
+HETATM   42  C2  XLB     3      -3.634   6.604   2.167  1.00  0.00
+HETATM   44  O2  XLB     3      -2.349   7.325   2.062  1.00  0.00
+HETATM   45  C1  0fA     4      -2.234   8.257   0.920  1.00  0.00
+HETATM   47  O5  0fA     4      -2.169   7.523  -0.367  1.00  0.00
+HETATM   48  C5  0fA     4      -0.946   6.719  -0.608  1.00  0.00
+HETATM   50  C6  0fA     4      -1.153   5.900  -1.884  1.00  0.00
+HETATM   54  C4  0fA     4       0.285   7.645  -0.578  1.00  0.00
+HETATM   56  O4  0fA     4       0.178   8.584  -1.670  1.00  0.00
+HETATM   58  C3  0fA     4       0.329   8.400   0.767  1.00  0.00
+HETATM   60  O3  0fA     4       1.435   9.321   0.754  1.00  0.00
+HETATM   62  C2  0fA     4      -0.983   9.156   1.060  1.00  0.00
+HETATM   64  O2  0fA     4      -0.935   9.681   2.399  1.00  0.00
+TER
+HETATM    1  S1  0S3     5      -7.071   1.461   4.542  1.00 54.80           S
+HETATM    2  O1  0S3     5      -6.379   0.312   5.150  1.00 54.99           O
+HETATM    3  O2  0S3     5      -7.541   1.155   3.158  1.00 53.99           O
+HETATM    4  O3  0S3     5      -8.149   1.953   5.388  1.00 55.43           O
+TER
+HETATM    1  S1  0S3     6       2.318   4.811   3.305  1.00 54.80           S
+HETATM    2  O1  0S3     6       3.647   5.122   2.747  1.00 54.99           O
+HETATM    3  O2  0S3     6       2.394   3.759   4.363  1.00 53.99           O
+HETATM    4  O3  0S3     6       1.635   6.009   3.773  1.00 55.43           O
+TER
+END   

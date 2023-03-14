@@ -1,0 +1,36 @@
+Model is GMIA Man5.pdb
+
+Torsions - GMIA-Mn5
+G2-G1	GlcNAcb1-4GlcNAcb				Actual          Expected (Predominant in the PDB)
+NAG 1.D C5 -> NAG 1.D C4 -> NAG 1.D O4 -> NAG 2.D C1:  -127.83 Psi	-120
+NAG 1.D C4 -> NAG 1.D O4 -> NAG 2.D C1 -> NAG 2.D O5:   -79.45 Phi	-70 to -120
+
+M3-G2	Manb1-4GlcNAcb
+NAG 2.D C5 -> NAG 2.D C4 -> NAG 2.D O4 -> MAN 3.D C1:  -136.62 Psi	-120
+NAG 2.D C4 -> NAG 2.D O4 -> MAN 3.D C1 -> MAN 3.D O5:   -85.33 Phi	-70 to -120
+
+M5-M3 	Mana1-3Manb
+MAN 3.D C4 -> MAN 3.D C3 -> MAN 3.D O3 -> MAN 5.D C1:   147.95 Psi	85 to 160
+MAN 3.D C3 -> MAN 3.D O3 -> MAN 5.D C1 -> MAN 5.D O5:    78.58 Phi	60 to 110
+
+M8-M5	Mana1-6Mana!!!
+MAN 5.D O5 -> MAN 5.D C5 -> MAN 5.D C6 -> MAN 5.D O6:   -65.46 Omg	-60, 60,
+MAN 5.D C5 -> MAN 5.D C6 -> MAN 5.D O6 -> MAN 8.D C1:  -167.94 Psi      180,
+MAN 5.D C6 -> MAN 5.D O6 -> MAN 8.D C1 -> MAN 8.D O5:    48.67 Phi      60, -60, 180
+
+M4-M3 	Mana1-6Manb
+MAN 3.D O5 -> MAN 3.D C5 -> MAN 3.D C6 -> MAN 3.D O6:    70.02 Omg      -60, +60
+MAN 3.D C5 -> MAN 3.D C6 -> MAN 3.D O6 -> MAN 4.D C1:   155.71 Psi      +60 to +180
+MAN 3.D C6 -> MAN 3.D O6 -> MAN 4.D C1 -> MAN 4.D O5:    62.12 Phi      +60
+
+M6-M4 Mana1-6Mana
+MAN 4.D O5 -> MAN 4.D C5 -> MAN 4.D C6 -> MAN 4.D O6:   -71.10 Omg      -60, 60,
+MAN 4.D C5 -> MAN 4.D C6 -> MAN 4.D O6 -> MAN 6.D C1:   170.43 Psi      180
+MAN 4.D C6 -> MAN 4.D O6 -> MAN 6.D C1 -> MAN 6.D O5:    53.54 Phi      60, -60, 180
+
+M7-M4 Mana1-3Mana
+MAN 4.D C4 -> MAN 4.D C3 -> MAN 4.D O3 -> MAN 7.D C1:   101.48 Psi      85 to 160
+MAN 4.D C3 -> MAN 4.D O3 -> MAN 7.D C1 -> MAN 7.D O5:    57.24 Phi      60 to 110
+
+
+NAG 1.D C3 -> NAG 1.D C2 -> NAG 1.D N2 -> NAG 1.D C7:    62.93! i	Abnormal

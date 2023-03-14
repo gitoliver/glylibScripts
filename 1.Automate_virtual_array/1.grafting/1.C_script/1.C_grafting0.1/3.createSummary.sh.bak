@@ -1,0 +1,63 @@
+#!/bin/bash
+#BINDERS SUMMARY
+printf " ID | Budcore# | #fitRot | #MaxFitSp | Wiggled? | Exp Binder? | Spr |Sequence\n" > Summary.txt
+for id in `cat grafted-IDs.txt | sort | uniq`; 
+do
+    for bud in `ls Structures/$id-* | grep -o '..of.' | sed 's/_//g' | sort | uniq`
+    do
+        echo -ne "Working on $id $bud\n"
+        printf "%4s|" $id >> Summary.txt 
+        printf "  %6s  |" $bud >> Summary.txt
+
+        rotamers=`grep -l TOTAL Overlaps/$id-* | grep $bud | grep -c "."`
+        fittingrotamers=`grep -l BINDER Overlaps/$id-* | grep $bud | grep -c "."`
+        printf " %2d of%2d |" $fittingrotamers $rotamers >> Summary.txt
+
+        maxFitRot=0
+        for rot in `ls Structures/$id-* | xargs -n1 basename | grep $bud`
+        do
+            fitRot=`grep -l BINDER Overlaps/$rot*`
+            if [[ -n "$fitRot" ]]; then # if not NULL
+                numFitSpacers=`grep TOTAL Spacers/$rot* | cut -d = -f 2`
+                if [ $numFitSpacers -gt $maxFitRot ]; then
+                    maxFitRot=$numFitSpacers
+                fi
+            fi
+        done
+        printf "    %3d    |" $maxFitRot >> Summary.txt
+                
+#        maxFitRot=0
+#        for rot in `ls Structures/$id-* | xargs -n1 basename | grep $bud`
+        #for rot in `ls Spacers/$id-* | grep $bud`
+#        do
+#            numFitSpacers=`grep TOTAL Spacers/$rot* | cut -d = -f 2`
+#            if [ $numFitSpacers -gt $maxFitRot ]; then
+#                maxFitRot=$numFitSpacers
+#            fi
+#        done
+#        printf "    %3d    |" $maxFitRot >> Summary.txt
+
+        wiggled=`grep "PostWiggle.*BINDER" Overlaps/$id-*$bud*`
+        if [ -z "$wiggled" ]; then
+            printf "    N     |" >> Summary.txt
+        else
+            printf "    Y     |" >> Summary.txt
+        fi
+
+        expBinder=`grep "^$id$" EXP_BINDERS.txt`
+        #echo $expBinder
+        if [ -z "$expBinder" ]; then
+            printf "      N      |" >> Summary.txt
+        else
+            printf "      Y      |" >> Summary.txt
+        fi 
+
+        spacer=` grep -A1 "^$id$" spacer_id.txt | grep S`
+        printf " %3s |" $spacer >> Summary.txt
+
+	sequence=`grep "^$id"$'\t'"" GLYCANS.txt | cut -f2`
+        printf " $sequence" >> Summary.txt
+        printf "\n" >> Summary.txt
+    done
+done
+cat Summary.txt

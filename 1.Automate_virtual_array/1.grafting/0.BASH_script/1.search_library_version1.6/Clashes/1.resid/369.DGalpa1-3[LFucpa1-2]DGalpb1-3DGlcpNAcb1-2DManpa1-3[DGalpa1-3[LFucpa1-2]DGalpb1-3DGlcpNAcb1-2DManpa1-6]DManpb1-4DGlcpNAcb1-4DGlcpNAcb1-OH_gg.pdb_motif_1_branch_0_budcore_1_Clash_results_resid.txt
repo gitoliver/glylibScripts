@@ -1,0 +1,9 @@
+Clash Area For Resid No.9 is 131.824083
+Clash Area For Resid No.5 is 0.000000
+Clash Area For Resid No.14 is 0.000000
+Clash Area For Resid No.13 is 373.348894
+Clash Area For Resid No.6 is 144.978280
+Clash Area For Resid No.4 is 0.000000
+Clash Area For Resid No.3 is 0.000000
+Clash Area For Resid No.2 is 0.000000
+Clash Area For Resid No.1 is 0.000000

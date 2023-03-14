@@ -1,0 +1,1 @@
+./driverWigglerToSite.exe glycan-120-bud23.pdb receptor.pdb 14 1 24 23 > tmp

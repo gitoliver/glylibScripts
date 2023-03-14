@@ -1,0 +1,1208 @@
+==17247== Memcheck, a memory error detector
+==17247== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==17247== Using Valgrind-3.6.0.SVN-Debian and LibVEX; rerun with -h for copyright info
+==17247== Command: ./driver_wiggler.exe
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80566DC: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:110)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056724: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:115)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805678D: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:121)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567F6: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:127)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805685F: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:133)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568E9: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:140)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x40A350B: vfprintf (vfprintf.c:1614)
+==17247==    by 0x40AA11E: fprintf (fprintf.c:33)
+==17247==    by 0x805690A: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:143)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Syscall param write(buf) points to uninitialised byte(s)
+==17247==    at 0x4120E83: __write_nocancel (syscall-template.S:82)
+==17247==    by 0x40C9E4E: new_do_write (fileops.c:530)
+==17247==    by 0x40CA165: _IO_do_write@@GLIBC_2.1 (fileops.c:503)
+==17247==    by 0x40CAC4C: _IO_file_overflow@@GLIBC_2.1 (fileops.c:881)
+==17247==    by 0x40CBC08: _IO_switch_to_get_mode (genops.c:189)
+==17247==    by 0x40CA9B7: _IO_file_seekoff@@GLIBC_2.1 (fileops.c:986)
+==17247==    by 0x40C0F2E: _IO_seekoff_unlocked (ioseekoff.c:71)
+==17247==    by 0x40C2F6E: rewind (rewind.c:37)
+==17247==    by 0x805698D: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:148)
+==17247==    by 0x8052DE0: generate_torsion_window_permutations (generate_torsion_window_permutations.c:66)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==  Address 0x402d004 is not stack'd, malloc'd or (recently) free'd
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80566DC: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:110)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056724: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:115)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805678D: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:121)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567F6: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:127)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805685F: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:133)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568E9: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:140)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x40A350B: vfprintf (vfprintf.c:1614)
+==17247==    by 0x40AA11E: fprintf (fprintf.c:33)
+==17247==    by 0x805690A: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:143)
+==17247==    by 0x8052E1F: generate_torsion_window_permutations (generate_torsion_window_permutations.c:69)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80566DC: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:110)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056724: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:115)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805678D: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:121)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567F6: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:127)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805685F: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:133)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568E9: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:140)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x40A350B: vfprintf (vfprintf.c:1614)
+==17247==    by 0x40AA11E: fprintf (fprintf.c:33)
+==17247==    by 0x805690A: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:143)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x8052D3A: generate_torsion_window_permutations (generate_torsion_window_permutations.c:54)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056699: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:107)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80566DC: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:110)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805670C: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:113)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056724: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:115)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056775: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:119)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805678D: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:121)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567DE: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:125)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80567F6: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:127)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x8056847: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:131)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x805685F: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:133)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CFA: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025D15: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568B0: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:137)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== Conditional jump or move depends on uninitialised value(s)
+==17247==    at 0x4025CEE: strcat (mc_replace_strmem.c:176)
+==17247==    by 0x80568E9: outputAsmblPDB_NoRenameResid (writePDB_NoRenameResid.c:140)
+==17247==    by 0x8052CD3: generate_torsion_window_permutations (generate_torsion_window_permutations.c:45)
+==17247==    by 0x804F71B: wiggler (wiggler.c:44)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+Reading in receptor.pdb...
+There are 1 molecule(s)
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+Reading in ligand.pdb...
+There are 1 molecule(s)
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+Will begin wiggling
+total_clash=42.285558
+Clashiest resid is now 3
+Found linkage residue 3
+It has 1 connected residues
+BACK OUT TO FIRST CALL
+Resid connected to linkage=2
+cri=2, core_ri[1]=1
+cri=2, core_ri[2]=2
+Found core, resid=2
+Resid 2 leads to the core
+branch[0]=2
+branch[1]=2
+branch[2]=3
+Starting wiggling
+Will find which atoms are involved in linkage
+Entered explore_atom_tree
+DCS[0].X[1]=2.888000
+DCS[0].X[2]=2.875000
+Reordering
+DCS[0].X[1]=2.875000
+DCS[0].X[2]=2.888000
+Entered explore_atom_tree
+Entered explore_atom_tree
+Entered explore_atom_tree
+Will generate torsions
+clash for resid is now 42.285558
+
+clash for resid is now 38.834311
+
+clash for resid is now 31.343405
+
+clash for resid is now 27.741147
+
+clash for resid is now 23.684371
+
+clash for resid is now 23.480657
+
+clash for resid is now 23.263627
+
+clash for resid is now 23.035051
+
+clash for resid is now 22.795756
+
+clash for resid is now 21.703180
+
+clash for resid is now 17.264088
+
+clash for resid is now 17.067555
+
+clash for resid is now 16.851784
+
+clash for resid is now 16.618803
+
+clash for resid is now 16.369906
+
+clash for resid is now 15.155294
+
+clash for resid is now 8.183202
+
+clash for resid is now 8.089627
+
+clash for resid is now 7.965776
+
+clash for resid is now 5.279855
+
+clash for resid is now 4.849632
+
+clash for resid is now 4.006142
+
+clash for resid is now 0.000000
+
+Finished generating torsions for resid 3
+core_ri[1]=1
+core_ri[2]=2
+Reading in best_structure.pdb...
+There are 1 molecule(s)
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+Keeping best structure
+Reading in best_structure.pdb...
+There are 1 molecule(s)
+
+
+WARNING! SETTING BONDS BY DISTANCE.
+
+Setting nmb based on distance between atoms
+PDB Information Successfully Read.
+==17247== 
+==17247== HEAP SUMMARY:
+==17247==     in use at exit: 71,869 bytes in 1,286 blocks
+==17247==   total heap usage: 3,157 allocs, 1,871 frees, 651,398 bytes allocated
+==17247== 
+==17247== 2 bytes in 1 blocks are definitely lost in loss record 5 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804CF0E: getAssembly (load_pdb.c:342)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 12 bytes in 1 blocks are definitely lost in loss record 158 of 425
+==17247==    at 0x4025016: realloc (vg_replace_malloc.c:525)
+==17247==    by 0x804D0DE: getAssembly (load_pdb.c:365)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8054884: keep_best_structure (keep_best_structure.c:12)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 12 bytes in 1 blocks are definitely lost in loss record 159 of 425
+==17247==    at 0x4025016: realloc (vg_replace_malloc.c:525)
+==17247==    by 0x804D0DE: getAssembly (load_pdb.c:365)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048B2A: main (driver_wiggler.c:16)
+==17247== 
+==17247== 104 bytes in 2 blocks are definitely lost in loss record 340 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8054433: initialize_residue (initialize_GLYstruct.c:175)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048AE1: main (driver_wiggler.c:11)
+==17247== 
+==17247== 116 bytes in 1 blocks are definitely lost in loss record 341 of 425
+==17247==    at 0x4025016: realloc (vg_replace_malloc.c:525)
+==17247==    by 0x804D116: getAssembly (load_pdb.c:367)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8054884: keep_best_structure (keep_best_structure.c:12)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 116 bytes in 1 blocks are definitely lost in loss record 342 of 425
+==17247==    at 0x4025016: realloc (vg_replace_malloc.c:525)
+==17247==    by 0x804D116: getAssembly (load_pdb.c:367)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048B2A: main (driver_wiggler.c:16)
+==17247== 
+==17247== 156 bytes in 3 blocks are definitely lost in loss record 365 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8054433: initialize_residue (initialize_GLYstruct.c:175)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8054884: keep_best_structure (keep_best_structure.c:12)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 156 bytes in 3 blocks are definitely lost in loss record 366 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8054433: initialize_residue (initialize_GLYstruct.c:175)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048B2A: main (driver_wiggler.c:16)
+==17247== 
+==17247== 156 bytes in 3 blocks are definitely lost in loss record 367 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8054433: initialize_residue (initialize_GLYstruct.c:175)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 164 bytes in 1 blocks are definitely lost in loss record 370 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8048AAC: main (driver_wiggler.c:9)
+==17247== 
+==17247== 164 bytes in 1 blocks are definitely lost in loss record 371 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8048AF5: main (driver_wiggler.c:14)
+==17247== 
+==17247== 168 bytes in 2 blocks are definitely lost in loss record 372 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805440D: initialize_residue (initialize_GLYstruct.c:173)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048AE1: main (driver_wiggler.c:11)
+==17247== 
+==17247== 180 bytes in 1 blocks are definitely lost in loss record 373 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8051511: find_connection_atoms (find_connection_atoms.c:19)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 180 bytes in 1 blocks are definitely lost in loss record 374 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8051528: find_connection_atoms (find_connection_atoms.c:20)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 208 bytes in 1 blocks are definitely lost in loss record 378 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805153F: find_connection_atoms (find_connection_atoms.c:23)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 208 bytes in 1 blocks are definitely lost in loss record 379 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8051556: find_connection_atoms (find_connection_atoms.c:24)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 208 bytes in 1 blocks are definitely lost in loss record 380 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805176F: explore_atom_tree (find_connection_atoms.c:83)
+==17247==    by 0x80516EC: find_connection_atoms (find_connection_atoms.c:61)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 208 bytes in 1 blocks are definitely lost in loss record 381 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805176F: explore_atom_tree (find_connection_atoms.c:83)
+==17247==    by 0x8051730: find_connection_atoms (find_connection_atoms.c:68)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 208 bytes in 1 blocks are definitely lost in loss record 382 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805176F: explore_atom_tree (find_connection_atoms.c:83)
+==17247==    by 0x80518CE: explore_atom_tree (find_connection_atoms.c:107)
+==17247==    by 0x8051730: find_connection_atoms (find_connection_atoms.c:68)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 208 bytes in 1 blocks are definitely lost in loss record 383 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805176F: explore_atom_tree (find_connection_atoms.c:83)
+==17247==    by 0x80518CE: explore_atom_tree (find_connection_atoms.c:107)
+==17247==    by 0x80518CE: explore_atom_tree (find_connection_atoms.c:107)
+==17247==    by 0x8051730: find_connection_atoms (find_connection_atoms.c:68)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 224 bytes in 1 blocks are definitely lost in loss record 386 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804F5AD: wiggler (wiggler.c:22)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 224 bytes in 1 blocks are definitely lost in loss record 387 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8051951: reverse_DCS_order (find_connection_atoms.c:126)
+==17247==    by 0x8051701: find_connection_atoms (find_connection_atoms.c:65)
+==17247==    by 0x804F6B9: wiggler (wiggler.c:40)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 252 bytes in 3 blocks are definitely lost in loss record 388 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805440D: initialize_residue (initialize_GLYstruct.c:173)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8054884: keep_best_structure (keep_best_structure.c:12)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 252 bytes in 3 blocks are definitely lost in loss record 389 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805440D: initialize_residue (initialize_GLYstruct.c:173)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048B2A: main (driver_wiggler.c:16)
+==17247== 
+==17247== 252 bytes in 3 blocks are definitely lost in loss record 390 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x805440D: initialize_residue (initialize_GLYstruct.c:173)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 380 (156 direct, 224 indirect) bytes in 1 blocks are definitely lost in loss record 396 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804FB40: set_molecule_residue_nodes_from_bonds (bonding_utilities.c:76)
+==17247==    by 0x804BE6A: load_pdb (load_pdb.c:69)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 416 bytes in 2 blocks are definitely lost in loss record 397 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x80543F1: initialize_residue (initialize_GLYstruct.c:172)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048AE1: main (driver_wiggler.c:11)
+==17247== 
+==17247== 624 bytes in 3 blocks are definitely lost in loss record 404 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x80543F1: initialize_residue (initialize_GLYstruct.c:172)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8054884: keep_best_structure (keep_best_structure.c:12)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 624 bytes in 3 blocks are definitely lost in loss record 405 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x80543F1: initialize_residue (initialize_GLYstruct.c:172)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048B2A: main (driver_wiggler.c:16)
+==17247== 
+==17247== 624 bytes in 3 blocks are definitely lost in loss record 406 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x80543F1: initialize_residue (initialize_GLYstruct.c:172)
+==17247==    by 0x804CF94: getAssembly (load_pdb.c:348)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 4,116 (2,436 direct, 1,680 indirect) bytes in 1 blocks are definitely lost in loss record 418 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x8050C36: set_molecule_atom_nodes_from_bonds (bonding_utilities.c:414)
+==17247==    by 0x804BE3A: load_pdb (load_pdb.c:63)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 6,719 (164 direct, 6,555 indirect) bytes in 1 blocks are definitely lost in loss record 422 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804CDBE: getAssembly (load_pdb.c:313)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048AE1: main (driver_wiggler.c:11)
+==17247== 
+==17247== 14,496 (540 direct, 13,956 indirect) bytes in 1 blocks are definitely lost in loss record 423 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804CF66: getAssembly (load_pdb.c:345)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x80548F5: keep_best_structure (keep_best_structure.c:20)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 19,162 (4 direct, 19,158 indirect) bytes in 1 blocks are definitely lost in loss record 424 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804CD8A: getAssembly (load_pdb.c:311)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8054884: keep_best_structure (keep_best_structure.c:12)
+==17247==    by 0x804F7A3: wiggler (wiggler.c:52)
+==17247==    by 0x8048BDD: main (driver_wiggler.c:36)
+==17247== 
+==17247== 19,162 (4 direct, 19,158 indirect) bytes in 1 blocks are definitely lost in loss record 425 of 425
+==17247==    at 0x402425F: calloc (vg_replace_malloc.c:467)
+==17247==    by 0x804CD8A: getAssembly (load_pdb.c:311)
+==17247==    by 0x804BD32: load_pdb (load_pdb.c:39)
+==17247==    by 0x8048B2A: main (driver_wiggler.c:16)
+==17247== 
+==17247== LEAK SUMMARY:
+==17247==    definitely lost: 9,730 bytes in 56 blocks
+==17247==    indirectly lost: 60,731 bytes in 1,226 blocks
+==17247==      possibly lost: 0 bytes in 0 blocks
+==17247==    still reachable: 1,408 bytes in 4 blocks
+==17247==         suppressed: 0 bytes in 0 blocks
+==17247== Reachable blocks (those to which a pointer was found) are not shown.
+==17247== To see them, rerun with: --leak-check=full --show-reachable=yes
+==17247== 
+==17247== For counts of detected and suppressed errors, rerun with: -v
+==17247== Use --track-origins=yes to see where uninitialised values come from
+==17247== ERROR SUMMARY: 4456727 errors from 131 contexts (suppressed: 14 from 7)

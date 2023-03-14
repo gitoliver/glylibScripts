@@ -1,0 +1,295 @@
+#include <glylib.h>
+//FUNCTION DECLARATIONS
+int line_num(char *filename);
+int is_A_in_B(int A_rn, char A_table[][7][8], int B_rn, char B_table[][7][8], int *A_rnlist, int *B_rnlist, int *B_rns);
+
+int main (void){
+
+char filename[50];
+FILE * pFile;
+
+/*********************************READ TEMPLATE INFO**************************************/
+int i=0,j=0,k=0,l=0,m=0,n=0,TnumRes; // counters
+strcpy(filename, "LINK.txt");
+TnumRes = line_num(filename);
+char Ttable[TnumRes][7][8]; // LINK table for the template
+char Tstring[TnumRes][30];// string with relevant info for comparing to LG 
+int T_rn[TnumRes]; // stores residue numbers of Template residues
+int tmp,n0LGcores;
+
+
+pFile = fopen (filename,"r");
+printf("TnumRes=%d\n",TnumRes);
+
+for (i=1;i<=TnumRes;i++){ 
+	for (j=0;j<7;j++){
+		fscanf (pFile, "%s", Ttable[i][j]);
+		//printf("table[%d][%d] is %s ",i,j,Ttable[i][j]);
+	}
+	printf("Template residue names are %c%c%c\n",Ttable[i][5][0],Ttable[i][5][1],Ttable[i][5][2]);
+	strcpy(Tstring[i],Ttable[i][1]); // copy first atom name
+	sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][2][1]); // copy residue name[1]
+	sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][2][2]); // copy residue name[2]
+	strcat(Tstring[i],Ttable[i][4]); // copy second atom name
+	sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][5][1]); // copy residue name[1]
+        sprintf(strchr(Tstring[i], '\0'), "%c", Ttable[i][5][2]); // copy residue name[2]
+	printf("The Tstring[%d] is %s\n",i,Tstring[i]);
+}
+fclose (pFile);
+
+/************************GET_LIST_OF_LINENUMBERS_OF_RESIDUES*********************************/
+
+int T_rnlist[TnumRes];
+// Now get an organized list of line numbers of the residue numbers in Ttable[i][6][0]. So T_rnlist[1]=linenumberthat residue1 is on RHS.
+for (i=2;i<=(TnumRes+1);i++){
+	for (j=2;j<=(TnumRes+1);j++){
+		if (atoi(Ttable[j][6])==i){ 
+			T_rnlist[i]=j;
+			printf("T_rnlist[%d]=%d\n",i,j); //residue number i is on line number j
+		}
+	}
+}
+		
+// load in the template
+assembly T; // Template assembly
+strcpy(filename, "complex.pdb");
+T=*load_pdb(filename);
+
+/*****************************END*READ TEMPLATE INFO*END**********************************/
+
+/********************List the contents of RESULTS_library_search**************************/
+DIR *mydir = opendir("./RESULTS_library_search");
+struct dirent *entry = NULL;
+int numfiles;
+i=0;
+char d_list[200][200];// dynamically set/expand this?
+while((entry = readdir(mydir))){ /* If we get EOF, the expression is 0 and the loop stops. */
+	printf("%s\n", entry->d_name);
+	strcpy(d_list[i], "./RESULTS_library_search/");
+	strcat(d_list[i], entry->d_name);
+	i++;
+	}
+closedir(mydir);
+numfiles=(i-2); // as . and .. are listed
+for (j=0;j<(numfiles);j++){
+	printf("d_list[%d]=%s\n",j,d_list[j]);
+	}
+/****************END*List the contents of RESULTS_library_search*END**********************/
+
+/*HERE WE GO!*/
+assembly LG; // Library Glycan Assembly
+char buffer[60];
+int LGcore_rn[TnumRes];
+for (i=0;i<(numfiles);i++){
+	LG=*load_pdb(d_list[i]);
+
+
+	// read LINK info
+	pFile = fopen (d_list[i],"r");
+	char LGtable[40][7][8]; // more than 40 resids in a glycan? 7 LINK entries, none more than 8
+	char LGstring[40][30];
+	int n0LGres;
+	j=1;// to match Tstring which starts on 1 as uses TnumRes as top of counter.
+	strcpy(buffer,"reset_string");
+	while (strcmp(buffer,"HETATM")!=0 && strcmp(buffer,"ATOM")!=0){
+		fscanf (pFile, "%s",buffer);
+		if (strcmp(buffer,"LINK")==0){
+			strcpy(LGtable[j][0],buffer);
+			for (k=1;k<7;k++){ // for the next 6 entries
+				fscanf (pFile, "%s", LGtable[j][k]);
+				printf("LGtable[%d][%d]=%s\n",j,k,LGtable[j][k]);
+			}
+			// get relevent info and create string to compare
+			strcpy(LGstring[j],LGtable[j][1]);
+	        	sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][2][1]);
+	        	sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][2][2]);
+		        strcat(LGstring[j],LGtable[j][4]);
+		        sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][5][1]);
+		        sprintf(strchr(LGstring[j], '\0'), "%c", LGtable[j][5][2]);
+		        printf("The LGstring[%d] is %s\n",j,LGstring[j]);
+			j++; // j will be the number of residues in LG
+		}
+		
+	}
+	n0LGres=j;
+	printf("\nn0LGres=%d\n",n0LGres);
+	int LG_rnlist[n0LGres];
+	// Now get an organized list of line numbers of the residue numbers in table[i][6][0]. So rnlist[1]=linenumberthat residue1 is on RHS.
+	for (i=2;i<=(n0LGres+1);i++){
+       	 	for (j=2;j<=(n0LGres+1);j++){
+        	        if (atoi(LGtable[j][6])==i){
+                	        LG_rnlist[i]=j;
+                        	printf("LG_rnlist[%d]=%d\n",i,j); //residue number i is on line number j
+                	}
+        	}
+	}
+	// read LINK info END
+	TnumRes--;// Just testing, REMOVE!
+	int LG_rns[n0LGres];
+	int T_rn,LG_rn,x; // rn=residue number. x will indicate success or fail
+	//FIND resids of residues in LGtable that match Ttable
+	// pick a randon residue (say last one in Ttable). Find all matches in lG. E.g. looking to match a-Gal(1- for each match:
+	for (j=0;j<n0LGres;j++){
+		if (Ttable[TnumRes][5][1]==LGtable[j][5][1] && Ttable[TnumRes][5][2]==LGtable[j][5][2] && strcmp(Ttable[TnumRes][4],LGtable[j][4])==0){ // for each match
+			printf("matched the last resid in Ttable to the one on the %d row of LGtable\n",j);
+			T_rn=atoi(Ttable[TnumRes][6]);
+			LG_rn=atoi(LGtable[j][6]);
+			printf("T_rn=%d\nLG_rn=%d\n",T_rn,LG_rn);
+			x=is_A_in_B(T_rn, Ttable, LG_rn, LGtable, T_rnlist, LG_rnlist, LG_rns);
+			if (x==1){printf("LGtable[%d] is a winner\n",j);}
+			else {printf("Balls\n");}
+		}
+	}
+
+	for (k=2;k<j;k++){ // for each entry in LGtable, starts at 1 and 1 is ROH thus k=2
+		for (l=2;l<TnumRes;l++){ // for each entry in Ttable
+			if (strcmp(LGstring[k],Tstring[l])==0){ // if there is a match record the resids
+				//num matches to string[k] ++
+				tmp=(LGtable[k][3][0]-'0'); // convert that sucker to an int!
+				LGcore_rn[m]=tmp;
+				printf("LGcore_rn[%d]=%d\n",m,LGcore_rn[m]);
+				m++;
+				tmp=(LGtable[k][6][0]-'0'); // convert that sucker to an int!
+				LGcore_rn[m]=tmp;
+				printf("LGcore_rn[%d]=%d\n",m,LGcore_rn[m]);
+				m++;
+
+			}
+		}
+	}
+	n0LGcores=m;
+	// now we know LGcore_rn. Isn't that exciting!!!
+	//Find the number and resids of 0residues that aren't in the LGcore_rn list. This will be the number of branches.
+	int n0branches=0,write=1;
+	int branches[j];
+	for (k=2;k<j;k++){
+		if (LGtable[k][5][0]=='0'){
+			write=1;
+			for (l=0;l<TnumRes;l++){
+				if ((LGtable[k][6][0]-'0')==LGcore_rn[l]){
+					write=0; // resid is a budcore and we don't want to waste time starting there.
+				}
+			}
+			if (write==1){ // if resid wasn't a budcore residue
+				tmp=(LGtable[k][6][0]-'0');
+				branches[n0branches]=tmp;
+				printf("residue number %d is an 0resid\n",branches[n0branches]);
+				n0branches++;
+			}
+		}
+	}
+	// for each branch
+	assembly B;
+	m=0;
+	int proceed=1;
+	int branch_rn[n0LGres], n0branch_rn=0; // make it the maximum size a branch could be. ie. the whole glycan
+	int current_rn=0;
+	for (k=0;k<n0branches;k++){
+		// compare resid with LGcore resids and 1
+		current_rn=branches[k];
+		proceed=1;
+		while (proceed==1){
+			// add rn to list in branch_rn and find what it is connected to.
+			n0branch_rn++;
+			printf("current_rn=%d\n",current_rn);
+			branch_rn[m]=current_rn;
+			// update the LGcore to contain the branch info? That way we will have no repeats...
+			for (l=0;l<n0LGres;l++){
+				if ((LGtable[l][6][0]-'0')==current_rn){ 
+					current_rn=(LGtable[l][3][0]-'0'); // go down the branch
+					printf("current_rn will be %d\n",(LGtable[l][3][0]-'0'));
+				}
+			}
+			// check if we should proceed, if we hit an LGcore or rn=1 or something we have seen before we should stop, graft and go to the next branch
+			for (l=0;l<n0LGres;l++){ 
+				if(current_rn==LGcore_rn[l] || current_rn==1){
+					proceed=0;
+					printf("Stopping! current_rn=%d, LGcore_rn=%d\n",current_rn,LGcore_rn[l]);
+				}
+			}
+			for (l=0;l<n0branch_rn;l++){ // have we seen it before?
+                                if(current_rn==branch_rn[l]){
+                                        proceed=0;
+                                        printf("Stopping! branch_rn=%d\n",branch_rn[l]);
+                                }
+                        }
+			m++;
+		} // end while proceed
+	// copy resi that are in branch_rn from LG assembly into B assembly
+	// graft this branch
+	// 
+		for (l=0;l<n0branch_rn;l++){
+			printf("Branch_rn==%d\n",branch_rn[l]);
+		}
+	}		
+}
+
+return 0;
+}
+
+int line_num(char *filename){
+FILE *f;
+char c;
+int lines = 0;
+f = fopen(filename, "r");
+if(f == NULL)
+return 0;
+while((c = fgetc(f)) != EOF)
+if(c == '\n')
+lines++;
+fclose(f);
+//if(c != '\n')
+//lines++;
+return lines;
+}
+
+int is_A_in_B(int A_rn, char A_table[][7][8], int B_rn, char B_table[][7][8], int *A_rnlist, int *B_rnlist, int *B_rns){// return residue numbers of B that match A in B_rns
+
+char A_neighbr[A_rn]; // always pass in the highest residue number
+char B_neighbr[20];
+int i,j,x=0;
+int An=0,Bn=0; // neighbour number
+int Aln,Bln; // line number that the residue number is on... me spake anglish mucher gooder yes?
+int n0match=0;
+int rn;
+
+A_neighbr[An]=A_table[A_rnlist[A_rn]][3][0]; // take the LHS(in the LINK table) connected resid as neighbr 0
+B_neighbr[Bn]=B_table[B_rnlist[B_rn]][3][0]; 
+// if atom names and residue names of the LHS(in the LINK table) connected resid match
+Aln=A_rnlist[A_rn]; // Aln is line number of A_rn residue
+printf("T Residue number %d is on line number %d should = %d\n",A_rn,Aln,A_rnlist[A_rn]);
+Bln=B_rnlist[B_rn];
+printf("LG Residue number %d is on line number %d should = %d\n",B_rn,Bln,B_rnlist[B_rn]);
+if (A_table[Aln][2][1]==B_table[Bln][2][1] && A_table[Aln][2][2]==B_table[Bln][2][2] && strcmp(A_table[Aln][1],B_table[Bln][1])==0) {
+	A_neighbr[An]=A_table[Aln][3][0]; // take the LHS(in the LINK table) connected resid as neighbr 0
+	B_neighbr[Bn]=B_table[Bln][3][0];
+	printf("1st Neighbour matches\n");
+	for (i=1;i<=4;i++){
+		rn=atoi(A_table[i][3]);
+		if (rn==A_rn){ // then A_rn is connected to some other resid on row i
+			printf("A has a second neighbour\n");
+			An++; // A_rn has another neighbour
+			A_neighbr[An]=A_table[i][6][0]; // it helps if you look at a LINK table :) RHS resid is resid of neighbour
+			for (j=1;j<=5;j++){ // Let's see if B has the same neighbour...
+				rn=atoi(B_table[j][3]);
+				if (rn==B_rn){ // if B_rn has more than one neighbour
+					Bn++;// B_rn has another neighbour too, that's good. is it the same name and linkage?
+					printf("B also has a second neighbour\n");
+					if (A_table[i][2][1]==B_table[j][2][1] && A_table[i][2][2]==B_table[j][2][2] && strcmp(A_table[i][1],B_table[j][1])==0){
+						n0match++; // TADA! There was match.
+						B_neighbr[Bn]=B_table[j][6][0]; // RHS resid is resid of neighbour
+						printf("2nd Neighbour matches\n");
+					}
+				}
+			}
+		}
+	}
+}
+if (n0match==An){
+	x=1;
+}
+else x=0;
+
+printf("n0match=%d,An=%d\n",n0match,An);
+return x;
+}

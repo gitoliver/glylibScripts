@@ -1,0 +1,53 @@
+1.  r_resids[0] are >>>295<<<
+1.  g_resids[0] are >>>m9<<<
+num_residues=1
+Glycan in direcory is m9-tggt-P4.pdb
+Glycan in direcory is b.m9-gtgt-P2.pdb
+Glycan in direcory is m9-gtgt-P1.pdb
+Glycan in direcory is m9-gttg-P1.pdb
+Glycan in direcory is m9-tggt-P2.pdb
+Glycan in direcory is m9-gtgt-P4.pdb
+Glycan in direcory is m9-gtgt-P2.pdb
+Glycan in direcory is 0.m9-gtgt-P1.pdb
+Glycan in direcory is m9-tgtg-P2.pdb
+Glycan in direcory is m9-tgtg-P3.pdb
+Glycan in direcory is c.m9-tggt-P1.pdb
+Glycan in direcory is 1.m9-gtgt-P2.pdb
+Glycan in direcory is m9-gttg-P2.pdb
+Glycan in direcory is m9-gtgt-P3.pdb
+Glycan in direcory is a.m9-gtgt-P1.pdb
+Glycan in direcory is m9-gttg-P4.pdb
+Glycan in direcory is m9-gttg-P3.pdb
+Glycan in direcory is m9-tgtg-P4.pdb
+Glycan in direcory is m9-tgtg-P1.pdb
+Glycan in direcory is m9-tggt-P1.pdb
+Glycan in direcory is m9-tggt-P3.pdb
+num_glycans=21
+d_list[0]=m9-tggt-P4.pdb
+d_list[1]=b.m9-gtgt-P2.pdb
+d_list[2]=m9-gtgt-P1.pdb
+d_list[3]=m9-gttg-P1.pdb
+d_list[4]=m9-tggt-P2.pdb
+d_list[5]=m9-gtgt-P4.pdb
+d_list[6]=m9-gtgt-P2.pdb
+d_list[7]=0.m9-gtgt-P1.pdb
+d_list[8]=m9-tgtg-P2.pdb
+d_list[9]=m9-tgtg-P3.pdb
+d_list[10]=c.m9-tggt-P1.pdb
+d_list[11]=1.m9-gtgt-P2.pdb
+d_list[12]=m9-gttg-P2.pdb
+d_list[13]=m9-gtgt-P3.pdb
+d_list[14]=a.m9-gtgt-P1.pdb
+d_list[15]=m9-gttg-P4.pdb
+d_list[16]=m9-gttg-P3.pdb
+d_list[17]=m9-tgtg-P4.pdb
+d_list[18]=m9-tgtg-P1.pdb
+d_list[19]=m9-tggt-P1.pdb
+d_list[20]=m9-tggt-P3.pdb
+Error opening file.
+Expected location is:
+
+	glycosylated1.pdb
+
+Attempted file open for r
+Exiting.

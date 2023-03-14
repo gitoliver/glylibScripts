@@ -1,0 +1,223 @@
+Template residue names are WYB
+Template residue names are 0fA
+Template residue names are 2LB
+Template residue names are 0fA
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+d_list[0]=./RESULTS_library_search/103_noH.pdb
+Reading in ./RESULTS_library_search/103_noH.pdb...
+There are 5 molecule(s)
+PDB Information Successfully Read.
+buffer=TITLE
+buffer=FILE:glycam_4_25_2011_616_MIN_formatted.pdb
+buffer=TITLE
+buffer=STRUCTURE
+buffer=GENERATED
+buffer=USING
+buffer=GLYCAM/WEB
+buffer=http://www.glycam.org
+buffer=REMARK
+buffer=REMARK
+buffer=REFINEMENT
+buffer=REMARK
+buffer=PROGRAM
+buffer=:
+buffer=AMBER
+buffer=SOFTWARE
+buffer=WITH
+buffer=GLYCAM06f
+buffer=FORCEFIELD
+buffer=REMARK
+buffer=AUTHORS
+buffer=:
+buffer=GROUP
+buffer=OF
+buffer=R.J.WOODS
+buffer=REMARK
+buffer=REMARK
+buffer=OTHER
+buffer=REFINEMENT
+buffer=REMARKS:
+buffer=REMARK
+buffer=****
+buffer=USERS
+buffer=PLEASE
+buffer=NOTE
+buffer=****
+buffer=REMARK
+buffer=STRUCTURE
+buffer=WILL
+buffer=RARELY
+buffer=BE
+buffer=ADEQUATE
+buffer=TO
+buffer=DESCRIBE
+buffer=SOLUTION
+buffer=BEHAVIOR
+buffer=REMARK
+buffer=REMARK
+buffer=COMPLIES
+buffer=WITH
+buffer=FORMAT
+buffer=V.3.20,
+buffer=01-DEC-08
+buffer=REMARK
+buffer=250
+buffer=REMARK
+buffer=250
+buffer=EXPERIMENTAL
+buffer=DETAILS
+buffer=REMARK
+buffer=250
+buffer=EXPERIMENT
+buffer=TYPE
+buffer=:
+buffer=THEORITICAL
+buffer=STRUCTURE
+buffer=REMARK
+buffer=250
+buffer=DATE
+buffer=OF
+buffer=DATA
+buffer=COLLECTION
+buffer=:
+buffer=REMARK
+buffer=REMARK
+buffer=LINEAR
+buffer=SEQUENCE
+buffer=OME
+buffer=WYB
+buffer=ZLB
+buffer=0LA
+buffer=REMARK
+buffer=BRANCH
+buffer=SEQUENCE
+buffer=0fA
+buffer=REMARK
+buffer=BRANCH
+buffer=SEQUENCE
+buffer=0fA
+buffer=REMARK
+buffer=*NOTE
+buffer=THAT
+buffer=THE
+buffer=REDUCING
+buffer=TERMINUS
+buffer=IS
+buffer=ON
+buffer=THE
+buffer=LEFT
+buffer=END
+buffer=OF
+buffer=THE
+buffer=SEQUENCE
+buffer=REMARK
+buffer=THIS
+buffer=ORDERING
+buffer=IS
+buffer=REVERSED
+buffer=COMPARED
+buffer=TO
+buffer=COMMON
+buffer=POLYSACCHARIDE
+buffer=REMARK
+buffer=CONVENTION
+buffer=REMARK
+buffer=REMARK
+buffer=THE
+buffer=GLYCOSIDIC
+buffer=LINKAGES
+buffer=FOLLOW
+buffer=LINK
+table[1][0] is O
+table[1][1] is OME
+table[1][2] is 1
+table[1][3] is C1
+table[1][4] is WYB
+table[1][5] is 2
+table[1][6] is LINK
+table[2][0] is O3
+table[2][1] is WYB
+table[2][2] is 2
+table[2][3] is C1
+table[2][4] is 0fA
+table[2][5] is 6
+table[2][6] is LINK
+table[3][0] is O4
+table[3][1] is WYB
+table[3][2] is 2
+table[3][3] is C1
+table[3][4] is ZLB
+table[3][5] is 3
+table[3][6] is LINK
+table[4][0] is O2
+table[4][1] is ZLB
+table[4][2] is 3
+table[4][3] is C1
+table[4][4] is 0fA
+table[4][5] is 5
+table[4][6] is LINK
+table[5][0] is O3
+table[5][1] is ZLB
+table[5][2] is 3
+table[5][3] is C1
+table[5][4] is 0LA
+table[5][5] is 4
+table[5][6] is HETATM
+table[6][0] is 2
+table[6][1] is CH3
+table[6][2] is OME
+table[6][3] is 1
+table[6][4] is -8.134
+table[6][5] is 3.532
+table[6][6] is 3.496
+table[7][0] is 1.00
+table[7][1] is 0.00
+table[7][2] is HETATM
+table[7][3] is 5
+table[7][4] is O
+table[7][5] is OME
+table[7][6] is 1
+table[8][0] is -6.874
+table[8][1] is 3.694
+table[8][2] is 4.231
+table[8][3] is 1.00
+table[8][4] is 0.00
+table[8][5] is HETATM
+table[8][6] is 6
+table[9][0] is C1
+table[9][1] is WYB
+table[9][2] is 2
+table[9][3] is -5.679
+table[9][4] is 3.271
+table[9][5] is 3.484
+table[9][6] is 1.00
+table[10][0] is 0.00
+table[10][1] is HETATM
+table[10][2] is 8
+table[10][3] is O5
+table[10][4] is WYB
+table[10][5] is 2
+table[10][6] is -5.642
+table[11][0] is 1.801
+table[11][1] is 3.321
+table[11][2] is 1.00
+table[11][3] is 0.00
+table[11][4] is HETATM
+table[11][5] is 9
+table[11][6] is C5
+table[12][0] is WYB
+table[12][1] is 2
+table[12][2] is -4.481
+table[12][3] is 1.276
+table[12][4] is 2.573
+table[12][5] is 1.00
+table[12][6] is 0.00
+table[13][0] is HETATM
+table[13][1] is 11
+table[13][2] is C6
+table[13][3] is WYB
+table[13][4] is 2
+table[13][5] is -4.654
+table[13][6] is -0.238

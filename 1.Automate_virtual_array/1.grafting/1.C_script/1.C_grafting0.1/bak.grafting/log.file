@@ -1,0 +1,298 @@
+TnumRes=4
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+Reading in receptor.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+446_gg_noH.pdb
+417_noH.pdb
+71_noH.pdb
+d_list[0]=./RESULTS_library_search/446_gg_noH.pdb
+d_list[1]=./RESULTS_library_search/417_noH.pdb
+d_list[2]=./RESULTS_library_search/71_noH.pdb
+numfiles=3
+
+Reading in ./RESULTS_library_search/446_gg_noH.pdb...
+There are 6 molecule(s)
+PDB Information Successfully Read.
+numfiles=3
+filesleft=3
+Number of residues in glycan library file, n0LGres=18
+n0_budcores in library glycan=3
+CORE2ROH_rn[0]=10
+CORE2ROH_rn[1]=5
+CORE2ROH_rn[2]=4
+CORE2ROH_rn[3]=3
+CORE2ROH_rn[4]=2
+current_rn is now 6
+current_rn is now 5
+Stopping, this is part of CORE2ROH! branch_rn=5
+branch_n0[0]=2
+current_rn is now 7
+current_rn is now 6
+Stopping, this is part of CORE2ROH! branch_rn=6
+branch_n0[0]=2
+current_rn is now 15
+current_rn is now 14
+current_rn is now 4
+Stopping, this is part of CORE2ROH! branch_rn=4
+branch_n0[0]=3
+current_rn is now 16
+current_rn is now 15
+Stopping, this is part of CORE2ROH! branch_rn=15
+branch_n0[0]=2
+Dealing with CORE2ROH
+Writing file: branch.pdb...
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+LGcore_rn=10, LGbranch_rn=5, LGcore_aN=C1,LGbranch_aN=O4,Tcore_rn=2,Tbranch_rn=1
+core residue number=10
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+B a1 is C1
+B a4 is O5
+B a3 is C2
+B a2 is O1
+Writting file: checknamesB.pdb...
+Writting file: checknamesA.pdb...
+Entered superimpose4atoms function
+Writting file: A2out.pdb...
+Writting file: B2out.pdb...
+New theta=2.267955
+New theta=1.617657
+New theta=0.052337
+Writting file: A3out.pdb...
+Writting file: B3out.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_branch.pdb...
+Writting file: superimposed_cplx.pdb...
+Writting file: ./RESULTS_library_search/446_gg_noH.pdb0branch.pdb...
+Entered the FUNction
+TtoLG[2][0]=10
+TtoLG[3][0]=11
+TtoLG[4][0]=12
+TtoLG[5][0]=13
+CORE2ROH_rn[0]=6
+CORE2ROH_rn[1]=5
+CORE2ROH_rn[2]=4
+CORE2ROH_rn[3]=3
+CORE2ROH_rn[4]=2
+current_rn is now 10
+current_rn is now 5
+Stopping, this is part of CORE2ROH! branch_rn=5
+branch_n0[0]=2
+current_rn is now 11
+current_rn is now 10
+Stopping, this is part of CORE2ROH! branch_rn=10
+branch_n0[0]=2
+current_rn is now 15
+Stopping, this is part of CORE2ROH! branch_rn=15
+branch_n0[0]=1
+current_rn is now 16
+Stopping, this is part of CORE2ROH! branch_rn=16
+branch_n0[0]=1
+Dealing with CORE2ROH
+Writing file: branch.pdb...
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+LGcore_rn=6, LGbranch_rn=5, LGcore_aN=C1,LGbranch_aN=O2,Tcore_rn=2,Tbranch_rn=1
+core residue number=6
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+B a1 is C1
+B a4 is O5
+B a3 is C2
+B a2 is O1
+Writting file: checknamesB.pdb...
+Writting file: checknamesA.pdb...
+Entered superimpose4atoms function
+Writting file: A2out.pdb...
+Writting file: B2out.pdb...
+New theta=1.244023
+New theta=0.490966
+New theta=0.150853
+New theta=0.046621
+Writting file: A3out.pdb...
+Writting file: B3out.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_branch.pdb...
+Writting file: superimposed_cplx.pdb...
+Writting file: ./RESULTS_library_search/446_gg_noH.pdb0branch.pdb...
+Entered the FUNction
+TtoLG[2][1]=6
+TtoLG[3][1]=7
+TtoLG[4][1]=8
+TtoLG[5][1]=9
+CORE2ROH_rn[0]=15
+CORE2ROH_rn[1]=14
+CORE2ROH_rn[2]=4
+CORE2ROH_rn[3]=3
+CORE2ROH_rn[4]=2
+current_rn is now 6
+current_rn is now 5
+current_rn is now 4
+Stopping, this is part of CORE2ROH! branch_rn=4
+branch_n0[0]=3
+current_rn is now 7
+current_rn is now 6
+Stopping, this is part of CORE2ROH! branch_rn=6
+branch_n0[0]=2
+current_rn is now 10
+current_rn is now 5
+Stopping, this is part of CORE2ROH! branch_rn=5
+branch_n0[0]=2
+current_rn is now 11
+current_rn is now 10
+Stopping, this is part of CORE2ROH! branch_rn=10
+branch_n0[0]=2
+Dealing with CORE2ROH
+Writing file: branch.pdb...
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+LGcore_rn=15, LGbranch_rn=14, LGcore_aN=C1,LGbranch_aN=O2,Tcore_rn=2,Tbranch_rn=1
+core residue number=15
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+B a1 is C1
+B a4 is O5
+B a3 is C2
+B a2 is O1
+Writting file: checknamesB.pdb...
+Writting file: checknamesA.pdb...
+Entered superimpose4atoms function
+Writting file: A2out.pdb...
+Writting file: B2out.pdb...
+New theta=1.981325
+New theta=2.319972
+New theta=0.033533
+Writting file: A3out.pdb...
+Writting file: B3out.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_branch.pdb...
+Writting file: superimposed_cplx.pdb...
+Writting file: ./RESULTS_library_search/446_gg_noH.pdb0branch.pdb...
+Entered the FUNction
+TtoLG[2][2]=15
+TtoLG[3][2]=16
+TtoLG[4][2]=17
+TtoLG[5][2]=18
+
+Reading in ./RESULTS_library_search/417_noH.pdb...
+There are 5 molecule(s)
+PDB Information Successfully Read.
+numfiles=3
+filesleft=2
+Number of residues in glycan library file, n0LGres=7
+n0_budcores in library glycan=1
+CORE2ROH_rn[0]=3
+CORE2ROH_rn[1]=2
+current_rn is now 4
+Stopping, reached a core! Bn=0 current_rn=4
+branch_n0[0]=2
+Dealing with CORE2ROH
+Writing file: branch.pdb...
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+LGcore_rn=3, LGbranch_rn=2, LGcore_aN=C1,LGbranch_aN=O3,Tcore_rn=2,Tbranch_rn=1
+core residue number=3
+number of bonds=2
+
+SCENARIO 1
+
+a1 is C1,a2 is O1,a3 is C2, a4 is O5 
+Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+B a1 is C1
+B a4 is O5
+B a3 is C2
+B a2 is O1
+Writting file: checknamesB.pdb...
+Writting file: checknamesA.pdb...
+Entered superimpose4atoms function
+Writting file: A2out.pdb...
+Writting file: B2out.pdb...
+New theta=2.043898
+New theta=2.187157
+New theta=0.006120
+Writting file: A3out.pdb...
+Writting file: B3out.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_branch.pdb...
+Writting file: superimposed_cplx.pdb...
+Writting file: ./RESULTS_library_search/417_noH.pdb0branch.pdb...
+Entered the FUNction
+Dealing with branch number 0
+Writing file: branch.pdb...
+Reading in branch.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+branch_rn[0][2]=4
+LGcore_rn=4, LGbranch_rn=5, LGcore_aN=O3,LGbranch_aN=C1,Tcore_rn=3,Tbranch_rn=1
+core residue number=4
+number of bonds=1
+
+connect_ai number of bonds=3
+
+SCENARIO 2
+
+a1 is C3,a2 is O3,a3 is C2, a4 is C4 Reading in complex.pdb...
+There are 1 molecule(s)
+PDB Information Successfully Read.
+B a4 is C4
+B a1 is C3
+B a2 is O3
+B a3 is C2
+Writting file: checknamesB.pdb...
+Writting file: checknamesA.pdb...
+Entered superimpose4atoms function
+Writting file: A2out.pdb...
+Writting file: B2out.pdb...
+New theta=0.127798
+New theta=0.021050
+Writting file: A3out.pdb...
+Writting file: B3out.pdb...
+Writting file: superimposed_cplx_dirt.pdb...
+Writting file: superimposed_branch.pdb...
+Writting file: superimposed_cplx.pdb...
+Writting file: ./RESULTS_library_search/417_noH.pdb1branch.pdb...
+Entered the FUNction
+TtoLG[2][0]=3
+TtoLG[3][0]=4
+TtoLG[4][0]=6
+TtoLG[5][0]=7
+
+Reading in ./RESULTS_library_search/71_noH.pdb...
+There are 3 molecule(s)
+PDB Information Successfully Read.
+numfiles=3
+filesleft=1
+Number of residues in glycan library file, n0LGres=5
+n0_budcores in library glycan=1
+TtoLG[2][0]=2
+TtoLG[3][0]=3
+TtoLG[4][0]=4
+TtoLG[5][0]=5
